@@ -2,6 +2,8 @@
 
 Reviewed 2026-11-06. This is a scoped engineering synthesis of primary sources and the existing catalog, not a claim to have reproduced every paper or installed every tool. The executable core is deliberately small; optional services require their own version, license, dependency, access and runtime checks.
 
+The [machine-readable research index](references/recreator-research-index.json) records twelve core sources with exact review scope and untested external-runtime status. Additional optional tool links below are discovery/adoption references, not installation claims.
+
 ## What closes which gap
 
 REA contributes coordinated exploration and reverse-engineering workflows. Ghidra contributes binary analysis where an authorized artifact is available. Neither tool by itself supplies server source, training data, hidden configuration, provider relationships, production operation, independent acceptance or complete product discovery. Use the [capability audit](CAPABILITY-AUDIT.md), [toolchain](TOOLCHAIN.md), [ecosystem audit](ECOSYSTEM-AUDIT.md), and [lossless reference index](REFERENCE-INDEX.md) for their original scopes. The additions here supply a controlled reconstruction process around those tools.

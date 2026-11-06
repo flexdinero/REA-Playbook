@@ -1,6 +1,6 @@
 # Acceptance and remaining boundaries
 
-The public kernel has 32 discovered unittest cases: 16 recorded-observation comparator cases and 16 control-plane/model-policy cases. On Windows, 31 pass and the POSIX permission case is skipped. Hosted Windows/Linux checks are recorded by the repository's CI; consult the current run rather than treating this document as proof for a later revision.
+The public kernel has 32 discovered unittest cases: 16 recorded-observation comparator cases and 16 control-plane/model-policy cases. On Windows, 31 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed Windows/Linux on Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
 
 | Capability | Executed evidence | Boundary |
 |---|---|---|
@@ -15,7 +15,7 @@ The public kernel has 32 discovered unittest cases: 16 recorded-observation comp
 | Hypothesis ledger | Competing explanations and artifact requirements | Classification and experiment validity require review |
 | Learning | Reflections alone rejected; disjoint case IDs required; promotion/revocation tested | Independence and causal improvement require external review |
 | Cost selection | Cheapest qualified candidate; over-budget capability refused | Caller supplies current qualifications and total task cost |
-| Real target | Private GHL executed 22 module suites and 8 resilience tests through controller | Local contract/resilience proof; not complete live fidelity |
+| Real target | Private GHL executed 22 module suites and 11 resilience tests through controller | Local contract/resilience proof; not complete live fidelity |
 
 Docker daemon/image execution was unavailable on the development host; that backend is implemented but has not been validated there. No hosted scheduler, database, object store, secrets broker, model gateway, production rollout, live provider messaging/payment, mobile device farm or load/failover experiment was provisioned. These are explicit integrations in [the research architecture](RECREATOR-RESEARCH.md), not hidden CLI capabilities.
 

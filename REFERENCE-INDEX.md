@@ -4,6 +4,8 @@ Use this navigation layer first. The [complete generated index](references/MASTE
 
 ## Core ecosystem
 
+Executable reconstruction: [suite](RECREATOR-SUITE.md), [complete operations](RECREATOR-OPERATIONS.md), [research and framework decisions](RECREATOR-RESEARCH.md), [agent packet](prompts/RECREATOR-ORCHESTRATOR.md), [model cost/quality policy](RECREATOR-MODEL-POLICY.md), [acceptance evidence](RECREATOR-ACCEPTANCE.md). These are original additions; the imported upstream catalog is preserved unchanged.
+
 | Need | Canonical reference | Local operating guidance |
 |---|---|---|
 | Evidence tooling | [REA](https://github.com/morluto/rea) | [Playbook](PLAYBOOK.md), [capability audit](CAPABILITY-AUDIT.md) |

@@ -1,0 +1,18 @@
+{
+  "reviewed_on": "2026-11-06",
+  "scope": "Primary-source orientation for suite architecture. No external research benchmark reproduced; installed runtime status is separate.",
+  "sources": [
+    {"id":"ARS-001","title":"Reflexion","url":"https://arxiv.org/abs/2303.11366","review_scope":"Abstract and method orientation: episodic linguistic feedback, not weight updates","runtime_tested":false},
+    {"id":"ARS-002","title":"Voyager","url":"https://arxiv.org/abs/2305.16291","review_scope":"Abstract and skill-library orientation; Minecraft scope does not prove SaaS transfer","runtime_tested":false},
+    {"id":"ARS-003","title":"Self-Refine","url":"https://arxiv.org/abs/2303.17651","review_scope":"Abstract and iterative feedback orientation; not accepted as independent verification","runtime_tested":false},
+    {"id":"ARS-004","title":"LongMemEval","url":"https://arxiv.org/abs/2410.10813","review_scope":"Abstract and memory evaluation dimensions; motivates update/abstention checks","runtime_tested":false},
+    {"id":"ARS-005","title":"AgentPoison","url":"https://arxiv.org/abs/2407.12784","review_scope":"Abstract and defensive memory-trust implications; no attack reproduced","runtime_tested":false},
+    {"id":"ARS-006","title":"LangGraph persistence","url":"https://docs.langchain.com/oss/python/langgraph/persistence","review_scope":"Official checkpoint/store separation and recovery orientation","runtime_tested":false},
+    {"id":"ARS-007","title":"Temporal Activities","url":"https://docs.temporal.io/activities","review_scope":"Official external-action and idempotency orientation","runtime_tested":false},
+    {"id":"ARS-008","title":"SWE-agent","url":"https://github.com/SWE-agent/SWE-agent","review_scope":"Repository documentation and bounded coding-agent role","runtime_tested":false},
+    {"id":"ARS-009","title":"OpenHands","url":"https://github.com/OpenHands/OpenHands","review_scope":"Repository documentation and optional implementation-agent role","runtime_tested":false},
+    {"id":"ARS-010","title":"SWE-RL","url":"https://github.com/facebookresearch/swe-rl","review_scope":"Official training repository orientation; separate from procedural memory","runtime_tested":false},
+    {"id":"ARS-011","title":"Agent Lightning","url":"https://github.com/microsoft/agent-lightning","review_scope":"Official agent-training framework orientation; not installed","runtime_tested":false},
+    {"id":"ARS-012","title":"Building effective agents","url":"https://www.anthropic.com/engineering/building-effective-agents","review_scope":"Workflow/evaluator-optimizer orientation; clearer evaluators before autonomy","runtime_tested":false}
+  ]
+}

@@ -35,6 +35,10 @@ controlled experiments, counterexamples and closure tests rather than guessing.
 For verification apply FINAL-RESEARCH-AUDIT.md and templates/ORACLE-ASSURANCE.md.
 Use OBSERVATION-HARNESS.md only for its supported deterministic capture contract.
 Validate reset conditions, oracle independence and the capture/adapter evidence chain.
+For executable orchestration read RECREATOR-SUITE.md, RECREATOR-OPERATIONS.md,
+prompts/RECREATOR-ORCHESTRATOR.md and RECREATOR-ACCEPTANCE.md. Keep runtime state
+private. Use bounded repairs and holdout-gated lessons; select cheaper models only
+when task qualifications pass, following RECREATOR-MODEL-POLICY.md.
 
 My target: [product/repository/authorized application/artifact]
 Mode: [greenfield / reconstruction / interoperability / migration / enhancement]

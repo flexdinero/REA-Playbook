@@ -58,6 +58,10 @@ def main():
     research = json.loads((ROOT / "references/final-research-index.json").read_text(encoding="utf-8"))
     assert len(research['sources']) == 15 and len({r['id'] for r in research['sources']}) == 15
     assert all(r['runtime_tested'] is False and r['review_scope'] for r in research['sources'])
+    suite_research = json.loads((ROOT / 'references/recreator-research-index.json').read_text(encoding='utf-8'))
+    assert len(suite_research['sources']) == 12
+    assert len({r['id'] for r in suite_research['sources']}) == 12
+    assert all(r['runtime_tested'] is False and r['review_scope'] for r in suite_research['sources'])
     if failures:
         raise ValueError("\n".join(failures))
 
