@@ -1,6 +1,8 @@
 # Agentic Recreator Suite
 
-Status: implementation in progress; the command reference and verification record below are updated as increments pass. This extends the research playbook with a small, agent-neutral control plane. It does not recover inaccessible source or prove universal equivalence.
+Status: executable reference control plane. This extends the research playbook with a small, agent-neutral control plane. It does not recover inaccessible source or prove universal equivalence.
+
+Read [complete operating instructions](RECREATOR-OPERATIONS.md), [research and adoption decisions](RECREATOR-RESEARCH.md), and [quality/cost policy](RECREATOR-MODEL-POLICY.md). The package runs with `python -m recreator --help` from the repository root. Runtime output must remain in a separate private directory.
 
 ## Implementation contract
 

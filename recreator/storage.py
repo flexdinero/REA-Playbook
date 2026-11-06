@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 import re
+import stat
 import tempfile
 
 
@@ -57,6 +58,7 @@ def inside(root, relative):
 
 def atomic_write(path, raw):
     path = Path(path)
+    mode = stat.S_IMODE(path.stat().st_mode) if path.exists() else None
     path.parent.mkdir(parents=True, exist_ok=True)
     name = None
     try:
@@ -65,6 +67,8 @@ def atomic_write(path, raw):
             handle.write(raw)
             handle.flush()
             os.fsync(handle.fileno())
+        if mode is not None:
+            os.chmod(name, mode)
         os.replace(name, path)
         name = None
     finally:

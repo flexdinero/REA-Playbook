@@ -5,7 +5,7 @@ import re
 from uuid import uuid4
 
 from .runner import run_profile
-from .storage import Workspace, SuiteError, atomic_write, canonical, check, inside, now, sha
+from .storage import atomic_write, canonical, check, inside, now, sha
 
 
 class Suite:
@@ -62,6 +62,7 @@ class Suite:
             results.append({'profile': name, 'passed': output['passed'], 'artifact': identity,
                             'duration_ms': output['duration_ms']})
             self._frozen(state)
+            check(all(inside(repo, name).is_file() and sha(inside(repo, name).read_bytes()) == identity for name, identity in source.items()), 'check command changed tracked source; inspect target diff')
         return {'id': str(uuid4()), 'at': now(), 'corpus_sha256': state['corpus_sha256'],
                 'protected': state['protected'], 'source': source, 'results': results, 'passed': all(r['passed'] for r in results)}
 

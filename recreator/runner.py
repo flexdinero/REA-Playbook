@@ -8,7 +8,7 @@ import subprocess
 import tempfile
 import time
 
-from .storage import check, inside, sha, SuiteError
+from .storage import check, inside
 
 
 def minimal_environment():

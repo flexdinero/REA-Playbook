@@ -1,6 +1,9 @@
 import json
+import os
+import stat
 from pathlib import Path
 import sys
+import subprocess
 import tempfile
 import unittest
 
@@ -127,6 +130,41 @@ class SuiteTests(unittest.TestCase):
             self.suite.resolve_hypothesis(hypothesis['id'], 0, [], 'supported')
         resolved = self.suite.resolve_hypothesis(hypothesis['id'], 0, [evidence['id']], 'supported')
         self.assertEqual(resolved['status'], 'supported')
+
+    def test_command_cannot_silently_modify_tracked_source(self):
+        manifest = dict(self.manifest)
+        manifest['profiles'] = dict(self.manifest['profiles'], acceptance={'cwd':'.', 'argv':[sys.executable, '-c', "from pathlib import Path; Path('app.txt').write_text('fixed')"], 'timeout_seconds':5})
+        workspace = Workspace(self.root / 'mutating-private')
+        suite = Suite.initialize(workspace, manifest, b'fixture')
+        with self.assertRaises(SuiteError):
+            suite.run(['acceptance'], trusted_local=True)
+
+    def test_cli_run_reports_failure_then_handoff_resumes_state(self):
+        command = [sys.executable, '-m', 'recreator', '--workspace', str(self.workspace.root)]
+        failed = subprocess.run([*command, 'run', '--profiles', 'acceptance', '--trusted-local'], capture_output=True, text=True)
+        self.assertEqual(failed.returncode, 1, failed.stderr)
+        self.assertFalse(json.loads(failed.stdout)['passed'])
+        handoff = subprocess.run([*command, 'handoff'], capture_output=True, text=True)
+        self.assertEqual(handoff.returncode, 0, handoff.stderr)
+        self.assertEqual(json.loads(handoff.stdout)['project_id'], 'owned-fixture')
+
+    def test_recovery_does_not_overwrite_unrelated_user_edit(self):
+        original = self.workspace.put(b'broken')
+        self.workspace.update('interrupted', {}, lambda s: s.update(pending_repair={'id':'x','path':'app.txt','before':original,'candidate':sha(b'fixed')}))
+        (self.repo / 'app.txt').write_bytes(b'user work')
+        with self.assertRaises(SuiteError):
+            self.suite.recover()
+        self.assertEqual((self.repo / 'app.txt').read_bytes(), b'user work')
+
+    @unittest.skipUnless(os.name == 'posix', 'POSIX permission semantics')
+    def test_repairs_and_rollback_preserve_executable_mode(self):
+        target = self.repo / 'app.txt'
+        target.chmod(0o740)
+        self.suite.repair('app.txt', sha(b'broken'), b'fixed', ['acceptance', 'holdout'], trusted_local=True)
+        self.assertEqual(stat.S_IMODE(target.stat().st_mode), 0o740)
+        target.write_bytes(b'broken')
+        self.suite.repair('app.txt', sha(b'broken'), b'wrong', ['acceptance', 'holdout'], trusted_local=True)
+        self.assertEqual(stat.S_IMODE(target.stat().st_mode), 0o740)
 
 
 if __name__ == '__main__':

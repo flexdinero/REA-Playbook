@@ -1,0 +1,24 @@
+# Acceptance and remaining boundaries
+
+The public kernel has 32 discovered unittest cases: 16 recorded-observation comparator cases and 16 control-plane/model-policy cases. On Windows, 31 pass and the POSIX permission case is skipped. Hosted Windows/Linux checks are recorded by the repository's CI; consult the current run rather than treating this document as proof for a later revision.
+
+| Capability | Executed evidence | Boundary |
+|---|---|---|
+| Recorded-case comparison | Existing 16 adversarial comparator tests | Offline supported contract only; no collector execution |
+| Explicit execution | Implicit execution rejection plus actual CLI subprocess tests | Trusted-local is not a sandbox |
+| Frozen inputs | Protected-test mutation rejection and artifact/state hash checks | Explicitly inventoried files; hashes are not signatures |
+| Check source stability | A real mutating subprocess is rejected | Commands may modify unlisted files; audit full diff |
+| Repair acceptance | Failing baseline, candidate, mandatory acceptance and holdout pass | Single existing file; one controller per target |
+| Repair rejection | Failed candidate retained, original bytes restored, attempt ceiling enforced | External side effects cannot be undone by file rollback |
+| Interruption | Pending recovery and unrelated-user-edit refusal | No distributed leases or process-tree guarantee |
+| File metadata | Permission-bit preservation; POSIX mode regression in Linux matrix | Custom ACLs, ownership, xattrs and security labels need an adapter |
+| Hypothesis ledger | Competing explanations and artifact requirements | Classification and experiment validity require review |
+| Learning | Reflections alone rejected; disjoint case IDs required; promotion/revocation tested | Independence and causal improvement require external review |
+| Cost selection | Cheapest qualified candidate; over-budget capability refused | Caller supplies current qualifications and total task cost |
+| Real target | Private GHL executed 22 module suites and 8 resilience tests through controller | Local contract/resilience proof; not complete live fidelity |
+
+Docker daemon/image execution was unavailable on the development host; that backend is implemented but has not been validated there. No hosted scheduler, database, object store, secrets broker, model gateway, production rollout, live provider messaging/payment, mobile device farm or load/failover experiment was provisioned. These are explicit integrations in [the research architecture](RECREATOR-RESEARCH.md), not hidden CLI capabilities.
+
+The private GHL review found gaps in authentication/administrative authorization, production persistence, visual fidelity, external providers and newer AI surfaces. Restart handling and failure-reporting repairs improve resilience without closing those domains. Consult the private project's renewed acceptance record. No account identifiers, sessions, raw private captures or source are included here.
+
+Run the package checks, inspect code and private/public boundaries, review side effects, and verify negative cases for changed gates. Add platform tests for atomic writes, subprocesses and paths. Keep manifests synchronized. Source review is not runtime proof. A changed target acceptance contract needs a new runtime workspace and review of old/new cases; never overwrite historical receipts.

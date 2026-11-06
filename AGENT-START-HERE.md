@@ -1,6 +1,8 @@
 # REA + Ghidra: reconstruction and enterprise engineering system
 
-Prepared 2026-11-06. This is an operating design and research package, not a completed installation or a tested product.
+Prepared 2026-11-06. This package includes operating guidance, research and a tested reference controller. It is not a completed target-product installation.
+
+For executable reconstruction workflows read [the suite](RECREATOR-SUITE.md), [operations](RECREATOR-OPERATIONS.md) and [agent packet](prompts/RECREATOR-ORCHESTRATOR.md). Read [acceptance and boundaries](RECREATOR-ACCEPTANCE.md) before interpreting test results.
 
 The objective is to reconstruct authorized software faithfully, build new systems from explicit requirements, and expose omissions before release. No prompt, model, or reverse-engineering tool can guarantee universal cloning or perfection. The useful standard is complete coverage of a declared scope, supported by independently checkable evidence.
 
