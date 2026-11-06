@@ -45,6 +45,8 @@ Rebuild from the repository root with `python scripts/build_reference_index.py`.
 
 ## Adoption policy
 
+The [final research source ledger](references/final-research-index.json) adds fifteen separately scoped source records beyond the preserved imported/navigation index. See [the audit](FINAL-RESEARCH-AUDIT.md) for actionable methods and [the observation harness](OBSERVATION-HARNESS.md) for locally tested comparison tooling.
+
 For the investigation methods added beyond the imported catalog, use [hypothesis-driven reconstruction](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md), [limitation closure](LIMITATIONS-AND-CLOSURE.md), [the register](templates/LIMITATION-REGISTER.csv), [agent compatibility](AGENT-COMPATIBILITY.md) and [the GoHighLevel plan](GHL-RECONSTRUCTION.md).
 
 Search by concrete missing capability. Shortlist candidates whose host, runtime, license and data boundary fit. Confirm current primary documentation and a pinned release. Run a harmless fixture that exercises the intended integration. Mark local status as candidate, trial, adopted, rejected, blocked or retired with dated evidence. An imported row is initially `imported-not-independently-validated`.

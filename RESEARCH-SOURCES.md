@@ -39,6 +39,8 @@ The publication revision adds hypothesis-driven reconstruction. Primary project 
 
 ## What the work does not establish
 
+The final research revision is documented in [FINAL-RESEARCH-AUDIT.md](FINAL-RESEARCH-AUDIT.md) and [its fifteen-record source ledger](references/final-research-index.json). It reviews missing evidence/oracle/replay/history/proof methods and adds a locally tested offline comparator. External research tools were not installed. Undermind orientation and workspace discovery found no existing workspace; no external workspace or paid deep search was created, and primary web/tool documentation supplied the research evidence. Reported literature/tool capabilities remain distinct from the comparator's local synthetic-fixture tests.
+
 - A complete code audit of any upstream repository.
 - Runtime reproduction of case studies, papers, author-reported tests or benchmarks.
 - Live support of every listed tool on this Windows machine.

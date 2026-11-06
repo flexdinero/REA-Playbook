@@ -122,6 +122,8 @@ Use risk-based testing to prioritize deep adversarial cases, while ensuring ever
 
 Use [RELEASE-CHECKLIST](templates/RELEASE-CHECKLIST.md). Freeze the requirement baseline before reporting coverage. Count `PASS`, `FAIL`, `BLOCKED`, `UNTESTED`, and accepted `NOT-APPLICABLE` separately. Mandatory-pass coverage is passing mandatory requirements divided by all mandatory requirements in that frozen baseline. Do not hide unknown features by manipulating the denominator.
 
+Use [the oracle assurance packet](templates/ORACLE-ASSURANCE.md) for consequential claims and apply [the final research additions](FINAL-RESEARCH-AUDIT.md). Confirm fixture reset, oracle independence, normalization sensitivity, counterexample detection and relevant history/time coverage. The [offline comparator](OBSERVATION-HARNESS.md) can compare frozen deterministic capture records; collectors/adapters and other oracle classes require their own validation.
+
 Publish separate fidelity results. For visuals use viewport/state-specific diffs and documented dynamic masks; do not choose an arbitrary universal pixel percentage. For behavior compare outputs and durable side effects. For stochastic models report confidence intervals or repeated-trial variation and task-specific metrics. Load tests must name environment, dataset, concurrency and duration. A restore drill must demonstrate recovery from an actual backup in a non-production recovery environment.
 
 Deploy only within granted authority, to the declared environment, with a reversible release/migration plan where possible. Distinguish local checks, staging proof and production observations. Mark production readiness unverified until production-specific prerequisites are established.

@@ -84,4 +84,6 @@ These primary sources were checked for method/tool relevance, not installed or b
 
 ## Done condition
 
+The [final research audit](FINAL-RESEARCH-AUDIT.md) adds oracle construction, reset/replay, distributed histories, mutation testing, bounded proof assumptions and provenance distinctions. Use [ORACLE-ASSURANCE](templates/ORACLE-ASSURANCE.md) to connect these to a concrete claim and [OBSERVATION-HARNESS](OBSERVATION-HARNESS.md) for suitable deterministic comparisons.
+
 For each mandatory feature: a stated contract; evidence-backed observations; a recorded hypothesis/experiment history for significant unknowns; a working implementation; independent tests with counterexamples/holdout cases; operational proof where applicable; and residual differences clearly reported. That is the best-supported reconstruction claim the available evidence permits.

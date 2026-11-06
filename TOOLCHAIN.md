@@ -67,6 +67,8 @@ These are optional lanes. Establish model/data rights, accessible weights, token
 
 ## Specialized extensions
 
+For additional evidence/testing gaps, use [the final research audit](FINAL-RESEARCH-AUDIT.md): rr for suitable native replay, Jepsen for relevant distributed histories, Stryker for mutation testing, AFL++ for instrumentable fuzzing, CBMC/Alive2 for scoped formal evidence, and reproducible-build/provenance guidance. Each has assumptions and platform limits; use the audit's primary links and adoption checks. The [offline observation comparator](OBSERVATION-HARNESS.md) is bundled and tested locally; the external tools were researched rather than installed.
+
 For structured inference of hidden behavior, see [hypothesis-driven reconstruction](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md). It maps optional automata learning, property-based testing, HTTP simulation, network fault injection, formal models and contract standards to specific experiments. These close selected investigation/design gaps when prerequisites hold; they are not mandatory installations or universal recovery tools.
 
 Use [Awesome-REA's domain indexes](REFERENCE-INDEX.md) for JVM, WASM, games, protocol tooling, firmware and specialized native analysis rather than stacking overlapping tools in advance. Game reconstruction additionally needs simulation rules, input/timing, physics/RNG, asset provenance, save compatibility and target-platform tests. A WASM port also needs platform dependency, threading, memory and I/O design; compilation alone does not establish portability.

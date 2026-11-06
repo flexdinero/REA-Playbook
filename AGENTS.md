@@ -26,6 +26,7 @@ After edits run from the root:
 
 ```text
 python scripts/build_reference_index.py
+python -m unittest discover -s tests -v
 python scripts/verify_package.py
 git diff --check
 ```

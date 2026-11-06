@@ -53,8 +53,11 @@ def main():
     assert prompt.count("Use HYPOTHESIS-DRIVEN-RECONSTRUCTION.md when available.") == 1
     with (ROOT / "templates/LIMITATION-REGISTER.csv").open(encoding="utf-8", newline="") as handle:
         limitations = list(csv.DictReader(handle))
-    assert len(limitations) == 60 and len({r['limitation_id'] for r in limitations}) == 60
+    assert len(limitations) == 76 and len({r['limitation_id'] for r in limitations}) == 76
     assert all(r['status'] == 'UNASSESSED' and None not in r for r in limitations)
+    research = json.loads((ROOT / "references/final-research-index.json").read_text(encoding="utf-8"))
+    assert len(research['sources']) == 15 and len({r['id'] for r in research['sources']}) == 15
+    assert all(r['runtime_tested'] is False and r['review_scope'] for r in research['sources'])
     if failures:
         raise ValueError("\n".join(failures))
 
@@ -65,7 +68,8 @@ def main():
              "- PASS: all 1,488 imported curated resource/paper records exactly match retained upstream JSON, in order and without dropping fields.",
              "- PASS: 26 REAP prompt-pack links and five core navigation records included.",
              "- PASS: master prompt has one copy boundary and agent-neutral instructions without prescribed vendor/model routing.",
-             "- PASS: 60 uniquely identified starting limitation checks remain UNASSESSED rather than claiming unexecuted closure.", "",
+             "- PASS: 76 uniquely identified starting limitation checks remain UNASSESSED rather than claiming unexecuted closure.",
+             "- PASS: 15 supplementary research sources retain review scope and untested runtime status.", "",
              "These checks validate the package structure and import fidelity. They do not execute upstream tools, verify every external URL, reproduce research benchmarks, or establish production readiness.", ""]
     (ROOT / "VALIDATION.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
     files.append(ROOT / "VALIDATION.md")

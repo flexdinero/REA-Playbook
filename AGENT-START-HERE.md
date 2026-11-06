@@ -8,6 +8,8 @@ The objective is to reconstruct authorized software faithfully, build new system
 
 For hidden behavior, start with [hypothesis-driven reconstruction](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md), [limitation closure](LIMITATIONS-AND-CLOSURE.md), and the [limitation register](templates/LIMITATION-REGISTER.csv). The [GoHighLevel assessment](GHL-RECONSTRUCTION.md) provides a large-SaaS discovery example.
 
+Then apply the [final research audit](FINAL-RESEARCH-AUDIT.md), [oracle assurance packet](templates/ORACLE-ASSURANCE.md) and, where suitable, the [offline observation comparator](OBSERVATION-HARNESS.md). These strengthen the evidence process without claiming to observe unavailable internals.
+
 1. Fill in [the target brief](templates/TARGET-BRIEF.md).
 2. Paste [MASTER-PROMPT.md](MASTER-PROMPT.md) into your coding agent, with the completed brief.
 3. Follow [PLAYBOOK.md](PLAYBOOK.md) for discovery, investigation, implementation, verification, and operations.

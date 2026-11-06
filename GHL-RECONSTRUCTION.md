@@ -64,6 +64,8 @@ This is an engineering prioritization example, not a complete acceptance suite. 
 
 ## Closure requirements before a completeness claim
 
+For each selected HighLevel workflow apply [oracle assurance](templates/ORACLE-ASSURANCE.md): verify starting tenant/data/job state, record operation histories and provider effects, test duplicates and unknown outcomes, and include renewal/expiry/reconnect horizons. A snapshot or final database count is insufficient evidence for all intermediate behavior. Use [the comparator](OBSERVATION-HARNESS.md) only for captured deterministic outputs; concurrent delivery and AI behavior need dedicated oracles described in [the final audit](FINAL-RESEARCH-AUDIT.md).
+
 - An authorized access matrix for applicable agency, sub-account, plan, role, device and region states.
 - A frozen reference date/version and source-backed feature/contract inventory with discovery blind spots.
 - A requirement-level gap ledger with evidence, owner, method, dependency and closure result.

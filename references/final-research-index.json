@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-06",
+  "baseline_commit": "699fdbbcb61b87fdaf6c4e679a86c44777c5faf2",
+  "scope": "Supplementary source records, separate from the preserved 1519-entry imported/navigation index.",
+  "sources": [
+    {
+      "id": "FR01",
+      "topic": "Test-oracle problem",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1471263/1/06963470.pdf",
+      "review_date": "2026-11-06",
+      "review_scope": "Institutional paper PDF abstract and selected oracle sections; alternate initial PDF URL failed",
+      "contribution": "Oracle categories and partial-oracle limits",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR02",
+      "topic": "Active automata learning assumptions",
+      "url": "https://homepages.math.uic.edu/~lreyzin/papers/angluin87.pdf",
+      "review_date": "2026-11-06",
+      "review_scope": "Original paper abstract and selected text",
+      "contribution": "Membership/equivalence teacher assumptions",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR03",
+      "topic": "Deterministic record/replay",
+      "url": "https://rr-project.org/",
+      "review_date": "2026-11-06",
+      "review_scope": "Official capabilities and limitations",
+      "contribution": "Linux process-level replay and boundary constraints",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR04",
+      "topic": "Distributed histories and consistency",
+      "url": "https://jepsen.io/consistency",
+      "review_date": "2026-11-06",
+      "review_scope": "Official definitions plus jepsen-io/jepsen README",
+      "contribution": "Select the actual consistency contract; not just final-state comparison",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR05",
+      "topic": "Mutation testing",
+      "url": "https://stryker-mutator.io/docs/",
+      "review_date": "2026-11-06",
+      "review_scope": "Official introduction and project README",
+      "contribution": "Test sensitivity; surviving mutants require interpretation",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR06",
+      "topic": "Coverage-guided fuzzing",
+      "url": "https://github.com/AFLplusplus/AFLplusplus/blob/stable/docs/fuzzing_in_depth.md",
+      "review_date": "2026-11-06",
+      "review_scope": "Selected official harness/instrumentation guidance",
+      "contribution": "Harness design and coverage are not an output oracle",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR07",
+      "topic": "Bounded model checking",
+      "url": "https://diffblue.github.io/cbmc/cprover-manual/md_cbmc-tutorial.html",
+      "review_date": "2026-11-06",
+      "review_scope": "Official tutorial loop bounds/unwinding sections plus README",
+      "contribution": "Declare environment assumptions and proof bounds",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR08",
+      "topic": "Component translation validation",
+      "url": "https://github.com/AliveToolkit/alive2",
+      "review_date": "2026-11-06",
+      "review_scope": "Official README capability/warning sections",
+      "contribution": "LLVM transformation scope; inter-procedural restriction",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR09",
+      "topic": "Reproducible-build identity",
+      "url": "https://reproducible-builds.org/docs/definition/",
+      "review_date": "2026-11-06",
+      "review_scope": "Official definition and environment explanation",
+      "contribution": "Byte identity requires source/environment/instructions",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR10",
+      "topic": "Supply-chain provenance",
+      "url": "https://slsa.dev/spec/v1.2/",
+      "review_date": "2026-11-06",
+      "review_scope": "Official specification overview and provenance navigation",
+      "contribution": "Provenance assurance differs from behavioral equivalence",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR11",
+      "topic": "General program-equivalence boundary",
+      "url": "https://www.cs.rochester.edu/u/nelson/courses/csc_173/computability/undecidable.html",
+      "review_date": "2026-11-06",
+      "review_scope": "Author course notes program-equivalence section",
+      "contribution": "General undecidability; restricted proofs still possible",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR12",
+      "topic": "Metamorphic testing application",
+      "url": "https://www.cs.columbia.edu/wp-content/uploads/sites/7/2011/03/3478-Xie-QSIC09.pdf",
+      "review_date": "2026-11-06",
+      "review_scope": "Author-institution PDF abstract and selected metamorphic-testing discussion; PMC live page challenged browser",
+      "contribution": "Validated relations can detect errors without exact expected outputs",
+      "runtime_tested": false,
+      "limits": "Selected primary-source review; not exhaustive literature review or local tool verification."
+    },
+    {
+      "id": "FR13",
+      "topic": "Reverse-engineering agent process evaluation",
+      "url": "https://arxiv.org/abs/2609.01185v1",
+      "review_date": "2026-11-06",
+      "review_scope": "Primary preprint abstract and stated task/evaluation scope",
+      "contribution": "Separate analysis progress from outcome and possible public-solution recall; CTF scope is not SaaS cloning",
+      "runtime_tested": false,
+      "limits": "Preprint and proxy tasks; no experiments reproduced or universal capability inferred."
+    },
+    {
+      "id": "FR14",
+      "topic": "Visual reconstruction benchmark scope",
+      "url": "https://aclanthology.org/2025.naacl-long.199/",
+      "review_date": "2026-11-06",
+      "review_scope": "Primary conference abstract and publication metadata",
+      "contribution": "Screenshot-to-frontend measurements do not establish full product or backend reconstruction",
+      "runtime_tested": false,
+      "limits": "No benchmark run and no extrapolation to whole-system fidelity."
+    },
+    {
+      "id": "FR15",
+      "topic": "Functional browser-agent evaluation scope",
+      "url": "https://webarena.dev/og/",
+      "review_date": "2026-11-06",
+      "review_scope": "Official project-page task and validation description; linked PDF exceeded browser size limit",
+      "contribution": "Task-completion validators in a supplied environment differ from reconstructing that environment",
+      "runtime_tested": false,
+      "limits": "No benchmark execution or claim that operation success proves construction capability."
+    }
+  ]
+}

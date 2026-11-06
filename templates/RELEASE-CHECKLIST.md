@@ -11,6 +11,9 @@ Unfilled template. Every applicable item needs evidence, environment and an owne
 - [ ] Known differences, inaccessible areas and unobserved behavior listed.
 - [ ] Material hidden-behavior hypotheses tested with controlled experiments and counterexamples; surviving ambiguity recorded.
 - [ ] Applicable limitation-register rows have closure evidence or block the corresponding claim.
+- [ ] Required oracles and collectors/adapters independently validated; fixture resets and normalization preconditions checked.
+- [ ] Seeded errors or relevant mutation testing demonstrate test sensitivity; history and temporal coverage match the claim.
+- [ ] Formal/state-learning claims disclose assumptions, bounds, unresolved outcomes and approximation limits.
 - [ ] Enhancements distinguished from reference fidelity.
 - [ ] Source/assets/data/model provenance and applicable notices retained.
 

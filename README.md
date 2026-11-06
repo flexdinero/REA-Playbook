@@ -8,7 +8,9 @@ This combines the roles of [REA](https://github.com/morluto/rea), [Ghidra](https
 
 **Start:** [Agent entry point](AGENT-START-HERE.md) · [Master prompt](MASTER-PROMPT.md) · [Operating playbook](PLAYBOOK.md) · [Reference index](REFERENCE-INDEX.md)
 
-For best-supported recreation of behavior you cannot directly inspect, use [Hypothesis-driven reconstruction](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md): research, first principles, competing explanations, discriminating experiments, counterexamples and independent validation. Apply the [60-item limitation register](templates/LIMITATION-REGISTER.csv) through [the closure process](LIMITATIONS-AND-CLOSURE.md). For a large SaaS example, read [the GoHighLevel assessment](GHL-RECONSTRUCTION.md). These are actionable methods; unexecuted checks do not count as solved target limitations.
+For best-supported recreation of behavior you cannot directly inspect, use [Hypothesis-driven reconstruction](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md): research, first principles, competing explanations, discriminating experiments, counterexamples and independent validation. Apply the [76-item limitation register](templates/LIMITATION-REGISTER.csv) through [the closure process](LIMITATIONS-AND-CLOSURE.md). For a large SaaS example, read [the GoHighLevel assessment](GHL-RECONSTRUCTION.md). These are actionable methods; unexecuted checks do not count as solved target limitations.
+
+The [final research audit](FINAL-RESEARCH-AUDIT.md) adds test-oracle design, metamorphic testing, reset/replay discipline, distributed histories, test sensitivity and scoped formal verification. The [offline comparison harness](OBSERVATION-HARNESS.md) makes deterministic recorded-case comparison executable; it is not a target collector or universal equivalence verifier.
 
 ## Give this to your AI agent
 
@@ -25,6 +27,10 @@ Load specialist prompts and catalog entries only as needed.
 For hidden behavior read HYPOTHESIS-DRIVEN-RECONSTRUCTION.md and
 LIMITATIONS-AND-CLOSURE.md. Maintain competing explanations, research evidence,
 controlled experiments, counterexamples and closure tests rather than guessing.
+
+For verification apply FINAL-RESEARCH-AUDIT.md and templates/ORACLE-ASSURANCE.md.
+Use OBSERVATION-HARNESS.md only for its supported deterministic capture contract.
+Validate reset conditions, oracle independence and the capture/adapter evidence chain.
 
 My target: [product/repository/authorized application/artifact]
 Mode: [greenfield / reconstruction / interoperability / migration / enhancement]
@@ -60,6 +66,8 @@ A repository URL does not install REA/Ghidra, register MCP, configure models, or
 | [AGENT-COMPATIBILITY.md](AGENT-COMPATIBILITY.md) | Use with Grok, Claude, Gemini, ChatGPT/Codex and other agents |
 | [PROMPT-EXTENSIONS.md](PROMPT-EXTENSIONS.md) | Sixteen focused enterprise, reconstruction, AI and media prompts |
 | [WORKED-EXAMPLE.md](WORKED-EXAMPLE.md) | CSV-export pilot showing the complete evidence-to-acceptance loop |
+| [FINAL-RESEARCH-AUDIT.md](FINAL-RESEARCH-AUDIT.md) | Additional missing links, primary evidence, applied methods and remaining boundaries |
+| [OBSERVATION-HARNESS.md](OBSERVATION-HARNESS.md) | Executable deterministic comparison format, command and limits |
 | [REFERENCE-INDEX.md](REFERENCE-INDEX.md) | Task-oriented navigation and adoption rules |
 | [Complete reference index](references/MASTER-REFERENCE-INDEX.md) | Every indexed record as browsable Markdown |
 | [Structured index](references/master-reference-index.json) | Original upstream records with separate local review status |
@@ -89,6 +97,7 @@ Git obtains the package. Python **3.10 or newer**, using only its standard libra
 git clone https://github.com/flexdinero/REA-Playbook.git
 cd REA-Playbook
 python scripts/build_reference_index.py
+python -m unittest discover -s tests -v
 python scripts/verify_package.py
 git diff --exit-code
 ```
@@ -157,6 +166,7 @@ target-project/
 | [Gap register](templates/GAP-REGISTER.csv) | Missing evidence, access and behavior; explicit decisions |
 | [Tool adoption](templates/TOOL-ADOPTION.md) | Version, license, host support, trial result and owner |
 | [Release checklist](templates/RELEASE-CHECKLIST.md) | Product, security, operations and applicable AI/media proof |
+| [Oracle assurance](templates/ORACLE-ASSURANCE.md) | Oracle independence, reset assumptions, bounds, counterarguments and evidence chain |
 
 Do not overwrite a target project's existing `AGENTS.md` with this repository's instructions. Add a reference to its existing instructions or give the bootstrap prompt directly to the agent.
 
@@ -229,6 +239,7 @@ Exact revisions and static-versus-runtime distinctions are in [ECOSYSTEM-AUDIT](
 
 ```bash
 python scripts/build_reference_index.py
+python -m unittest discover -s tests -v
 python scripts/verify_package.py
 git diff --check
 git diff --stat
@@ -247,7 +258,7 @@ Commit authored changes with regenerated indexes, validation and manifest. GitHu
 | Index counts change | Inspect source drift before adjusting pinned expectations |
 | Missing local link | Restore the file or correct the link; regenerate outputs |
 | Clean rebuild changes files | Line endings, unexpected files, interpreter or stale generated outputs |
-| Cheap model makes plausible errors | Independent oracle, source evidence, task size and escalation |
+| Agent produces plausible but incorrect results | Independent oracle, raw evidence, reset conditions, task size and counterexamples |
 | Video renders but recreation is incomplete | Missing replacements and retained reference segments/audio |
 
 ## Provenance and attribution
