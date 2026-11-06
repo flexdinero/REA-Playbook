@@ -1,0 +1,26 @@
+name: Validate playbook
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - name: Rebuild reference index
+        run: python scripts/build_reference_index.py
+      - name: Validate package and regenerate manifest
+        run: python scripts/verify_package.py
+      - name: Check generated outputs are committed
+        run: git diff --exit-code
+      - name: Check whitespace
+        run: git diff-tree --check -r HEAD

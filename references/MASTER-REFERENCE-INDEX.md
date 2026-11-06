@@ -1,0 +1,1560 @@
+# Complete master reference index
+
+Generated from preserved local snapshots. See [navigation and adoption rules](../REFERENCE-INDEX.md).
+
+1,488 upstream curated records + 26 prompt packs + 5 core navigation records = 1,519 indexed records.
+
+Record counts are not unique tested-tool counts. Upstream claims/review labels are preserved, not independently verified here.
+
+Original descriptions, limits, review dates and evidence URLs are retained in [the JSON index](master-reference-index.json).
+
+Imported Awesome-REA data: [MIT notice](awesome-rea/LICENSE).
+
+## Awesome-REA / case-study (431)
+
+- [Aegis: trace a login-code calculation](https://rea.tools/showcase/aegis/) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [DownUnderCTF: masked-squares flag checker](https://rea.tools/showcase/ctf/) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [DX-Ball: reconstruct sound panning](https://rea.tools/showcase/dx-ball/) — game, binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Notion: trace the clipboard bridge](https://rea.tools/showcase/notion/) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [TH04: recover a DOS bullet-ring helper](https://rea.tools/showcase/th04/) — game, binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [PicoPrint: LX-D02 printer investigation](https://github.com/bigtower17/picoprint) — app, protocol; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [ReaCut: video-editor reconstruction](https://github.com/Xiangyu-CAS/rea-capcut) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [open-appleremote: Siri Remote protocol reconstruction](https://github.com/a-funk/open-appleremote) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [GAMEKB-K17: reconstructing a macropad configuration protocol](https://github.com/dvdarkin/gamekb-k17) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [CF632BLE: a local client from scale-protocol research](https://github.com/guyru/cf632ble) — protocol, app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [zee-rp: reconstructing supported Axure RP 11 document operations](https://github.com/LilZeeCN/zee-rp) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Super Mario 64 DS: matching decompilation with relocation checks](https://github.com/tangosdev/sm64ds-decomp) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [GoldenEye 007: an agent-assisted native port from a decompilation](https://github.com/jkdansereau/goldeneye-pc-port) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [ssbu-recomp: static recompilation with explicit mode limits](https://github.com/Denkishi/ssbu-recomp) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [KartPad: platform integration for a Mario Kart Wii recompilation](https://github.com/chrissotraidis/kartpad) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [BattleShip: an AI-assisted Super Smash Bros. native port](https://github.com/JRickey/BattleShip) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Agent decompilation: a byte-matching retrospective](https://momo5502.com/posts/2026-10-09-game-decompilation/) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Snowboard Kids 2: an LLM-assisted N64 matching decompilation](https://github.com/cdlewis/snowboardkids2-decomp) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [cooler-lcd: a Thermalright display protocol implementation](https://github.com/kristjaningi/cooler-lcd) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [IsaacRecomp: translating Flash game bytecode to native C++](https://github.com/whylurking/IsaacRecomp) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Virtual Desktop Streamer: rehosting the platform layer on Linux](https://github.com/cudanexus/vd-streamer-linux) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Open Claude UI: REA-informed interface reference components](https://github.com/Caho1/open-claude-ui) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Nanolathe: a documented Total Annihilation engine reimplementation](https://github.com/nanolathe-gg/nanolathe) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [PlxNative: reconstructing a native webOS media-client interface](https://github.com/GLinnik21/plx-native) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [TH08: exact-source reconstruction and separately tested ports](https://github.com/N0zoM1z0/th08) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Dinosaur runner: recovering one acceleration rule](https://github.com/morluto/rea/blob/c360cfcd6d7901514b16dd6113eba2e0b0fdf422/website/evidence/calculator-and-dino.md#dinosaur-speed) — game, website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Windows Calculator: reconstructing percentage rules](https://github.com/morluto/rea/blob/c360cfcd6d7901514b16dd6113eba2e0b0fdf422/website/evidence/calculator-and-dino.md#windows-calculator) — app, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Feishu: an author-reported isolated second app instance](https://benx.ai/blog/posts/rea-reverse-engineer-feishu-dual-instance/) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Zelda 64: Recompiled — a native Majora’s Mask port without a full source decompilation](https://github.com/Zelda64Recomp/Zelda64Recomp) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [OpenGOAL: recovering GOAL code and rebuilding the Jak games](https://github.com/open-goal/jak-project) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [LEGO Island: source reconstruction with separately reported exact rebuilds](https://github.com/isledecomp/isle) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Snowball War: a bounded REA-assisted minigame reconstruction](https://github.com/tuunanet/rea-ski-or-die-reconstruction) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [SpaceCadetPinball: decompiled game logic adapted to SDL2](https://github.com/k4zmu2a/SpaceCadetPinball) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Super Mario 64: ROM reconstruction with explicit comparison gates](https://github.com/n64decomp/sm64) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Unleashed Recompiled: translating Xbox 360 game code and shaders](https://github.com/hedge-dev/UnleashedRecomp) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [OpenMW: replacing Morrowind’s engine while reusing original content](https://github.com/OpenMW/openmw) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [REDRIVER2: reconstructing Driver 2 through a PlayStation compatibility layer](https://github.com/OpenDriver2/REDRIVER2) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [PhotoCraft: editor workflow reconstruction and PSD round-trip boundaries](https://github.com/storytold/photocraft) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [WordCraft: document workflow reconstruction and bounded DOCX compatibility](https://github.com/storytold/wordcraft) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [GridCraft: spreadsheet workflow reconstruction and XLSX round-trip limits](https://github.com/storytold/gridcraft) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [DeckCraft: presentation workflow reconstruction and bounded PPTX interchange](https://github.com/storytold/deckcraft) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [DevilutionX: porting Diablo’s reconstructed engine](https://github.com/diasurgical/DevilutionX) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [ThinkPad IMX471: recovering camera tuning for Linux](https://github.com/cschalle/mipi-fixes-x1-aura) — firmware; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Ledger Reborn: an independent accounting app informed by QuickBooks study](https://github.com/lxistired/ledger-reborn) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [rauchg.com: rebuilding an RSC blog from captured Flight output](https://github.com/boyang-hu/website-rebuild-skill/blob/ac60c9d8a2ab40045a89b5403c3457f1404e92b3/skills/website-rebuild/references/rsc-reconstruction.md) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [NJFE: a Soulear camera protocol bridge for desktop inspection](https://github.com/WildweaselMS/NJFE) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [BaoCut Slides: adapting an interactive web editor](https://github.com/JimLiu/baocut/tree/b8585e0c8d7a82bdee9f0ed019cf6edb075e41c1/packages/slides-runtime) — website, app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Pocket Tasks: reconstructing task state and persistence](https://github.com/ShadowSwaps/REA-Reconstruction-Companion/tree/main/evals/reference/reconstruction) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Open Scrantic: reconstructing the Johnny Castaway screensaver engine](https://github.com/glauberlima/open-scrantic) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Touhou reconstructions: an agent-driven method across three games](https://rea.tools/blog/touhou-reconstruction/) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TicTacToe-AI: a bounded REA-fork reconstruction of one game method](https://github.com/heaven-hm/re-agent/tree/develop/benchmarks/tictactoe) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [REA in Claude Code: an isolated static-analysis A/B trial](https://zenn.dev/keigoly/articles/8738d8d241b5a1) — app, website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [UltraSunnyMoon: a partial, REA-led Pokémon Ultra Sun reconstruction](https://github.com/tylergraydev/UltraSunnyMoon) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Dinosaur runner: an REA-inspected speed rule rebuilt with Codex](https://github.com/zhxunzh84/rea-dino-reverse-engineering) — game, website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Screen Studio: an author-reported REA study of auto-zoom rules](https://x.com/i/article/2109834677343432704) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Claude Code background lab: an REA-informed reimplementation of a desktop animation](https://github.com/Henry-fan88/claude-code-background) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DX-Ball: an REA-guided function-level reconstruction with Codex](https://github.com/N0zoM1z0/dx-ball) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [re2ds: a native Nintendo DS engine for Resident Evil 2](https://github.com/eray1605/re2ds) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Show Your Work: a measured dissection of REA's evidence architecture](https://no-flag.com/2026/10/18/REA-paper/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Notes CSV export: an author-reported REA check of reconstruction oracles](https://x.com/i/article/2110962506604929025) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Windows loader: static malware analysis with REA and Codex](https://codegeeksai.github.io/en/blog/static-malware-analysis-rea-codex/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Horizon: a Rust rewrite of Minecraft: Java Edition 26.3 with REA bytecode queries](https://github.com/ludovic111/horizon) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Untangle: a browser rebuild from REA and Ghidra evidence](https://github.com/az9713/untangle-rebuild) — game, binary; upstream: source-reviewed, 2026-11-01T16:36:25Z; local: imported-not-independently-validated.
+- [Sofa TV Browser: a remote-friendly BrowseHere alternative](https://github.com/sonalder-darlene/sofa-tv-browser) — app; upstream: source-reviewed, 2026-11-01T16:36:25Z; local: imported-not-independently-validated.
+- [OpenBSD netcat: static REA and Ghidra investigation](https://github.com/NullLabTests/OpenBSD_netcat_REA) — binary; upstream: source-reviewed, 2026-11-01T16:36:25Z; local: imported-not-independently-validated.
+- [FastView-REA: a Rust reconstruction of Fast View 5](https://github.com/dmytrobsp/fastview-rea) — app; upstream: source-reviewed, 2026-11-01T16:43:00Z; local: imported-not-independently-validated.
+- [OpenBattlefield2: an unfinished Refractor 2 engine reimplementation](https://github.com/Moxnatiy/OpenBattlefield2) — game, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [keen-clone: a Commander Keen 1 C/SDL2 port](https://github.com/carlhako/keen-clone) — game, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [samp-client-re: a partial SA-MP client reconstruction](https://github.com/NathanKanaeru/samp-client-re) — game, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [Desktop Games Nostalgia: a macOS and browser port](https://github.com/ucodia/desktop-games-nostalgia) — game, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [GunZRs: a Rust reimplementation of GunZ: The Duel](https://github.com/OpenRsG/GunZRs) — game; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [MXQ PRO RK3229: an Android firmware investigation and Linux repurposing](https://github.com/bigtower17/mxqpro-rk3229) — firmware; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [iCSee LocalMod: a stock-firmware camera control extension](https://github.com/Vittuu/icsee-localmod) — firmware, protocol, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [DiskLens: a WinDirStat-derived disk usage analyzer](https://github.com/KarlssonChristoffer/DiskLens) — app, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [SoundConnect Desktop: a Windows client reusing a reviewed headset engine](https://github.com/B-Howell/soundconnect-desktop) — app, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [rec-rs: an OBS-informed Rust recorder for macOS](https://github.com/michaelshimeles/rec-rs) — app; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [Sketch: a Paper-shell-informed native Rust canvas](https://github.com/michaelshimeles/sketch) — app; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [Terminal: a Rust terminal informed by TradingView chart research](https://github.com/michaelshimeles/terminal) — website, app; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [Does reverse engineering need a bigger model? General and specialist models in Touhou reconstruction](https://rea.tools/blog/reverse-engineering-models/) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [sh23ds: a native 3DS reconstruction of Silent Hill 2](https://github.com/ankushKun/sh23ds) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [LASRecomp: Link’s Awakening static recompilation](https://github.com/peiikai/LASRecomp) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [LSX II Volume Fixer: reconstructing volume behavior](https://github.com/roberdorfer/kef-lsx-volume) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [ArkWeb: a two-game movement and collision experiment](https://github.com/luki-1/ArkWeb) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [hw-harness: scanner USB protocol investigation](https://github.com/cschalle/hw-harness) — protocol; upstream: source-reviewed, 2026-10-17T02:37:34.781877Z; local: imported-not-independently-validated.
+- [UU Remote on Linux: an unofficial protocol implementation](https://github.com/VallierDev/uu-remote-linux) — protocol, app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Perfect Dark: matching Nintendo 64 decompilation](https://github.com/n64decomp/perfect_dark) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TCLimate: reconstructing selected TCL Home cloud controls](https://github.com/umarz317/TCLimate) — app, protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Browserbase plugin: re-hosting Claude in Chrome’s browser bridge](https://github.com/browserbase/claude-code-plugin) — app, protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Visor: an independent Ray-Ban Meta glasses client](https://github.com/macedonga/visor) — app, protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Super Mario Sunshine: a native PC port from an AI-assisted decompilation](https://github.com/chasem-dev/sms-pc-port) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Majora’s Mask: matching US N64 decompilation](https://github.com/zeldaret/mm) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [wine-uwp: running packaged Windows Store apps on a patched Wine](https://github.com/designgears/wine-uwp) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DLSSNR-AMD: reimplementing DLSS 5 neural rendering for RDNA4](https://github.com/mochizuki0323/DLSSNR-AMD) — binary, game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Breath of the Wild: per-function matching decompilation of the Switch executable](https://github.com/zeldaret/botw) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Skyward Sword: Wii decompilation with hash-checked relinking](https://github.com/zeldaret/ss) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [2 Ship 2 Harkinian: a native Majora’s Mask port built on the decompilation](https://github.com/2ship2harkinian/2ship2harkinian) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Ship of Harkinian: a native Ocarina of Time port built on the decompilation](https://github.com/HarbourMasters/Shipwright) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [The Minish Cap: a GBA decompilation targeting five ROMs](https://github.com/zeldaret/tmc) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Ocarina of Time: decompilation with MD5-checked ROM builds for 16 versions](https://github.com/zeldaret/oot) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [BaoCut Design: porting reconstructed canvas and design-system editors](https://github.com/JimLiu/baocut/tree/7aa049e82e1367da013b7aba80f0b79033fa04ad/packages/design-runtime) — website, app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Project Arwing: Star Fox recompiled from a matching disassembly](https://github.com/carlosrmz009/arwing) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Project Arwing (2): Star Fox 2 recompiled from a matching disassembly](https://github.com/carlosrmz009/arwing2) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Little Planet: Sonic CD recompiled from a matching disassembly](https://github.com/carlosrmz009/littleplanet) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [vf2-decomp: differentially validated Virtua Fighter 2 recovery](https://github.com/celsowm/vf2-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [z2rs: an incremental Rust reconstruction of Zelda II checked against an emulator](https://github.com/troyedwardsjr/z2rs) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [sm64ex: an enhanced Super Mario 64 PC port from the decompilation](https://github.com/sm64pc/sm64ex) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Ghostship: a libultraship native port of Super Mario 64](https://github.com/HarbourMasters/Ghostship) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Super Mario Sunshine: an in-progress matching GameCube decompilation](https://github.com/doldecomp/sms) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Dusklight: a native Twilight Princess port built on the decompilation](https://github.com/TwilitRealm/dusklight) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Metaforce: a Metroid Prime engine reimplementation rebuilt on the decompilation](https://github.com/AxioDL/metaforce) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Super Mario Sunshine (USA): an AI-assisted matching decompilation fork](https://github.com/chasem-dev/sms-english) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Donkey Kong 64: Recompiled — an N64Recomp native port](https://github.com/Rainchus/Donkey-Kong-64-Recompiled) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Twilight Princess: a decompilation with fully matching GameCube code](https://github.com/zeldaret/tp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Castlevania: Symphony of the Night: matching decompilation across PlayStation, PSP and Saturn builds](https://github.com/Xeeynamo/sotn-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [LEGO Island, portable: a multi-platform port of the decompiled source](https://github.com/isledecomp/isle-portable) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [c1: a C port of PlayStation Crash Bandicoot](https://github.com/wurlyfox/c1) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Metroid Prime Port: an AI-assisted native port of the PrimeDecomp decompilation](https://github.com/Odrannnn/MetroidPrimePort) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [The Wind Waker: a GameCube decompilation with hash-checked relinking](https://github.com/zeldaret/tww) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Sonic Mania: a game-code decompilation for the RSDKv5 engine](https://github.com/RSDKModding/Sonic-Mania-Decompilation) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [MediEvil Recomp: a PlayStation static recompilation to C#](https://github.com/BlackLabelHQ/MediEvilRecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Crash Bandicoot 2 Recompiled: a PSXRecomp native build](https://github.com/Zumbo06/Crash2Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Petari: a matching Super Mario Galaxy decompilation](https://github.com/SMGCommunity/Petari) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Wind Waker HD Recomp: a native port by static recompilation of the Wii U game](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Castlevania 64: Recompiled — a beta static-recompilation port](https://github.com/RevoSucks/CV64Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [RSDKv5 Decompilation: reconstructing Retro Engine v5 and v5U](https://github.com/RSDKModding/RSDKv5-Decompilation) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [C2C: hybrid recompilation and hand decompilation of Crash Bandicoot 2](https://github.com/ughman/c2c) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [MediEvil decompilation: an early checksum-gated PlayStation project](https://github.com/MediEvilDecompilation/medievil-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Conker's Bad Fur Day: Recompiled — an N64Recomp native port](https://github.com/sciaschi/CBFD-Recompiled) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [ProjectCane: a native PC port of Sly Cooper and the Thievius Raccoonus](https://github.com/theclub654/ProjectCane) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Firefighter: a decompiled DOS game ported to Rust](https://gitlab.com/esr/firefighter) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [flipper-telink: replacement firmware for Tuya Zigbee remotes](https://github.com/ngxson/flipper-telink) — firmware; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Kingdom Hearts 358/2 Days: native PC port built on a matching decompilation](https://github.com/Yokimitsuro/khdays-port) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [ico-pc: a native ICO port compiled from the PS2 decompilation](https://github.com/nathanialf/ico-pc) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Sly Cooper and the Thievius Raccoonus: matching PlayStation 2 decompilation](https://github.com/TheOnlyZac/sly1) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Pokémon Emerald: a matching Game Boy Advance decompilation](https://github.com/pret/pokeemerald) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Paper Mario: matching Nintendo 64 decompilation for four releases](https://github.com/pmret/papermario) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Budokai Tenkaichi 3: a native PC port built on a matching decompilation](https://github.com/z3xox/Tenkaichi3Decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [D2R Mobile: rehosting Diablo II: Resurrected’s Switch program on Apple devices](https://github.com/jhaizhou-ops/d2r-mobile) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Ratchet & Clank: a matching PS2 decompilation with a documented agent workflow](https://github.com/OpenRAC/rac1-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Banjo: Recompiled — an N64Recomp Banjo-Kazooie native port](https://github.com/BanjoRecomp/BanjoRecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Pokémon FireRed and LeafGreen: a matching Game Boy Advance decompilation](https://github.com/pret/pokefirered) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [PaperBoat: a native Paper Mario port built on the decompilation](https://github.com/HarbourMasters/PaperBoat) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Halo 2: an agent-assisted matching decompilation of an LTCG Xbox build](https://github.com/kirklandsig/halo2-decompiled) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DiabloWeb: a WebAssembly browser port built on Devilution](https://github.com/d07RiV/diabloweb) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [pokered: a matching Pokémon Red and Blue disassembly](https://github.com/pret/pokered) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Lighthouse: a Banjo-Kazooie PC port built on the decompilation](https://github.com/HarbourMasters/Lighthouse) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Lost Odyssey Recomp: statically recompiling an Xbox 360 RPG into native ports](https://github.com/freefrank/LostOdysseyRecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Super Smash Bros. Melee: a matching GameCube decompilation with a shiftable build](https://github.com/doldecomp/melee) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [pokecrystal: a matching Pokémon Crystal disassembly](https://github.com/pret/pokecrystal) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Pokémon HeartGold and SoulSilver: a work-in-progress, checksum-matched DS disassembly](https://github.com/pret/pokeheartgold) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [FFTARecomp: static recompilation of Final Fantasy Tactics Advance](https://github.com/Jorge262007/FFTARecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SymphonyRecomp: a RecompOne static recompilation of Symphony of the Night](https://github.com/BlackLabelHQ/SymphonyRecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [The Two Towers Recompiled: an original Xbox static-recompilation port](https://github.com/Gumpolas/TooTawersRecomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Melee Unlocked: a Windows source port and static recompilation of Melee](https://github.com/Hero88go/melee-unlocked) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [pokeruby: a matching Pokémon Ruby and Sapphire decompilation](https://github.com/pret/pokeruby) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Vandal Hearts: native PC port built on matching decompilations](https://github.com/HalmyLyseas/VandalHearts-PcPort) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Pokémon Platinum: a checksum-matched Nintendo DS decompilation](https://github.com/pret/pokeplatinum) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Saints Reborn: a ReXGlue static recompilation of Saints Row](https://github.com/whompay/SaintsReborn) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Pokémon Platinum PC Port: a native port built on the pret decompilation](https://github.com/cybervisi0n/pokeplatinum) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [MikuPan: a native Fatal Frame PC port built on the Himuro decompilation](https://github.com/Mikompilation/MikuPan) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Starfox 64: Recompiled — an N64Recomp static-recompilation port](https://github.com/sonicdcer/Starfox64Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Syphon Filter: The Omega Strain — matching PS2 executable decompilation](https://github.com/zm2283145/syphon-filter-omega-strain-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Animal Crossing: a native PC port of the GameCube decompilation](https://github.com/flyngmt/ACGC-PC-Port) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [GoldenEye 007: matching Nintendo 64 decompilation for three releases](https://github.com/n64decomp/007) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Starship: a Star Fox 64 PC port built from the decompilation](https://github.com/HarbourMasters/Starship) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [CTR Turbocharged: a PC sourceport built on the Crash Team Racing decompilation](https://github.com/CameronRedmore/Crash-Team-Racing-Turbocharged) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [The Darkness Recomp: an Xbox 360 static recompilation with a native D3D11 renderer](https://github.com/portingpete/The-Darkness-Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [MarioKart 64: Recompiled — a native port through N64Recomp static recompilation](https://github.com/sonicdcer/MarioKart64Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Animal Crossing: matching GameCube decompilation](https://github.com/ACreTeam/ac-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Kingdom Hearts 358/2 Days: a matching Nintendo DS decompilation](https://github.com/Yokimitsuro/khdays-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TonyWasAProSkater: a THPS1 native port forked from a matching decompilation](https://github.com/LANCommander/TonyWasAProSkater) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [P.T. for PC: a behavior-based engine reimplementation that reads the PS4 data](https://github.com/LoreanXavier/pt-pc) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SpaghettiKart: a native Mario Kart 64 port built on decompiled source](https://github.com/HarbourMasters/SpaghettiKart) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Animal Crossing: Wild World: matching Korean DS decompilation with differential runtime checks](https://github.com/banatic/acww-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [King Kong Recompiled: an AI-developed Xbox 360 static recompilation](https://github.com/TekRantGaming/king-kong-recompiled) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Mario Party 4: matching GameCube decompilation of the USA releases](https://github.com/mariopartyrd/marioparty4) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SpeedBreaker: statically recompiling Need for Speed: Most Wanted for Xbox 360](https://github.com/SpeedBreakerProject/speedbreaker) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [The Sims: Bustin' Out: an AI-driven partial GBA matching decompilation](https://github.com/DaBrown95/tsbodp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Destiny 2 build 86657: Sunrise/Dawn reconstruction research report](https://github.com/isinternets/d2-research) — game, protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SVR2011-Recomp: a ReXGlue recompilation of WWE SmackDown vs. Raw 2011](https://github.com/shaneomac1337/SVR2011-Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Snap64 Recomp: a static-recompilation port of Pokémon Snap](https://github.com/JackandBeans/Snap64Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Dead Rising 2: Case Zero — an Xbox 360 XBLA static recompilation port](https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [OpenRA: an engine reimplementation reimagining early Westwood RTS games](https://github.com/OpenRA/OpenRA) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Dead Rising 2: Case West — a sibling Xbox 360 XBLA static recompilation port](https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [The Simpsons Wrestling Recompiled: a psxrecomp PlayStation static recompilation](https://github.com/TekRantGaming/simpsons-wrestling-recompiled) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [OpenRCT2: an open re-implementation of RollerCoaster Tycoon 2](https://github.com/OpenRCT2/OpenRCT2) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Touhou 6: reconstructing Embodiment of Scarlet Devil 1.02h source](https://github.com/GensokyoClub/th06) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [RKD Telemetry Extractor: decoding Race-Keeper track-day recordings](https://github.com/sam-dumont/rkd-telemetry-extractor) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Driver Recompiled: a psxrecomp setup host that builds the game locally](https://github.com/alexbeavs-ps1-ports/driver-recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Himuro: a matching Fatal Frame PS2 decompilation](https://github.com/Mikompilation/Himuro) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DOAXVB Native PC Port: statically recompiling Dead or Alive Xtreme Beach Volleyball](https://github.com/NoRain211/doaxvb-re) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Elgato HDR: a userspace capture path for the Elgato 4K X’s 10-bit mode](https://github.com/talkaboutdesign/elgato-hdr) — app, protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TH08 Web: a WebAssembly port built from reconstructed source](https://github.com/N0zoM1z0/th08-web) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [OpenXcom: an open-source clone of X-COM: UFO Defense and Terror from the Deep](https://github.com/OpenXcom/OpenXcom) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Skate 3 Recomp: a native Xbox 360 recompilation through ReXGlue](https://github.com/mchughalex/skate3recomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Uncharted: The Nathan Drake Collection native Windows port](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TH095: function-level reconstruction of Shoot the Bullet 1.02a](https://github.com/N0zoM1z0/th095) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [LGwebOS-menubar: a native macOS remote for LG webOS TVs](https://github.com/gabrielgreco1/TVmenubar-MacOS) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [CorsixTH: an open reimplementation of Theme Hospital](https://github.com/CorsixTH/CorsixTH) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [OpenRiseOfNations: a native macOS engine reimplementation](https://github.com/ben-wright-1/OpenRiseOfNations) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TH04: rebuilding Lotus Land Story’s four PC-98 programs from source](https://github.com/N0zoM1z0/th04) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Supermodel: initial Real3D Pro-1000 image-generator emulation](https://github.com/trzy/Supermodel) — firmware; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [inFAMOUS Second Son native PC port](https://github.com/HayatoG/iss_pc) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [xoreos: an open reimplementation of BioWare’s Aurora engine family](https://github.com/xoreos/xoreos) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [librw: a re-implementation of the RenderWare Graphics engine](https://github.com/aap/librw) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Super Mario Odyssey: per-function matching decompilation of the Switch executable](https://github.com/MonsterDruide1/OdysseyDecomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [whatsapp-web-reveng: documenting the legacy WhatsApp Web protocol](https://github.com/sigalor/whatsapp-web-reveng) — protocol, website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Star Fox 64: a complete matching Nintendo 64 decompilation](https://github.com/sonicdcer/sf64) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Galaxy Buds Client: an unofficial manager built on Samsung’s earbud protocol](https://github.com/timschneeb/GalaxyBudsClient) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Wino Mail: recreating Windows Mail and Calendar](https://github.com/bkaankose/Wino-Mail) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Metroid Prime: the PrimeDecomp matching GameCube decompilation](https://github.com/PrimeDecomp/prime) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Batla 3D server emulator (2015 client)](https://github.com/Serega25511s/Batla-3D-server-emu) — game, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [RSDKv4 Decompilation: Retro Engine v4 and the Sonic 1 & 2 (2013) menus](https://github.com/RSDKModding/RSDKv4-Decompilation) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OpenRW: an open re-implementation of the Grand Theft Auto III engine](https://github.com/rwengine/openrw) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Ruffle: a Rust reimplementation of Adobe Flash Player](https://github.com/ruffle-rs/ruffle) — website, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ScooterLink: reconstructing Honda RoadSync’s handlebar-button protocol](https://github.com/gdorgian/ScooterLink) — app, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OpenDMCUFirm: a reimplemented Wii U DMCU display firmware](https://github.com/GaryOderNichts/OpenDMCUFirm) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [CoD4 Rewrite: Rust/Bevy reconstruction](https://github.com/Nilbong/COD4-Rewrite) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [libd2: Diablo II 1.14d engine-core libraries](https://github.com/jaenster/libd2) — game, binary, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Underworld Exhumed: reconstructing Ultima Underworld I and II](https://github.com/abedegno/underworld-exhumed) — game, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [LineWars II: a portable SDL3 reconstruction](https://github.com/fredangstadt-lang/LineWarsII-SDL) — game, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [BFM-decomp: Brave Fencer Musashi matching decompilation](https://github.com/Druthulu/BFM-decomp) — game, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Littlebird.ai static home-page rebuild](https://github.com/AkashNaickar/crdb-sample-frontend) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Snowboard Kids: an agent-assisted N64 matching decompilation](https://github.com/cdlewis/snowboardkids-decomp) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [reflecticon-224: running Lexicon 224 reverb firmware on emulated hardware](https://github.com/joelanders/reflecticon-224) — firmware; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Sonic Advance 3: an AI-assisted match of one enemy module](https://gambiconf.substack.com/p/development-journey-on-game-decompilation) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [iX500 Scan: a macOS client for the reverse-engineered ScanSnap Wi-Fi protocol](https://github.com/jonaswagnr/ix500-scan) — app, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Roborock Local Server: a self-hosted stand-in for Roborock’s vacuum cloud](https://github.com/Python-roborock/local_roborock_server) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [WristBeam: reconstructing Garmin’s watch protocol for a Mac companion](https://github.com/kongdayan/wristbeam) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [pypush: a Python client for Apple’s push protocol](https://github.com/JJTech0130/pypush) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [pw: a matching decompilation of the Pokéwalker firmware](https://github.com/lumirth/pw) — firmware, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [wii-ipl: a decompilation of the Wii Menu (System Menu 4.3)](https://github.com/koopthekoopa/wii-ipl) — firmware, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [usque: an open reimplementation of Cloudflare WARP’s MASQUE mode](https://github.com/Diniboy1123/usque) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Webamp: a browser reimplementation of Winamp 2](https://github.com/captbaritone/webamp) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [sead: a decompilation of Nintendo’s first-party C++ standard library](https://github.com/open-ead/sead) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [TeddyCloud: a self-hosted replacement for the Toniebox cloud](https://github.com/toniebox-reverse-engineering/teddycloud) — protocol, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Animal Forest: an in-progress matching N64 decompilation](https://github.com/zeldaret/af) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PixMob IR reverse engineering: controlling event wristbands at home](https://github.com/danielweidman/pixmob-ir-reverse-engineering) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Phantom Hourglass: an early-stage matching Nintendo DS decompilation](https://github.com/zeldaret/ph) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Kinoko: reimplementing Mario Kart Wii’s physics engine for exact ghost replay](https://github.com/vabold/Kinoko) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Mario Kart: Double Dash!!: a matching GameCube decompilation of the debug build](https://github.com/doldecomp/mkdd) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [3S Decomp: a byte-compared PS2 decompilation of Street Fighter III: 3rd Strike](https://github.com/crowded-street/3s-decomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Halo: Combat Evolved: an incremental re-implementation patched into the original Xbox executable](https://github.com/halo-re/halo) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Paper Mario: The Thousand-Year Door: an early matching GameCube decompilation](https://github.com/doldecomp/ttyd) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [3SX: a native Street Fighter III: 3rd Strike port continuing the PS2 decompilation](https://github.com/crowded-street/3sx) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [re4: a byte-identical decompilation of the Resident Evil 4 GameCube debug build](https://github.com/adonis-singh/re4) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Super Smash Bros. Brawl: an early matching Wii decompilation](https://github.com/doldecomp/brawl) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [re-plants-vs-zombies: decompiling and modernizing Plants vs. Zombies GOTY](https://github.com/Patoke/re-plants-vs-zombies) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Sonic Advance 1 & 2: a matching GBA decompilation with widescreen ports](https://github.com/SAT-R/sa2) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Paleblood: a functional decompilation of Bloodborne with its own runtime](https://github.com/Yharnam-Hunters/Paleblood) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Pikmin 2: a fully matched GameCube decompilation across five releases](https://github.com/projectPiki/pikmin2) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Gran Turismo 4: an agent-assisted PS2 engine matching decompilation](https://github.com/gustavocanepa/gt4-decomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Mario Kart Wii: an in-progress matching decompilation of the PAL release](https://github.com/snailspeed3/mkw) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Pinyon Shift: a ShiftGlue static recompilation of Forza Horizon for PC](https://github.com/arcanite24/pinyon-shift) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Touhou 7: reconstructing Perfect Cherry Blossom 1.00b source](https://github.com/some100/th07) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [DKC1Recomp: static recompilation of Donkey Kong Country](https://github.com/elliotttate/DKC1Recomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [San Andreas Unity: a GTA San Andreas engine reimplementation in Unity](https://github.com/in0finite/SanAndreasUnity) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [MinecraftLCE: an early-stage Minecraft: Nintendo Switch Edition decompilation](https://github.com/GRAnimated/MinecraftLCE) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Final Fantasy VII: a matching PlayStation decompilation](https://github.com/Xeeynamo/ff7-decomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Mega Man X Recompiled: a snesrecomp static recompilation](https://github.com/mstan/MegaManXSNESRecomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OpenSC4: an early open-source reimplementation of SimCity 4](https://github.com/OpenSC4-org/OpenSC4) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [R.E.L.I.V.E.: an Oddworld Abe’s Oddysee and Abe’s Exoddus engine reimplementation](https://github.com/AliveTeam/alive_reversing) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Age of Empires Free Software Remake: a re-implementation on the original data](https://github.com/FolkertVanVerseveld/aoe) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [God of War PS2 static recompilation: a native Windows port via PS2Recomp](https://github.com/KIexster/god-of-war-recomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [RaceWave46: an AI-assisted Wave Race 64 recompilation for Windows](https://github.com/DomazinUS/RaceWave46) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OpenDrop: an open reimplementation of Apple AirDrop](https://github.com/seemoo-lab/opendrop) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Valetudo: local replacement for robot-vacuum vendor clouds](https://github.com/Hypfer/Valetudo) — protocol, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Jazz² Resurrection: a native C++ reimplementation of Jazz Jackrabbit 2](https://github.com/deathkiller/jazz2-native) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [LBA2 Remake: a Little Big Adventure 1 and 2 reimplementation in TypeScript and Three.js](https://github.com/LBALab/lba2remake) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OpenAWE: an open reimplementation of Remedy’s Alan Wake engine](https://github.com/OpenAWE-Project/OpenAWE) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [CPS-2 Recomp: static recompilation of Capcom CPS-2 and CPS-1 arcade games](https://github.com/tmcleroy/cps2recomp) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [bluefluff: reverse engineering Furby Connect's Bluetooth LE protocol](https://github.com/Jeija/bluefluff) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [impacto: a reimplementation of the MAGES. visual-novel engine](https://github.com/CommitteeOfZero/impacto) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [NOOP: an offline WHOOP strap client built from Bluetooth protocol research](https://github.com/ryanbr/noop) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [pyatv: a reverse-engineered client for Apple TV and AirPlay protocols](https://github.com/postlund/pyatv) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Wind Waker HD decompilation: functions verified against the recompiled Wii U game](https://github.com/ZeldaWWHDDecomp/wwhd) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [SiegeFX: a Dungeon Siege engine reimplementation in alpha](https://github.com/codingncaffeine/SiegeFX) — game; upstream: source-reviewed, 2026-11-01T16:36:25Z; local: imported-not-independently-validated.
+- [Legend of Legaia: a Rust port with disc-local browser tooling](https://github.com/AndrewAltimit/legend-of-legaia-re) — game; upstream: source-reviewed, 2026-11-01T16:36:25Z; local: imported-not-independently-validated.
+- [RSDKv3 Decompilation: Sonic CD (2011) on a reconstructed Retro Engine v3](https://github.com/RSDKModding/RSDKv3-Decompilation) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ICO decompilation: byte-identical PAL and Japanese PlayStation 2 boot ELFs](https://github.com/nathanialf/ico) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [NiimBlue: an independent web client for NIIMBOT label printers](https://github.com/MultiMote/niimblue) — app, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [open_oura: a cloud-free Oura Ring client built on its reverse-engineered BLE protocol](https://github.com/Th0rgal/open_oura) — protocol, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Sony Headphones Client: a desktop client for Sony’s headset control protocol](https://github.com/Plutoberth/SonyHeadphonesClient) — app, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [BudsPro-Headtracking: streaming Galaxy Buds Pro head tracking over Samsung’s serial protocol](https://github.com/timschneeb/BudsPro-Headtracking) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Even G2 protocol: reverse-engineering Even Realities G2 smart-glasses BLE traffic](https://github.com/i-soxi/even-g2-protocol) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [game-and-watch-patch: Nintendo Game & Watch custom firmware](https://github.com/BrianPugh/game-and-watch-patch) — firmware, game; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [fuji-cam-wifi-tool: reconstructing Fujifilm X-series Wi-Fi remote control](https://github.com/hkr/fuji-cam-wifi-tool) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Gymnasticon: bridging proprietary exercise-bike data to standard cycling sensors](https://github.com/ptx2/gymnasticon) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [IW4L: a Rust runtime that plays Modern Warfare 2 from the user’s installed game](https://github.com/vladtrc/iw4L) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Skate 3 Rust Engine: a Bevy rewrite built on Skate 3 reverse-engineering research](https://github.com/SK8-ENGINE/skate-3-rust-engine) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [garmin-ble: a Python client for Garmin's GFDI watch protocol](https://github.com/gwerneckp/garmin-ble) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Bravo: a reverse-engineered Minecraft server](https://github.com/bravoserver/bravo) — game, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [bosectl: reconstructing Bose’s BMAP headphone protocol](https://github.com/aaronsb/bosectl) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [lib-osmo-ble: DJI Osmo Pocket 3 Bluetooth LE protocol library](https://github.com/yigitkonur/lib-osmo-ble) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [cbyge: reconstructing the C by GE smart-bulb cloud protocol](https://github.com/unixpickle/cbyge) — protocol, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [EchoMuse: replacement software that turns the Echo Dot 2nd gen into a Home Assistant voice satellite](https://github.com/wilbowes/EchoMuse) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [DJI MIMO BLE artifacts: reconstructing the DJI Osmo control protocol](https://github.com/xaionaro/reverse-engineering-dji) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Cat Printer BLE: reconstructing the MXW01 thermal printer protocol](https://github.com/MaikelChan/CatPrinterBLE) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [a0rfid: an open driver for A0-protocol UHF RFID readers](https://github.com/uaih3k9x/a0rfid) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Xiaomi Kettle BLE protocol: reconstructing a smart kettle's control interface](https://github.com/anna-oake/xiaomi-kettle) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Ford Fiesta MK5 MS-CAN: decoding the dashboard and radio bus](https://github.com/roncapat/Ford-Fiesta-MK5-MS-CAN-bus) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [uniden-r8-ble: reconstructing the Uniden R8 radar detector's BLE telemetry](https://github.com/JeremyWhittaker/unidenr8_bluetooth) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [opendash: reconstructing the Scanmatik SM3 J2534 adapter protocol](https://github.com/PabloSoage/opendash) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [OWL: an open Apple Wireless Direct Link implementation](https://github.com/seemoo-lab/owl) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Weeping of the Empire: statically recompiling Tears of the Kingdom for Windows](https://github.com/daniel-madrid-07/weeping-of-the-empire) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [GTA Mode: reverse-engineering SimCity 3000 Unlimited for a native plugin](https://github.com/DenisSergeevitch/simcity3000-gta-mode) — game, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [FH2MP: reconstructed Forza Horizon 2 online services](https://github.com/Charelene/FH2MP) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cursed Lands: a Godot engine for Evil Islands and Lost in Astral](https://github.com/TheWWWorm/CursedLands) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [QuestPad: a USB gamepad from the Quest Touch radio protocol](https://github.com/Jakey-Jakey/questpad) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [nfs-mw: a Rust reconstruction of Need for Speed: Most Wanted](https://github.com/47PADO47/nfs-mw) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OSIRIS: replacing Onkyo receiver firmware through MCU protocol research](https://github.com/ubis/OSIRIS) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Stadiacast: reconstructing the Stadia Controller's Wi-Fi service](https://github.com/jkfran/stadiacast) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [bf-private-server: a Brave Frontier revival server](https://github.com/joppe2001/bf-private-server) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Clickwill: reconstructing iPod library database editing](https://github.com/jakubwarzecha00/clickwill) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Virtual MPC Sample: rehosting Akai MPC Sample firmware in QEMU](https://github.com/orrpunk-art/virtual-mpc-sample) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenJooki: replacing the Jooki 2 software and recovery path](https://github.com/Guillain-RDCDE/OpenJooki) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenLF2: a Little Fighter 2 engine reimplementation](https://github.com/OpenLF2/OpenLF2) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Stickwalker: porting Pokéwalker firmware to the Stick S3](https://github.com/lumirth/stickwalker) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [os-xgs-npu: reconstructing Sophos XGS coprocessor interfaces](https://github.com/AbdelmonemAwad/os-xgs-npu) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Spark Mail: rehosting the Windows desktop app on Linux with Wine shims](https://github.com/kyryl-bogach/spark-mail-linux) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [LibreMP: an Epson EasyMP screen caster from packet-capture research](https://github.com/MuazTPM-YT/libre-mp) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Atlantis Native: porting the Atlantis and Atlantis II engines to Rust](https://github.com/ripleyXLR8/atlantis-native) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Sony CDX-A250: reconstructing the LCD panel interface](https://github.com/emsyscode/lc75826-sony-cdx-a250) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MacroPad: reconstructing a USB macropad configuration protocol](https://github.com/Probler-Yt/MacroPad) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Monix: reconstructing Audient iD USB mixer control on Linux](https://github.com/sKuhLight/monix) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [SF2Recomp: statically recompiling Shadow Fight 2 for native platforms](https://github.com/bipinkrish/sf2recomp) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Scooter Link: a Xiaomi scooter client built from BLE protocol research](https://github.com/desperado0044/xiaomi-scooter-link) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [sony-bravia-linux: pre-Android BRAVIA platform and media behavior](https://github.com/danielcamposramos/sony-bravia-linux) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Sound Blaster AE-9: reconstructing Linux control from Windows driver analysis](https://github.com/verzic/sb-ae9) — binary, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [thermalmaster: a Go client for ThermalMaster camera USB commands](https://github.com/xaionaro-go/thermalmaster) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Sheypoor MCP: mapping marketplace APIs from browser traffic](https://github.com/FarhamAghdasi/sheypoor-mcp) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [open-rknpu: Rockchip NPU task-program reconstruction](https://github.com/dnhkng/open-rknpu) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Devil May Cry: an experimental PS2 static recompilation](https://github.com/Gui-Tora/dmc-recomp) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [hardsid4u: reconstructing the HardSID 4U USB protocol](https://github.com/pjthulin/hardsid4u) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ZCode-Android: reconstructing the ZCode remote-control client](https://github.com/Damianjiang/ZCode-Android) — app, website, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PyEilik: a client for the Eilik robot's USB protocol](https://github.com/aklto/PyEilik) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [libfprint-goodixtls: a reconstructed Goodix GXFP5187 fingerprint driver](https://github.com/Sigfrodr/libfprint-goodixtls) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Sin & Punishment: a work-in-progress N64 static recompilation](https://github.com/maximilianoide/sin-punishment-recompiled) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [scvk: replacing SimCity 4's renderer with Vulkan](https://github.com/aspctt/scvk) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RazerStream: reconstructing Stream Controller device control](https://github.com/ShoelessTim/RazerStream) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [DABplay+: reconstructing USB DAB+ dongle control](https://github.com/jvspier/dabplayplus) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PocketPrinter5890: reconstructing the Lidl 5890 printer protocol](https://github.com/dimer47/PocketPrinter5890) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Salamander UEFI: a disassembly-based UEFI port of the NES game](https://github.com/MikeWuPing/UEFI_Salamander) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Parking sensor kit: reconstructing its display protocol](https://github.com/kunkka-project/re_parking_sensor_protocol) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [pyhaseiq: reconstructing the older Hase iQ stove's WebSocket protocol](https://github.com/bbayszczak/pyhaseiq) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Power BI API Scraper: decoding a published report query format](https://github.com/artemiyDev/powerbi_api_scraper) — website, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [m0rph: tracing an obfuscated ELF flag checker](https://github.com/UmbertoDellaMonica/m0rph-CTF-CyberChallenge.IT) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenTracks: a UWP port of OpenTracks7 BETA1](https://github.com/mediaexplorer74/OpenTracks) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [LED Controller: a BanlanX BLE client with audio-feed protocol findings](https://github.com/Antrubtor/LED-controller) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [CPQ IO Scheduler: reconstructing Xiaomi's block scheduler](https://github.com/Rasenkai/CPQ_IOSched) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Zemismart Blind Controller Protocol: RF command reconstruction](https://github.com/blark/zemismart-blind-protocol) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RTO eChalan: investigating a BankBot Android APK](https://github.com/Gautam-CyberSec/Android-Malware-Analysis-Report) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Malware Analysis: njRAT and Casdet behavior investigation](https://github.com/phour44/Malware-Analysis) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [vanmoof-certificates: decoding VanMoof bike certificates](https://github.com/Knight1/vanmoof-certificates) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [tMock-Server: reconstructing Terraria server handshakes](https://github.com/StardustVulpine/tMock-Server) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [VanMoof BLE: a client for S5, A5 and S6 bicycle protocols](https://github.com/Knight1/vanmoof-ble) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cosmic Byte Firestorm Controller: a USB protocol client for mouse settings](https://github.com/electrondefuser/cbfirestorm) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [NuVelocity Engine: reimplementing Reflexive's Velocity Engine](https://github.com/NuVelocity/NuVelocity) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [FreeRS42: reimplementing Ricochet Xtreme](https://github.com/NuVelocity/FRS42) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Centerpiece Projects: decoding Finalmouse Centerpiece USB control](https://github.com/LeiterConsulting/finalmouse_centerpiece) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [AOL 7.0 Retro Server: reconstructing the P3 server session](https://github.com/pioneerman2k1/AOL7-Retro-Server) — app, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [FAAC E145 Gate Connect: reconstructing EasyBoard gate commands](https://github.com/jens62/FAAC-E145-Gate-Connect) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [stagg-net: investigating the Fellow Stagg EKG kettle UART](https://github.com/linux4life798/stagg-net) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [TOZO Control: a Linux earbuds client built from the TOZO BLE protocol](https://github.com/GabriWar/tozo-control) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BMS RS485 Service Suite: reconstructing a battery-service bus protocol](https://github.com/zonfacter/bms-rs485-service-suite) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [SteelSeries Overlay Hook: mapping and hooking the GameOverlay swapchain](https://github.com/meowdiocre/ss-overlay-hook) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Petkit Local: reconstructing feeder cloud and fountain BLE controls](https://github.com/Opcodeffm/petkit-local) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [IPI STAY FLY Driver: reconstructing mouse configuration over HID](https://github.com/SpookyyQ/IPI-Stay-Fly-Driver) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Metroid Dread: a hand decompilation in progress](https://github.com/tsuyoi-w/DreadComp) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Soundcore D3200: reconstructing BLE recording transfer and decryption](https://github.com/andrewseago/d3200-ble-note-downloader) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [K1 Pro OpenDeck Suite: a Linux driver for the Stream Dock K1 Pro](https://github.com/leabergero/k1pro-opendeck-suite) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [open-picpak: reconstructing the PicPak frame's BLE protocol and device behavior](https://github.com/GottZ/open-PicPak) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [iDotMatrix: Home Assistant control through a reconstructed BLE protocol](https://github.com/dallanwagz/idotmatrix-ha) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Dell ControlVault 2 fingerprint on Linux: adapting a driver for BCM5880](https://github.com/grosa787/dell-controlvault2-fingerprint-linux) — binary, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [epson-l3110-driver: investigating the printer's USB and ESC/P-R exchanges](https://github.com/mikel-btw/epson-l3110-driver) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MS5 WiFi Microscope: reconstructing the camera's UDP video protocol](https://github.com/Fyfar/ms5-wifi-microscope) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [lux-lat-long-log: reconstructing LUMIX S5 BLE GPS communication](https://github.com/tobiasbrummer/lux-lat-long-log) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MTG Arena Collection Export: reconstructing the Frontdoor collection request](https://github.com/Ikreb1/mtg-arena-collection-export) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Magene L308: reconstructing a smart taillight's BLE control protocol](https://github.com/mchardysam/magene-l308-taillight) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Void Client: rebuilding the Starblast.io client](https://github.com/Senko74/Void-Client) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [xbloom-ble: a client for the xBloom Studio BLE protocol](https://github.com/Janczykkkko/xbloom-ble) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ak820: reconstructing AJAZZ AK820 Pro HID control on macOS](https://github.com/gusleig/ajazz-ak820-pro-mac) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [WeChat: recovering SQLCipher keys through CommonCrypto hooks](https://github.com/Evanyuan-builder/wechat-4.1.10-macos-key) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [GameTrak Liberation: a client for the controller's HID protocol](https://github.com/CreativeInquiry/GameTrak-Liberation) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cooper Hunter AC: UART and infrared protocol investigation](https://github.com/kronhait/cooper-hunter-ac-esphome) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Siriously: recovering macOS Writing Tools entry points](https://github.com/bo2themax/Siriously) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [aw5d-linux: driving an iBUYPOWER cooler LCD from USB-HID research](https://github.com/claygorman/aw5d-linux) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MyJBxHeadsetControl: JBL Quantum 950 controls over USB HID](https://github.com/666mille/MyJBxHeadsetControl) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenPigeon: reconstructing GamePigeon iMessage game messages](https://github.com/time-attack/OpenPigeon) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [zlt: MTN ZLT T10D MAX router API reconstruction](https://github.com/exbyte-dev/zltrouter) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [claude-rc-api: reconstructing Claude Code Remote Control endpoints](https://github.com/ThatCrispyToast/claude-rc-api) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Hisense AEH-W41H1: local A/C control over a reconstructed RS-485 bus](https://github.com/AndrewDemsDS/hisense-w41h1) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cosmo: a native port of Cosmo's Cosmic Adventure](https://github.com/digows/cosmo) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [tuya-mobile: a Python reconstruction of Tuya app signing and API calls](https://github.com/AboveColin/tuya-mobile) — app, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MSI Mystic Light on Linux: reconstructing B860/X870 lighting control](https://github.com/Picachuchu69/msi-mystic-light-b860-x870-linux) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [LinkCam: controlling Insta360 Link 2 through UVC extension research](https://github.com/fmontes/linkcam) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [shark-k86-mac: a client for the Attack Shark K86 HID protocol](https://github.com/RaphaelCaputo2/shark-k86-mac) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [fitdays: reconstructing a smart-scale cloud client](https://github.com/AboveColin/fitdays) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [trvision: implementing Thermalright Vision USB display control](https://github.com/0iroN/trvision) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [pocket-client: a BLE client for the Pocket voice recorder](https://github.com/Enigma-Labs-Technology/pocket-client) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ddg-tenor-bridge: replacing Gboard's Tenor search endpoint](https://github.com/hxreborn/ddg-tenor-bridge) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [KeyAxis: decoding a magnetic keyboard's analog HID stream](https://github.com/RigZeeel/KeyAxis) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [A.O. Smith water heater: local CTA-2045 control and protocol findings](https://github.com/ericboehs/aosmith-water-heater) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [j2208-band-tools: a direct client for the J2208 fitness-band protocol](https://github.com/brendangooden/j2208-band-tools) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Eufy Local Light: reconstructing BLE control for E10 and E22 lights](https://github.com/SudoSaturn/eufy-local-ha) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenPeats: reconstructing SoundPEATS earbud controls](https://github.com/Wasabules/OpenPeats) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [hongtai-panel: reconstructing a cooler LCD's USB serial protocol](https://github.com/GOG1071/hongtai-panel) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ESPHome ↔ L&S Emotion Control: reconstructing a smart-light radio client](https://github.com/SergeyZh/emotion-control-ha) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [akp02: reconstructing the Ajazz AKP02 display protocol](https://github.com/deonspengler/akp02) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Left 4 Dead 2: recovering the AI Director's behavior](https://github.com/zeljkovranjes/l4d2-director-system-research) — game, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MSP CSV Export Format: reconstructing My Stocks Portfolio exports](https://github.com/Izero/msp-csv-format) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MechRewired: rebuilding MechWarrior 2 from original game data](https://github.com/deanthecoder/MechRewired) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [nRF52 e-paper tag: reconstructing an undocumented display interface](https://github.com/niazlv/nrf52-eink-price-tag) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Benro Polaris Firmware Patcher: rebuilding camera control and mapping the app protocol](https://github.com/blaineam/benro-polaris-firmware-patcher) — firmware, app, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RK M75: reconstructing wired and wireless RGB control](https://github.com/Lightning-13/rk-m75) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [d2mac-linux: porting the Diablo II Mac executable to 32-bit Linux](https://github.com/jaenster/d2mac-linux) — game, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ACiQ K18W: reconstructing a mini split's UART protocol](https://github.com/codypendant/aciq-minisplit-protocol) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RND Companion: reconstructing the RND Synth SysEx protocol](https://github.com/Enkerli/rnd-companion) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Spider-Man 2 PS2 Recomp: a static recompilation checkpoint](https://github.com/saltyboosack-blip/Spider-Man-2-PS2-Recomp) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Malware Analysis: a trojanized FL Studio installer and Go stealer](https://github.com/AllobatesZaparo/malware-analysis) — binary, app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [touhou-engine: a Python reimplementation of Touhou gameplay](https://github.com/SaigyoujYuyuko/touhou-engine) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [viture-v2: a reconstructed VITURE Gen2 glasses protocol and driver](https://github.com/elasticjava/viture-v2) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BikeStation: local Echelon Connect control over Bluetooth LE](https://github.com/nathanbrittin/BikeStation) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [grsimwrite-mac: reconstructing GRSIMWrite for macOS](https://github.com/eliel9012/grsimwrite-mac) — app, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenLara: Tomb Raider engine reimplementation](https://github.com/XProger/OpenLara) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Thyme: Command & Conquer Generals: Zero Hour reimplementation](https://github.com/TheAssemblyArmada/Thyme) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Chariot: Age of Empires engine reimplementation](https://github.com/ChariotEngine/Chariot) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenDiablo2: Diablo 2 engine reimplementation](https://github.com/OpenDiablo2/OpenDiablo2) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenTomb: Tomb Raider engine reimplementation](https://github.com/opentomb/OpenTomb) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Savage Wind Recomp: statically recompiling The Legend of Zelda: Breath of the Wild](https://github.com/Revivedx/SavageWindRecomp) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [retruxx: reverse-engineered Hard Truck Apocalypse](https://github.com/mindflower/retruxx) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / collection (32)
+
+- [Awesome Reverse Engineering](https://github.com/morluto/awesome-reverse-engineering) — website, game, app, binary, firmware, protocol; upstream: source-reviewed, 2026-10-17T12:48:42Z; local: imported-not-independently-validated.
+- [Awesome REA Cases](https://github.com/songshikang0111/awesome-REA-cases) — website, game, app, binary, firmware, protocol; upstream: source-reviewed, 2026-10-17T12:48:42Z; local: imported-not-independently-validated.
+- [awesome-rea (yibie): verification-focused projects and practice reports](https://github.com/yibie/awesome-rea) — game, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Reversed with AI](https://reversedwithai.com/) — game, firmware, app, protocol, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Awesome Connected Things Security](https://github.com/V33RU/awesome-connected-things-sec) — firmware, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Awesome CAN Bus](https://github.com/iDoka/awesome-canbus) — protocol, firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Awesome CAN ID](https://github.com/iDoka/awesome-automotive-can-id) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Awesome REA: Reverse Engineer Anything with AI (AIshihzong)](https://github.com/AIshihzong/awesome-reverse-engineer-anything) — game, app, binary, protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [AI Rebuilds](https://ai-rebuilds.com/) — game, app, binary; upstream: source-reviewed, 2026-11-02; local: imported-not-independently-validated.
+- [awesome-game-decompilations](https://github.com/CharlotteCross1998/awesome-game-decompilations) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Awesome Decomp Games](https://github.com/SubmitGame/awesome-decomp-games) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [awesome-unofficial-pc-ports](https://github.com/Sebastrion/awesome-unofficial-pc-ports) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [awesome-decompilation](https://github.com/nforest/awesome-decompilation) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Remade](https://github.com/replicraft/remade) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Reverse Engineering resources (wtsxDev)](https://github.com/wtsxDev/reverse-engineering) — binary, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Awesome Android Reverse Engineering](https://github.com/user1342/Awesome-Android-Reverse-Engineering) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Awesome Frida](https://github.com/dweinstein/awesome-frida) — app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Awesome Ghidra](https://github.com/AllsafeCyberSecurity/awesome-ghidra) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PRE-list](https://github.com/techge/PRE-list) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [awesome-reverse-engineering (alphaSeclab)](https://github.com/alphaSeclab/awesome-reverse-engineering) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Awesome Executable Packing](https://github.com/packing-box/awesome-executable-packing) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Awesome AI Reverse Engineering](https://github.com/darbra/awesome-ai-reverse) — website, app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Interactive IDA Plugin List](https://github.com/vmallet/ida-plugins) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Awesome RE-MCP](https://github.com/crowdere/Awesome-RE-MCP) — binary, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [RE list (extremecoders-re)](https://github.com/extremecoders-re/re-list) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [awesome-te](https://github.com/bnjreece/awesome-te) — firmware, protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Awesome UEFI Security](https://github.com/river-li/awesome-uefi-security) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Firmware-Analysis-Papers](https://github.com/onehouwong/Firmware-Analysis-Papers) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [OpenDeviceDB](https://github.com/opendevicedb/opendevicedb) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Malware Analysis & CTI Reports](https://github.com/Spellskite-coding/Binary_Analysis) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / documentation (29)
+
+- [Installation and client setup](https://github.com/morluto/rea/blob/main/docs/installation.md) — website, game, app, binary, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [CLI and Evidence](https://github.com/morluto/rea/blob/main/docs/cli.md) — website, game, app, binary, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [MCP contracts and generated catalog](https://github.com/morluto/rea/blob/main/docs/mcp-contracts.md#generated-catalog) — website, game, app, binary, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Native binary investigation](https://github.com/morluto/rea/blob/main/docs/native-investigation.md) — binary, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Cross-layer JavaScript application workflows](https://github.com/morluto/rea/blob/main/docs/javascript-application-workflows.md) — website, app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Static Android APK analysis](https://github.com/morluto/rea/blob/main/docs/android-analysis.md) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Managed-code analysis](https://github.com/morluto/rea/blob/main/docs/managed-code-analysis.md) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Historical web network captures](https://github.com/morluto/rea/blob/main/docs/web-network-captures.md) — website, app, protocol; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Firmware analysis](https://github.com/morluto/rea/blob/main/docs/firmware-analysis.md) — firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Recorded packet capture inspection](https://github.com/morluto/rea/blob/main/docs/packet-captures.md) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Packet capture summaries](https://github.com/morluto/rea/blob/main/docs/pcap-analysis.md) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Recorded signal decoding](https://github.com/morluto/rea/blob/main/docs/signal-recordings.md) — firmware, protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Browser observation guide](https://rea.tools/guides/browser/) — website; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [JavaScript and Electron: follow a CSV export](https://rea.tools/guides/javascript/) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Flutter build identification](https://github.com/morluto/rea/blob/main/docs/flutter-analysis.md) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Static HarmonyOS package inventory](https://github.com/morluto/rea/blob/main/docs/harmony-analysis.md) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [MIPS ELF analysis through Ghidra](https://github.com/morluto/rea/blob/main/docs/ghidra-mips.md) — firmware, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [PSP static ELF analysis through Ghidra](https://github.com/morluto/rea/blob/main/docs/ghidra-psp.md) — binary, game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [NativeAOT metadata recovery with Ghidra](https://github.com/morluto/rea/blob/main/docs/ghidra-nativeaot.md) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Walksnail Ascent VRX UART Protocol](https://github.com/maks421400-lgtm/Walksnail-Ascent-VRX-UART) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Assassin's Creed III online service docs](https://github.com/Phoenix-Assassins/ac3-docs) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [AC4 docs](https://github.com/Phoenix-Assassins/ac4-docs) — game, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [eRepublik API Documentation](https://github.com/driversti/erepublik-api) — website, game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Garmin Strength Workout API](https://github.com/n1t3k/garmin-strength-api) — website, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Substack API Reference (Unofficial)](https://github.com/AnthonyDavidAdams/substack-api-reference) — website, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [hyperscan-homebrew](https://github.com/vs-sr-dev/hyperscan-homebrew) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Локальный аудиостриминг на Яндекс.Станцию](https://github.com/volodarskij/yandex-station-local-streaming) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [whatsapp-docs](https://github.com/7ucg/whatsapp-docs) — app, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RtG-Format](https://github.com/JuanCrakYT/RtG-Format) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / integration (96)
+
+- [Official reverse-engineer-anything skill](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) — website, game, app, binary, firmware, protocol; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [dsh-mcp-rea](https://github.com/Ersith/dsh-mcp-rea) — website, game, app, binary, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [rea-jev](https://github.com/juan-viox/rea-jev) — app, website; upstream: source-reviewed, 2026-10-17T12:48:42Z; local: imported-not-independently-validated.
+- [rea-casebook](https://github.com/pablodiazjorge/rea-casebook) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Eleven](https://github.com/Zfinix/eleven) — app, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [REA plugin for Hermes Agent](https://github.com/NousResearch/hermes-official-plugins/tree/main/rea) — binary, app, firmware, website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [crashlens](https://github.com/mingleiw/crashlens) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [REA Workspace Template](https://github.com/dobest1024/rea-workspace-template) — app, binary, website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [REA Reconstruction Companion](https://github.com/ShadowSwaps/REA-Reconstruction-Companion) — app, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [App X-Ray](https://github.com/Eliot5566/app-xray) — app, binary; upstream: source-reviewed, 2026-11-01; local: imported-not-independently-validated.
+- [Hex-Rays IDA MCP](https://github.com/HexRaysSA/ida-mcp) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Binary Ninja MCP (official)](https://docs.binary.ninja/guide/mcp.html) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Binary Ninja MCP (fosdickio)](https://github.com/fosdickio/binary_ninja_mcp) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [IDA Pro MCP (mrexodia)](https://github.com/mrexodia/ida-pro-mcp) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Radare2 MCP Server](https://github.com/radareorg/radare2-mcp) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [r2ai](https://github.com/radareorg/r2ai) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [DAILA](https://github.com/mahaloz/DAILA) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [RevEng.AI Ghidra Plugin](https://github.com/RevEngAI/plugin-ghidra) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [JADX-AI-MCP](https://github.com/zinja-coder/jadx-ai-mcp) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [frida-mcp (yfe404)](https://github.com/yfe404/frida-mcp) — app, game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Super Trouper](https://github.com/crissyfield/super-trouper) — app, game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [LLDB MCP](https://lldb.llvm.org/use/mcp.html) — binary, app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Claude Reverse Engineering Skill](https://github.com/EncidXVII/claude-reverse-engineering-skill) — app, binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [SpecterOps Reverse Engineering Skills](https://github.com/SpecterOps/skills/tree/main/plugins/reverse-engineering) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [RenderDoc MCP](https://github.com/scarletfantasy/renderdoc-mcp) — game, app; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) — website; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) — website; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [Burp Suite MCP Server](https://github.com/PortSwigger/mcp-server) — website, app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Spectral](https://github.com/spectral-mcp/spectral) — website, app, protocol; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [pyghidra-mcp](https://github.com/clearbluejar/pyghidra-mcp) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [LeanREA](https://github.com/aicodeking/leanrea) — app, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Universal Modder](https://github.com/rehan-remade/universal-modder) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [ReVa (Reverse Engineering Assistant)](https://github.com/cyberkaida/reverse-engineering-assistant) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [x64dbg-MCP Server](https://github.com/duty1g/x64dbg-mcp-server) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [mcp-windbg](https://github.com/svnscha/mcp-windbg) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Cheat Engine MCP Bridge](https://github.com/miscusi-peek/cheatengine-mcp-bridge) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Wireshark MCP](https://github.com/bx33661/Wireshark-MCP) — protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [BINNY](https://github.com/openbin-ai/binny) — binary, app, firmware; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [decomp.wtf](https://github.com/i12bp8/decomp.wtf) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Claude Intercept](https://github.com/whaesemeyer/claude-intercept) — protocol, app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Ghidra MCP Server (bethington)](https://github.com/bethington/ghidra-mcp) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [DecompilerServer](https://github.com/pardeike/DecompilerServer) — app, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Gepetto](https://github.com/JusticeRage/Gepetto) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [GhidrAssistMCP](https://github.com/symgraph/GhidrAssistMCP) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Android Reverse Engineering Skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Reverify](https://github.com/2akouwu/reverify) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [DecompAI](https://github.com/louisgthier/decompai) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Kong](https://github.com/amruth-sn/kong) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Co-op Anything](https://github.com/cranebeaker/coop-anything) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [DeepExtract (DeepExtractIDA)](https://github.com/marcosd4h/DeepExtractIDA) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Mizuchi](https://github.com/macabeus/mizuchi) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ReAgent](https://github.com/Dryxio/reagent) — binary, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [lisa.py](https://github.com/ant4g0nist/lisa.py) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [WireMCP](https://github.com/0xKoda/WireMCP) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ReverserAI](https://github.com/mrphrazer/reverser_ai) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [WPeGPT](https://github.com/WPeace-HcH/WPeGPT) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [IDAssist](https://github.com/symgraph/IDAssist) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [GhidraGPT](https://github.com/weirdmachine64/GhidraGPT) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [GhidrAssist](https://github.com/symgraph/GhidrAssist) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Rikugan](https://github.com/buzzer-re/Rikugan) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [bn](https://github.com/banteg/bn) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [IDA Pro MCP Server (fdrechsler)](https://github.com/fdrechsler/mcp-server-idapro) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Ghidra Headless MCP](https://github.com/mrphrazer/ghidra-headless-mcp) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Binary Ninja Headless MCP](https://github.com/mrphrazer/binary-ninja-headless-mcp) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [IDA-Skill](https://github.com/miunasu/IDA-Skill) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [BinAssist](https://github.com/symgraph/BinAssist) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Reversecore MCP](https://github.com/sjkim1127/Reversecore_MCP) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [AutoProber](https://github.com/GainSec/AutoProber) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ToCode](https://github.com/buzzer-re/ToCode) — binary, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Reverse API Engineer](https://github.com/kalil0321/reverse-api-engineer) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [OpenBaud](https://github.com/Leonezz/openbaud) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [JADX MCP Server (Qtty)](https://github.com/Qtty/jadx-mcp-server) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [usb-rea](https://github.com/emirmrkaljevic/usb-rea) — protocol; upstream: source-reviewed, 2026-11-02; local: imported-not-independently-validated.
+- [IDA NO MCP](https://github.com/P4nda0s/IDA-NO-MCP) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [ida-multi-mcp](https://github.com/MeroZemory/ida-multi-mcp) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [x64dbg MCP (x64dbgMCP)](https://github.com/Wasdubya/x64dbgMCP) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [IDASQL](https://github.com/allthingsida/idasql) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Exoproc](https://github.com/w0ldan/exoproc) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenOCD SPI Dump Plugin](https://github.com/lukejenkins/claude-openocd-spi-dump) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [dos-mcp](https://github.com/abedegno/dos-mcp) — binary, game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [x64dbg MCP](https://github.com/HxT9/x64dbg_mcp) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [adb-mcp](https://github.com/FlashZ/adb-mcp) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [website-to-cli](https://github.com/dennisonbertram/website-to-cli) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [reverse-workbench-skill](https://github.com/Asaiuta/reverse-workbench-skill) — app, binary, firmware, website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MindNode MCP Server](https://github.com/jyuwaaw/mindnode-mcp) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OGhidra](https://github.com/llnl/OGhidra) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [aiDAPal](https://github.com/atredispartners/aidapal) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [x64dbg MCP Server Plugin](https://github.com/SetsunaYukiOvO/x64dbg-mcp) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [JEB-MCP](https://github.com/flankerhqd/jebmcp) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [re-shell](https://github.com/schlarpc/re-shell) — website, app, binary, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ghidra-rpc](https://github.com/cellebrite-labs/ghidra-rpc) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [r0idamcp](https://github.com/r0ysue/r0idamcp) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [SOMCP](https://github.com/bilieebiliee1-design/SOMCP) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / learning-resource (44)
+
+- [rea-playbook](https://github.com/jinshi666888/rea-playbook) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [REA & AI RE Tools Guide (unofficial)](https://reaguide.com/) — app, binary, website; upstream: source-reviewed, 2026-11-02; local: imported-not-independently-validated.
+- [OpenSecurityTraining2](https://ost2.fyi/) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [pwn.college: Reverse Engineering](https://pwn.college/program-security/reverse-engineering/) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Reverse Engineering for Beginners](https://beginners.re/) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [The Official Radare2 Book](https://book.rada.re/) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Finding Jingle Town: Debugging an N64 Game without Symbols](https://blog.chrislewis.au/finding-jingle-town-debugging-an-n64-game-without-symbols/) — game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [JPCERT/CC: APK analysis and API probing on attack servers](https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Reverse Engineering (mytechnotalent)](https://github.com/mytechnotalent/Reverse-Engineering) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Z0FCourse Reverse Engineering](https://github.com/0xZ0F/Z0FCourse_ReverseEngineering) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OWASP Mobile Application Security Testing Guide (MASTG)](https://mas.owasp.org/MASTG/) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [The Decompilation Wiki](https://decompilation.wiki/) — binary, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Frontkick vs Rikugan: a CREBench agent comparison](https://www.synacktiv.com/en/publications/ufc-666-frontkick-vs-rikugan) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [FLARE Learning Hub](https://github.com/mandiant/flare-learning-hub) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Nintendo Switch Reverse Engineering](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering) — protocol, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Android App Reverse Engineering 101](https://www.ragingrock.com/AndroidAppRE/) — app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Reverse Engineering iOS Applications](https://github.com/ivRodriguezCA/RE-iOS-Apps) — app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [tiny-dec](https://github.com/ZhangZhuoSJTU/tiny-dec) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Reverse Engineering Reading List](https://github.com/onethawt/reverseengineering-reading-list) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Decomp Academy](https://decomp-academy.dev/) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [OWASP Firmware Security Testing Methodology (FSTM)](https://scriptingxss.gitbook.io/firmware-security-testing-methodology/) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Emproof workshop: Firmware Reverse Engineering](https://github.com/emproof-com/workshop_firmware_reverse_engineering) — firmware, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [iOS App Reverse Engineering](https://github.com/iosre/iOSAppReverseEngineering) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Frida Snippets](https://github.com/iddoeldor/frida-snippets) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [iOSRE: iOS Reverse Engineering reference](https://github.com/kpwn/iOSRE) — app, binary, firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [linux-re-101](https://github.com/michalmalik/linux-re-101) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Frida Labs](https://github.com/DERE-ad2001/Frida-Labs) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [osx & ios re 101](https://github.com/michalmalik/osx-re-101) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [AndroidReverse101](https://github.com/Evil0ctal/AndroidReverse101) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Ghidra Snippets](https://github.com/HackOvert/GhidraSnippets) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Frida Boot: a beginner binary instrumentation workshop](https://github.com/leonjza/frida-boot) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Embedded Hacking (mytechnotalent)](https://github.com/mytechnotalent/Embedded-Hacking) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Reverse-Engineering a Bluetooth-Enabled Radar Detector](https://github.com/brandonasuncion/Reverse-Engineering-Bluetooth-Protocols) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Link Pi ENCx encoders (unofficial documentation)](https://github.com/matiaspl/LinkPi-ENCx) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Supplementary AST-Based Deobfuscation Materials](https://github.com/SteakEnthusiast/Supplementary-AST-Based-Deobfuscation-Materials) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [MCP Reversing Dataset (mrexodia)](https://github.com/mrexodia/mcp-reversing-dataset) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ICSim (Instrument Cluster Simulator)](https://github.com/zombieCraig/ICSim) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [RPISEC Malware Analysis course (CSCI 4976)](https://github.com/RPISEC/Malware) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Corkami pics](https://github.com/corkami/pics) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Practical Malware Analysis](https://nostarch.com/malware) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Windows Malware Analysis training, volume 1 (malware_training_vol1)](https://github.com/hasherezade/malware_training_vol1) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RE-Workstation](https://github.com/SUNYT772/RE-Workstation) — app, binary, firmware, website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [CrackMes](https://github.com/ghostware0x00/CrackMes) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Hacking the Xbox — 日本語訳](https://github.com/Nico-Tech-Shenzhen/hacking-the-xbox-ja) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / project (4)
+
+- [REA — Reverse Engineer Anything](https://github.com/morluto/rea) — website, game, app, binary, firmware, protocol; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [PSP Web Recomp](https://github.com/snuri00/psp-web-recomp) — game, website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Lutron Protocols](https://github.com/alxgmpr/lutron-protocols) — protocol, firmware, app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [GRB Modding Knowledgebase](https://github.com/dataterminals/grb-modding-knowledgebase) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / research (245)
+
+- [rea-lab](https://github.com/pablodiazjorge/rea-lab) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [LLM4Decompile (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.203/) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [DecompileBench (Findings of ACL 2025)](https://aclanthology.org/2025.findings-acl.1194/) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [ReSym (CCS 2024)](https://doi.org/10.1145/3658644.3670340) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [CNNPRE (IEEE Access 2023)](https://github.com/JG91/CNNPRE) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [esp-idf-injection-ng](https://github.com/mahdamin/esp-idf-injection-ng) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [T2 platform research](https://github.com/macintog/t2-platform-research) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Glaurung Models](https://github.com/mjbommar/glaurung-models) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Binary BPE Tokenizer for Executable Analysis](https://github.com/mjbommar/binary-tokenizer-paper) — binary, app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Spelunking](https://github.com/gaelic-ghost/spelunking) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [LLM4Decompile: Decompiling Binary Code with Large Language Models](https://aclanthology.org/2024.emnlp-main.203/) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [DecompileBench: A Comprehensive Benchmark for Evaluating Decompilers in Real-World Scenarios](https://aclanthology.org/2025.findings-acl.1194/) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [DIRE: A Neural Approach to Decompiled Identifier Naming](https://doi.org/10.1109/ASE.2019.00064) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Augmenting Decompiler Output with Learned Variable Names and Types](https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries](https://doi.org/10.1145/3658644.3670340) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [CrackMeBench: Binary Reverse Engineering for Agents](https://arxiv.org/abs/2605.10597) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [CREBench: Evaluating Large Language Models in Cryptographic Binary Reverse Engineering](https://openreview.net/forum?id=tLYdf8hWJB) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark](https://arxiv.org/abs/2608.11469) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Humans vs. Machines: A Comparison With AI Agents in Software Reverse Engineering](https://arxiv.org/abs/2610.14960) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](https://aclanthology.org/2025.naacl-long.199/) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Interaction2Code: Benchmarking MLLM-based Interactive Webpage Code Generation from Interactive Prototyping](https://doi.org/10.1109/ASE63991.2025.00028) — website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [IWR-Bench: Can LVLMs reconstruct interactive webpage from a user interaction video?](https://proceedings.iclr.cc/paper_files/paper/2026/hash/55bfedfd31489e5ae83c9ce8eec7b0e1-Abstract-Conference.html) — website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Dashboard2Code: Evaluating Multimodal Models on Reconstructing Interactive Dashboards](https://aclanthology.org/2026.acl-long.1750/) — website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal Large Language Models in WebUI-to-Code](https://aclanthology.org/2025.findings-acl.815/) — website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [GameReplica: A Benchmark for Black-Box Visual Game Replication by Vision-Language Agents](https://arxiv.org/abs/2609.22308) — game, website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Reverse Engineering Mobile Application User Interfaces with REMAUI (T)](https://ieeexplore.ieee.org/abstract/document/7372013) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [SPRITE: From Static Mockups to Engine-Ready Game UI](https://doi.org/10.1145/3772363.3798742) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments](https://arxiv.org/abs/2606.26094) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [pix2code: Generating Code from a Graphical User Interface Screenshot](https://doi.org/10.1145/3220134.3220135) — app, website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Machine Learning-Based Prototyping of Graphical User Interfaces for Mobile Apps](https://doi.org/10.1109/TSE.2018.2844788) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [DeclarUI: Bridging Design and Development with Automated Declarative UI Code Generation](https://doi.org/10.1145/3715726) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [ProgramBench: Can Language Models Rebuild Programs From Scratch?](https://arxiv.org/abs/2605.03546) — binary, app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Decompile-Bench: Million-Scale Binary-Source Function Pairs for Real-World Binary Decompilation](https://papers.nips.cc/paper_files/paper/2025/hash/079cf13ae174c31f148207d94d213bdc-Abstract-Datasets_and_Benchmarks_Track.html) — binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://www.usenix.org/conference/usenixsecurity22/presentation/scharnowski) — firmware; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [FirmAE: Towards Large-Scale Emulation of IoT Firmware for Dynamic Analysis](https://doi.org/10.1145/3427228.3427294) — firmware; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [NEMESYS: Network Message Syntax Reverse Engineering by Analysis of the Intrinsic Structure of Individual Messages](https://www.usenix.org/conference/woot18/presentation/kleber) — protocol; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [NetPlier: Probabilistic Network Protocol Reverse Engineering from Message Traces](https://www.ndss-symposium.org/ndss-paper/netplier-probabilistic-network-protocol-reverse-engineering-from-message-traces/) — protocol; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks](https://arxiv.org/abs/2609.18805) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification](https://proceedings.mlr.press/v306/he26n.html) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [From UI Design Image to GUI Skeleton: A Neural Machine Translator to Bootstrap Mobile GUI Implementation](https://doi.org/10.1145/3180155.3180240) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Tycho: Active Abstraction with Programmatic World Models for ARC-AGI-3](https://arxiv.org/abs/2607.28287) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment](https://papers.nips.cc/paper_files/paper/2024/hash/820c61a0cd419163ccbd2c33b268816e-Abstract-Conference.html) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [UI2App: Benchmarking Visual Interaction Inference in Executable Web Application Generation](https://arxiv.org/abs/2607.06306) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://doi.org/10.1145/3719027.3744871) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [CASCADE: LLM-powered JavaScript Deobfuscator at Google](https://doi.org/10.1145/3786583.3786873) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Divide-and-Conquer: Generating UI Code from Screenshots](https://doi.org/10.1145/3729364) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents](https://arxiv.org/abs/2507.22827) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [SK2Decompile: LLM-based Two-Phase Binary Decompilation from Skeleton to Skin](https://proceedings.iclr.cc/paper_files/paper/2026/hash/9132583dd869acb0cafeb0ed25eb031a-Abstract-Conference.html) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Automatic Wireless Protocol Reverse Engineering](https://www.usenix.org/conference/woot19/presentation/pohl) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html) — game; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [The Closer You Look, The More You Learn: A Grey-box Approach to Protocol State Machine Learning](https://doi.org/10.1145/3548606.3559365) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [HALucinator: Firmware Re-hosting Through Abstraction Layer Emulation](https://www.usenix.org/conference/usenixsecurity20/presentation/clements) — firmware; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries](https://www.ndss-symposium.org/ndss-paper/user-space-dependency-aware-rehosting-for-linux-based-firmware-binaries/) — firmware; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Target-Centric Firmware Rehosting with Penguin](https://www.ndss-symposium.org/ndss-paper/auto-draft-634/) — firmware; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Fingerprinting and analysis of Bluetooth devices with automata learning](https://doi.org/10.1007/s10703-023-00425-y) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs](https://proceedings.nips.cc/paper_files/paper/2024/hash/cb66be286795d71f89367d596bf78ea7-Abstract-Datasets_and_Benchmarks_Track.html) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [DeGPT: Optimizing Decompiler Output with LLM](https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm/) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [BinPRE: Enhancing Field Inference in Binary Analysis Based Protocol Reverse Engineering](https://dl.acm.org/doi/10.1145/3658644.3690299) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [BinaryInferno: A Semantic-Driven Approach to Field Inference for Binary Message Formats](https://www.ndss-symposium.org/ndss-paper/binaryinferno-a-semantic-driven-approach-to-field-inference-for-binary-message-formats/) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [ICEPRE: ICS Protocol Reverse Engineering via Data-Driven Concolic Execution](https://dl.acm.org/doi/10.1145/3728982) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Lifting Network Protocol Implementation to Precise Format Specification with Security Applications](https://dl.acm.org/doi/10.1145/3576915.3616614) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [UIOrchestra: Generating High-Fidelity Code from UI Designs with a Multi-agent System](https://aclanthology.org/2025.findings-emnlp.150/) — app, website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly](https://ieeexplore.ieee.org/document/10444788) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Coda: An End-to-End Neural Program Decompiler](https://proceedings.neurips.cc/paper_files/paper/2019/hash/093b60fd0557804c8ba0cbf1453da22f-Abstract.html) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Debin: Predicting Debug Information in Stripped Binaries](https://dl.acm.org/doi/10.1145/3243734.3243866) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Towards LLM-Resistant Software Protection: Agent Failure Patterns in CTF Reverse Engineering](https://www.ndss-symposium.org/ndss-paper/auto-draft-657/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [TypeForge: Synthesizing and Selecting Best-Fit Composite Data Types for Stripped Binaries](https://ieeexplore.ieee.org/document/11023499) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Towards Automated Dynamic Analysis for Linux-based Embedded Firmware](https://doi.org/10.14722/ndss.2016.23415) — firmware; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](https://aclanthology.org/2024.findings-emnlp.385/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [jTrans: Jump-Aware Transformer for Binary Code Similarity Detection](https://dl.acm.org/doi/10.1145/3533767.3534367) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DecLLM: LLM-Augmented Recompilable Decompilation for Enabling Programmatic Use of Decompiled Code](https://dl.acm.org/doi/10.1145/3728958) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Neural reverse engineering of stripped binaries using augmented control flow graphs](https://dl.acm.org/doi/10.1145/3428293) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering](https://www.ndss-symposium.org/ndss-paper/decompiling-the-synergy-an-empirical-study-of-human-llm-teaming-in-software-reverse-engineering/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DynPRE: Protocol Reverse Engineering via Dynamic Inference](https://www.ndss-symposium.org/ndss-paper/dynpre-protocol-reverse-engineering-via-dynamic-inference/) — protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [BinMetric: A Comprehensive Binary Code Analysis Benchmark for Large Language Models](https://www.ijcai.org/proceedings/2025/858) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DiSCo: Towards Decompiling EVM Bytecode to Source Code using Large Language Models](https://dl.acm.org/doi/10.1145/3729373) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [StackSight: Unveiling WebAssembly through Large Language Models and Neurosymbolic Chain-of-Thought Decompilation](https://proceedings.mlr.press/v235/fang24e.html) — binary, website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Idioms: A Simple and Effective Framework for Turbo-Charging Local Neural Decompilation with Well-Defined Types](https://www.ndss-symposium.org/ndss-paper/idioms-a-simple-and-effective-framework-for-turbo-charging-local-neural-decompilation-with-well-defined-types/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [EnIGMA: Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](https://proceedings.mlr.press/v267/abramovich25a.html) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Statistical Deobfuscation of Android Applications](https://dl.acm.org/doi/10.1145/2976749.2978422) — app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [FidelityGPT: Correcting Decompilation Distortions with Retrieval Augmented Generation](https://www.ndss-symposium.org/ndss-paper/fidelitygpt-correcting-decompilation-distortions-with-retrieval-augmented-generation/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Large Language Models for Code Analysis: Do LLMs Really Do Their Job?](https://www.usenix.org/conference/usenixsecurity24/presentation/fang) — website, app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs](https://www.ndss-symposium.org/ndss-paper/beyond-classification-inferring-function-names-in-stripped-binaries-via-domain-adapted-llms/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [“Len or index or count, anything but v1”: Predicting Variable Names in Decompilation Output with Transfer Learning](https://ieeexplore.ieee.org/document/10646727) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [WebCode2M: A Real-World Dataset for Code Generation from Webpage Designs](https://dl.acm.org/doi/10.1145/3696410.3714889) — website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SoK: AI-Augmented Binary Reversing](https://arxiv.org/abs/2606.17398) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Beyond the C: Retargetable Decompilation using Neural Machine Translation](https://www.ndss-symposium.org/ndss-paper/auto-draft-298/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [ExeBench: an ML-scale dataset of executable C functions](https://dl.acm.org/doi/10.1145/3520312.3534867) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [XFL: Naming Functions in Binaries with Extreme Multi-label Learning](https://ieeexplore.ieee.org/document/10179439) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [WaDec: Decompiling WebAssembly Using Large Language Model](https://dl.acm.org/doi/10.1145/3691620.3695020) — binary, website; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [SymLM: Predicting Function Names in Stripped Binaries via Context-Sensitive Execution-Aware Code Embeddings](https://dl.acm.org/doi/10.1145/3548606.3560612) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Nova: Generative Language Models for Assembly Code with Hierarchical Attention and Contrastive Learning](https://proceedings.iclr.cc/paper_files/paper/2025/hash/ef283d62b4bce30854a8d4827f331229-Abstract-Conference.html) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Unleashing the Power of Generative Model in Recovering Variable Names from Stripped Binary](https://www.ndss-symposium.org/ndss-paper/unleashing-the-power-of-generative-model-in-recovering-variable-names-from-stripped-binary/) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [BinaryAI: Binary Software Composition Analysis via Intelligent Binary Source Code Matching](https://dl.acm.org/doi/10.1145/3597503.3639100) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [LLM Agent-Assisted Reverse Engineering with Quantitative Readability Metrics](https://arxiv.org/abs/2606.06838) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Decoupling is a Necessity: Transformation-Agnostic Decompiled Code Recovery under Optimization and Obfuscation](https://arxiv.org/abs/2608.27889) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Automatically Attacking Software Reverse Engineering AI Agents](https://papers.academic-conferences.org/index.php/eccws/article/view/4597) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [The CodeInverter Suite: Structure- and Data-Aware Binary Decompilation with Efficient LLMs](https://dl.acm.org/doi/10.1145/3832783.3837554) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [FirmPilot: Evidence-Guided Multi-Agent Environment Recovery for IoT Firmware Rehosting](https://arxiv.org/abs/2607.14903) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FirmCure:Towards Autonomous and Adaptive Rehosting of Linux-Based Firmware](https://arxiv.org/abs/2606.24549) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Reactive Peripheral Modeling for Faithful Firmware Rehosting](https://arxiv.org/abs/2608.29737) — firmware, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Recovering Process Variables from Industrial Network Traffic via Search-Based Optimization](https://arxiv.org/abs/2608.16403) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [TaoD2C-Bench: Benchmarking MLLMs for Industrial UI Code Generation Beyond Visual Fidelity](https://arxiv.org/abs/2610.10374) — website, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [From Visual Widgets to UI Code: Efficient Tool-Grounded Generation](https://arxiv.org/abs/2608.12611) — app, website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Does It Render Everywhere? A Study of Cross-Environment Compatibility in MLLM-Generated Webpages](https://arxiv.org/abs/2608.12518) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [UniCoder: Unified Visual-to-Code Generation via Symbolic Rewards and Reference-Guided Code Optimization](https://arxiv.org/abs/2606.31732) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [NotDec: WebAssembly Decompilation With Inter-Procedural Type Recovery](https://dl.acm.org/doi/10.1145/3744916.3787762) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering](https://dl.acm.org/doi/10.1145/3832783.3834339) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Echo: Learning-based Matching Decompilation using Trusted Back Translation](https://arxiv.org/abs/2609.18706) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [When LLM Decompilers Recompile More and Preserve Less](https://arxiv.org/abs/2609.05370) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ASAP: Assembly-Source Aligned Pseudocode Refinement For Binary Decompilation](https://arxiv.org/abs/2610.06900) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [STILL: Recovering Lowered STL Semantics for LLM-assisted C++ Decompilation](https://arxiv.org/abs/2608.26408) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [CHISEL-ing Back Source Code with AI-enabled Iterative Recovery](https://arxiv.org/abs/2608.27981) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Decaf: Improving Neural Decompilation with Automatic Feedback and Search](https://arxiv.org/abs/2605.11501) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Binary Decompilation LLM with Feedback-Driven Multi-Turn Refinement](https://arxiv.org/abs/2606.16162) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [The Evolution of Binary Decompilation in the Modern Era: A Taxonomy, Literature Review, and Future Perspectives](https://arxiv.org/abs/2608.24955) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [SoK: Are LLMs Reliable at Source Code Recovery? A Taxonomy and Empirical Evaluation](https://arxiv.org/abs/2610.11556) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis](https://arxiv.org/abs/2610.20538) — website, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Reveree: Diagnosing LLM Reverse-Engineering Agents](https://arxiv.org/abs/2609.01185) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [From Code to Requirements: Agentic Reverse Engineering of Business Rules at Enterprise Scale](https://arxiv.org/abs/2609.22719) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [SWE-Game: Can Coding Agents Build the Games We Want?](https://arxiv.org/abs/2609.33678) — game; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [MirrorCode: AI can rebuild entire programs from behavior alone](https://arxiv.org/abs/2606.30182) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [On the Viability of Requirements Generation from Code: An Experience Report](https://doi.org/10.1109/REW72749.2026.00023) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Khost: KVM-based Near Native MCU Firmware Rehosting](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-chunlin) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines](https://arxiv.org/abs/2609.13389) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [SoK: A Large-Scale Empirical Study of Emulation-Based Dynamic Analysis Research for ARM Cortex-M Firmware (Extended Version)](https://arxiv.org/abs/2609.38872) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Protocol Reverse Engineering via Deep Transfer Learning](https://doi.org/10.1145/3797124) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Decompiling Quantum Assembly into Structured Programs](https://arxiv.org/abs/2610.05012) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation](https://arxiv.org/abs/2609.27058) — website, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Faultless: A Program Equivalence Technique for Validating and Evaluating Neural Decompilers](https://arxiv.org/abs/2609.34089) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [A Memorization Floor for LLM Refinement of Decompiled Code](https://arxiv.org/abs/2609.17236) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [The Deception Delta: Adversarial Evaluation of LLM-Based Smart Contract Bytecode Forensics](https://arxiv.org/abs/2609.14098) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker](https://arxiv.org/abs/2610.21597) — binary, protocol, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Recall-Oriented Precise Binary-to-Source Function Matching](https://arxiv.org/abs/2610.23546) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [SatBleed: Security of Commoditized Communication Modules in Satellites](https://doi.org/10.1109/SP63933.2026.00213) — firmware, protocol, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [POZZER: A Power Side Channel-guided Fuzzer for Black-Box Embedded Systems](https://arxiv.org/abs/2609.23583) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase](https://arxiv.org/abs/2609.29744) — binary, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Schema: Discovering Unknown Environments via Agentic Program Induction](https://arxiv.org/abs/2609.39140) — game; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Agentic Reverse Engineering: From I/O to Code with Discovery Agent](https://arxiv.org/abs/2605.15334) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Locate, Then Reason: End-to-End Patch Presence Testing in Stripped Binaries](https://arxiv.org/abs/2610.25071) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Semantic Validation of Packer Identification Tools: Characterization, Repair, and Downstream Impact](https://arxiv.org/abs/2605.25923) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [State-Aware Generation of Deployable Websites from Visual Prototypes and Requirements](https://arxiv.org/abs/2610.17861) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [From Dead Code and Static Requirements to Working Engines: Software Revival with Coding Agents](https://arxiv.org/abs/2609.36161) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [IChart2Code: Benchmarking Multimodal Large Language Models for Interactive Chart Code Generation](https://arxiv.org/abs/2609.32413) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [NYU CTF Bench: A Scalable Open-Source Benchmark Dataset for Evaluating LLMs in Offensive Security](https://proceedings.neurips.cc/paper_files/paper/2024/hash/69d97a6493fbf016fff0a751f253ad18-Abstract-Datasets_and_Benchmarks_Track.html) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis](https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision](https://dl.acm.org/doi/10.1145/3650212.3652145) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking](https://dl.acm.org/doi/10.1145/3643752) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [On Benchmarking Code LLMs for Android Malware Analysis](https://dl.acm.org/doi/10.1145/3713081.3731745) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Fool Me If You Can: On the Robustness of Binary Code Similarity Detection Models against Semantics-Preserving Transformations](https://dl.acm.org/doi/10.1145/3797116) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Malsight: Exploring Malicious Source Code and Benign Pseudocode for Iterative Binary Malware Summarization](https://doi.org/10.1109/TIFS.2025.3583552) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](https://proceedings.iclr.cc/paper_files/paper/2025/hash/3e9412a9c1d93810ef3ef7825115016b-Abstract-Conference.html) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Code is not Natural Language: Unlock the Power of Semantics-Oriented Graph Representation for Binary Code Similarity Detection](https://www.usenix.org/conference/usenixsecurity24/presentation/he-haojie) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [TYGR: Type Inference on Stripped Binaries using Graph Neural Networks](https://www.usenix.org/conference/usenixsecurity24/presentation/zhu-chang) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ShieldedCode: Learning Robust Representations for Virtual Machine Protected Code](https://proceedings.iclr.cc/paper_files/paper/2026/hash/286976486c9bbfa2c2069b01b259b19d-Abstract-Conference.html) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [STRIDE: Simple Type Recognition In Decompiled Executables](https://arxiv.org/abs/2407.02733) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Exploring the Potential of LLMs for Code Deobfuscation](https://doi.org/10.1007/978-3-031-97620-9_15) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Lares: LLM-driven Code Slice Semantic Search for Patch Presence Testing](https://ieeexplore.ieee.org/document/11334274) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [No More Gotos: Decompilation Using Pattern-Independent Control-Flow Structuring and Semantics-Preserving Transformations](https://www.ndss-symposium.org/ndss2015/ndss-2015-programme/no-more-gotos-decompilation-using-pattern-independent-control-flow-structuring-and-semantics/) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Lifting Optimized Binaries to Canonical Compiler IR via Structure-Aware Retrieval and Iterative Verification](https://aclanthology.org/2026.acl-long.527/) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Polyglot: Automatic Extraction of Protocol Message Format using Dynamic Binary Analysis](https://dl.acm.org/doi/10.1145/1315245.1315286) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Avatar: A Framework to Support Dynamic Security Analysis of Embedded Systems’ Firmwares](https://www.ndss-symposium.org/ndss2014/ndss-2014-programme/avatar-framework-support-dynamic-security-analysis-embedded-systems-firmwares/) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Tupni: Automatic Reverse Engineering of Input Formats](https://dl.acm.org/doi/10.1145/1455770.1455820) — protocol, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Prospex: Protocol Specification Extraction](https://ieeexplore.ieee.org/document/5207640) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [SoK: Enabling Security Analyses of Embedded Systems via Rehosting](https://dl.acm.org/doi/10.1145/3433210.3453093) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Towards Automated Protocol Reverse Engineering Using Semantic Information](https://dl.acm.org/doi/10.1145/2590296.2590346) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [How far we have come: testing decompilation correctness of C decompilers](https://dl.acm.org/doi/10.1145/3395363.3397370) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [rev.ng: A Unified Binary Analysis Framework to Recover CFGs and Function Boundaries](https://dl.acm.org/doi/10.1145/3033019.3033028) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Jetset: Targeted Firmware Rehosting for Embedded Systems](https://www.usenix.org/conference/usenixsecurity21/presentation/johnson) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [BinRec: Dynamic Binary Lifting and Recompilation](https://dl.acm.org/doi/10.1145/3342195.3387550) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Egalito: Layout-Agnostic Binary Recompilation](https://dl.acm.org/doi/10.1145/3373376.3378470) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [GUI ripping: reverse engineering of graphical user interfaces for testing](https://ieeexplore.ieee.org/document/1287256) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Ramblr: Making Reassembly Great Again](https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/ramblr-making-reassembly-great-again/) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Crawling Ajax-Based Web Applications through Dynamic Analysis of User Interface State Changes](https://dl.acm.org/doi/10.1145/2109205.2109208) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [RetroWrite: Statically Instrumenting COTS Binaries for Fuzzing and Sanitization](https://ieeexplore.ieee.org/document/9152762) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Game Engine Learning from Video](https://www.ijcai.org/proceedings/2017/518) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Learning to Simulate Dynamic Environments with GameGAN](https://ieeexplore.ieee.org/document/9156900) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Combining Functional and Automata Synthesis to Discover Causal Reactive Programs](https://dl.acm.org/doi/10.1145/3571249) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [StructEval: Benchmarking LLMs' Capabilities to Generate Structural Outputs](https://arxiv.org/abs/2505.20139) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [WebWorld: The Browser as a World Model for Self-Improving Web Code](https://arxiv.org/abs/2608.30530) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Training Language Model Agents to Find Vulnerabilities with CTF-Dojo](https://proceedings.mlr.press/v306/zhuo26c.html) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Cyber-Zero: Training Cybersecurity Agents without Runtime](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f9f54762cbb4fe4dbffdd4f792c31221-Abstract-Conference.html) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Binary Rewriting without Control Flow Recovery](https://dl.acm.org/doi/10.1145/3385412.3385972) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [LaTCoder: Converting Webpage Design to Code with Layout-as-Thought](https://doi.org/10.1145/3711896.3737016) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Understanding JavaScript Event-Based Interactions](https://doi.org/10.1145/2568225.2568268) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Is This the Same Code? A Comprehensive Study of Decompilation Techniques for WebAssembly Binaries](https://link.springer.com/chapter/10.1007/978-3-031-94448-2_6) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Revisiting Binary Code Similarity Analysis Using Interpretable Feature Engineering and Lessons Learned](https://doi.org/10.1109/TSE.2022.3187689) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Decompiling x86 Deep Neural Network Executables](https://www.usenix.org/conference/usenixsecurity23/presentation/liu-zhibo) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Decompiling Smart Contracts with a Large Language Model](https://arxiv.org/abs/2506.19624) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [SCDBench: A Benchmark for LLM-Based Smart Contract Decompilers](https://arxiv.org/abs/2605.29059) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Rico: A Mobile App Dataset for Building Data-Driven Design Applications](https://doi.org/10.1145/3126594.3126651) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Binary Code Summarization: Benchmarking ChatGPT/GPT-4 and Other Large Language Models](https://arxiv.org/abs/2312.09601) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [How Far Have We Gone in Binary Code Understanding Using Large Language Models](https://ieeexplore.ieee.org/document/10795058) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Cross-Inlining Binary Function Similarity Detection](https://dl.acm.org/doi/10.1145/3597503.3639080) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [How Machine Learning Is Solving the Binary Function Similarity Problem](https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [PoE-World: Compositional World Modeling with Products of Programmatic Experts](https://papers.nips.cc/paper_files/paper/2025/hash/262dd62fd1bbb30d6a6b4d578f5e65ff-Abstract-Conference.html) — game; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Guided GUI Testing of Android Apps with Minimal Restart and Approximate Learning](https://doi.org/10.1145/2509136.2509552) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [WAFFLE: Fine-tuning Multi-Modal Model for Automated Front-End Development](https://aclanthology.org/2025.acl-long.1208/) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Diffusion Models Are Real-Time Game Engines](https://proceedings.iclr.cc/paper_files/paper/2025/hash/b71ecea210f7159f31e46631fe5c838f-Abstract-Conference.html) — game; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Pop Quiz! Can a Large Language Model Help With Reverse Engineering?](https://arxiv.org/abs/2202.01142) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [D-Helix: A Generic Decompiler Testing Framework Using Symbolic Differentiation](https://www.usenix.org/conference/usenixsecurity24/presentation/zou) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Assemblage: Automatic Binary Dataset Construction for Machine Learning](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6bbefc73a187dd42e0dc065b4e7a0615-Abstract-Datasets_and_Benchmarks_Track.html) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Mechanics Automatically Recognized via Interactive Observation: Jumping](https://doi.org/10.1145/3102071.3102104) — game; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping](https://aclanthology.org/2025.naacl-long.198/) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Decomperson: How Humans Decompile and What We Can Learn From It](https://www.usenix.org/conference/usenixsecurity22/presentation/burk) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Unleashing the Power of LLM to Infer State Machine From the Protocol Implementation](https://doi.org/10.1109/IWQoS65803.2025.11143461) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset](https://arxiv.org/abs/2403.09029) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Elipmoc: Advanced Decompilation of Ethereum Smart Contracts](https://dl.acm.org/doi/10.1145/3527321) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [MappyLand: Fast, Accurate Mapping for Console Games](https://ojs.aaai.org/index.php/AIIDE/article/view/18892) — game; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://ieeexplore.ieee.org/document/9519398) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [DeepDi: Learning a Relational Graph Convolutional Network Model on Instructions for Fast and Accurate Disassembly](https://www.usenix.org/conference/usenixsecurity22/presentation/yu-sheng) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Noncompliance as Deviant Behavior: An Automated Black-box Noncompliance Checker for 4G LTE Cellular Devices](https://dl.acm.org/doi/10.1145/3460120.3485388) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [LibreCAN: Automated CAN Message Translator](https://dl.acm.org/doi/10.1145/3319535.3363190) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Automatic Firmware Emulation through Invalidity-guided Knowledge Inference](https://www.usenix.org/conference/usenixsecurity21/presentation/zhou) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [What Your Firmware Tells You Is Not How You Should Emulate It: A Specification-Guided Approach for Firmware Emulation](https://dl.acm.org/doi/10.1145/3548606.3559386) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Conware: Automated Modeling of Hardware Peripherals](https://dl.acm.org/doi/10.1145/3433210.3437532) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [A Taxonomy of C Decompiler Fidelity Issues](https://www.usenix.org/conference/usenixsecurity24/presentation/dramko) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Refining Decompiled C Code with Large Language Models](https://arxiv.org/abs/2310.06530) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ICSREF: A Framework for Automated Reverse Engineering of Industrial Control Systems Binaries](https://doi.org/10.14722/ndss.2019.23271) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [On Manually Reverse Engineering Communication Protocols of Linux Based IoT Systems](https://arxiv.org/abs/2007.11981) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets](https://arxiv.org/abs/2006.09809) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [From Library Portability to Para-rehosting: Natively Executing Microcontroller Software on Commodity Hardware](https://doi.org/10.14722/ndss.2021.24308) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Trex: Learning Execution Semantics from Micro-Traces for Binary Similarity](https://arxiv.org/abs/2012.08680) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [A Cross-Architecture Instruction Embedding Model for Natural Language Processing-Inspired Binary Code Analysis](https://arxiv.org/abs/1812.09652) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [D-LiFT: Improving LLM-based Decompiler Backend via Code Quality-driven Fine-tuning](https://arxiv.org/abs/2506.10125) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BaseSAFE: Baseband SAnitized Fuzzing through Emulation](https://doi.org/10.1145/3395351.3399360) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Towards Neural Decompilation](https://arxiv.org/abs/1905.08325) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [FoC: Figure out the Cryptographic Functions in Stripped Binaries with LLMs](https://arxiv.org/abs/2403.18403) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Asteria-Pro: Enhancing Deep-Learning Based Binary Code Similarity Detection by Incorporating Domain Knowledge](https://arxiv.org/abs/2301.00511) — binary, firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Snipuzz: Black-box Fuzzing of IoT Firmware via Message Snippet Inference](https://arxiv.org/abs/2105.05445) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Asteria: Deep Learning-based AST-Encoding for Cross-platform Binary Code Similarity Detection](https://doi.org/10.1109/DSN48987.2021.00036) — binary, firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Exploring the Efficacy of Large Language Models (GPT-4) in Binary Reverse Engineering](https://arxiv.org/abs/2406.06637) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [InternalBlue - Bluetooth Binary Patching and Experimentation Framework](https://doi.org/10.1145/3307334.3326089) — binary, firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Manticore: A User-Friendly Symbolic Execution Framework for Binaries and Smart Contracts](https://arxiv.org/abs/1907.03890) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ECMO: Peripheral Transplantation to Rehost Embedded Linux Kernels](https://doi.org/10.1145/3460120.3484753) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Automated Dynamic Firmware Analysis at Scale: A Case Study on Embedded Web Interfaces](https://arxiv.org/abs/1511.03609) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [REx86: A Local Large Language Model for Assisting in x86 Assembly Reverse Engineering](https://doi.org/10.1109/ACSAC67867.2025.00024) — binary, firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Towards usable automated detection of CPU architecture and endianness for arbitrary binary files and object code sequences](https://doi.org/10.1145/3374664.3375742) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [CEBin: A Cost-Effective Framework for Large-Scale Binary Code Similarity Detection](https://arxiv.org/abs/2402.18818) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [HELIOS: Hierarchical Graph Abstraction for Structure-Aware LLM Decompilation](https://arxiv.org/abs/2601.14598) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [kTrans: Knowledge-Aware Transformer for Binary Code Embedding](https://arxiv.org/abs/2308.12659) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Automated Attack Synthesis by Extracting Finite State Machines from Protocol Specification Documents](https://arxiv.org/abs/2202.09470) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ReF Decompile: Relabeling and Function Call Enhanced Decompile](https://arxiv.org/abs/2502.12221) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Extracting Protocol Format as State Machine via Controlled Static Loop Analysis](https://arxiv.org/abs/2305.13483) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Assessing LLMs in Malicious Code Deobfuscation of Real-world Malware Campaigns](https://arxiv.org/abs/2404.19715) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## Awesome-REA / tool (607)
+
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) — binary, game, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [radare2](https://github.com/radareorg/radare2) — binary, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Cutter](https://github.com/rizinorg/cutter) — binary, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Frida](https://github.com/frida/frida) — app, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [JADX](https://github.com/skylot/jadx) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Apktool](https://github.com/iBotPeaches/Apktool) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Androguard](https://github.com/androguard/androguard) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [ILSpy](https://github.com/icsharpcode/ILSpy) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [dnSpyEx](https://github.com/dnSpyEx/dnSpy) — app; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [@electron/asar](https://github.com/electron/asar) — app, website; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [webcrack](https://github.com/j4k0xb/webcrack) — app, website; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [humanify](https://github.com/jehna/humanify) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [WABT](https://github.com/WebAssembly/wabt) — website, binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [wasm-tools](https://github.com/bytecodealliance/wasm-tools) — website, binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Binwalk](https://github.com/ReFirmLabs/binwalk) — firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [unblob](https://github.com/onekey-sec/unblob) — firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Ghidra Firmware Utilities](https://github.com/al3xtjames/ghidra-firmware-utils) — firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Qiling](https://github.com/qilingframework/qiling) — binary, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Unicorn Engine](https://github.com/unicorn-engine/unicorn) — binary, game, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [angr](https://github.com/angr/angr) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [LIEF](https://github.com/lief-project/LIEF) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Capstone](https://github.com/capstone-engine/capstone) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [ImHex](https://github.com/WerWolv/ImHex) — binary, game, firmware; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [x64dbg](https://github.com/x64dbg/x64dbg) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [GDB](https://sourceware.org/gdb/) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [rr](https://github.com/rr-debugger/rr) — binary; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Diaphora](https://github.com/joxeankoret/diaphora) — binary, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [BinDiff](https://github.com/google/bindiff) — binary, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [Detect It Easy](https://github.com/horsicq/Detect-It-Easy) — binary, game; upstream: source-reviewed, 2026-10-15; local: imported-not-independently-validated.
+- [RenderDoc](https://github.com/baldurk/renderdoc) — game, app; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [AssetRipper](https://github.com/AssetRipper/AssetRipper) — game; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL) — game, app, binary; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) — game, app, binary; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [mitmproxy](https://github.com/mitmproxy/mitmproxy) — website, app, protocol; upstream: source-reviewed, 2026-10-16T01:05:01Z; local: imported-not-independently-validated.
+- [Wakaru](https://github.com/pionxzh/wakaru) — website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [jsdeob-workbench](https://github.com/Owl4444/jsdeob-workbench) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [frida-il2cpp-bridge](https://github.com/vfsfitvnm/frida-il2cpp-bridge) — game, app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [objdiff](https://github.com/encounter/objdiff) — game, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) — game, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [asm-differ](https://github.com/simonlindholm/asm-differ) — game, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [UE Explorer](https://github.com/UE-Explorer/UE-Explorer) — game, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [GARbro](https://github.com/morkt/GARbro) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [objection](https://github.com/sensepost/objection) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Grapefruit](https://github.com/ChiChou/grapefruit) — app; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [r2frida](https://github.com/nowsecure/r2frida) — app, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [EMBA](https://github.com/e-m-b-a/emba) — firmware; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Firmware Analysis and Comparison Tool (FACT)](https://github.com/fkie-cad/FACT_core) — firmware; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [OFRAK](https://github.com/redballoonsecurity/ofrak) — firmware, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [FirmAE](https://github.com/pr0v3rbs/FirmAE) — firmware; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Godot RE Tools](https://github.com/GDRETools/gdsdecomp) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [FModel](https://github.com/4sval/FModel) — game; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Blutter](https://github.com/worawit/blutter) — app, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [hermes-dec](https://github.com/P1sec/hermes-dec) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Recaf](https://github.com/Col-E/Recaf) — app, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) — binary, firmware, protocol; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Wireshark](https://gitlab.com/wireshark/wireshark) — app, firmware, protocol; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [PulseView](https://github.com/sigrokproject/pulseview) — firmware, protocol; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [UEFITool](https://github.com/LongSoft/UEFITool) — firmware; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Browser Reverse Engineering Toolkit](https://github.com/Dvurechensky/Browser.Reverse.Engineering.Toolkit) — website; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [screenshot-to-code](https://github.com/abi/screenshot-to-code) — website; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [nibkit](https://github.com/tokenbleed/nibkit) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [N64: Recompiled](https://github.com/N64Recomp/N64Recomp) — game, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) — game, binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [AOTopsy](https://github.com/BroNils/aotopsy) — app, binary; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [hbctool](https://github.com/bongtrop/hbctool) — app; upstream: source-reviewed, 2026-10-16; local: imported-not-independently-validated.
+- [Netzob](https://github.com/netzob/netzob) — protocol; upstream: source-reviewed, 2026-10-17T02:53:06.350416Z; local: imported-not-independently-validated.
+- [Scapy](https://github.com/secdev/scapy) — protocol; upstream: source-reviewed, 2026-10-17T02:53:06.350416Z; local: imported-not-independently-validated.
+- [Universal Radio Hacker (URH)](https://github.com/jopohl/urh) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [SavvyCAN](https://github.com/collin80/SavvyCAN) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [AALpy](https://github.com/DES-Lab/AALpy) — protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Glasgow Interface Explorer](https://github.com/GlasgowEmbedded/glasgow) — firmware, protocol; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [Penguin](https://github.com/rehosting/penguin) — firmware; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [GoReSym](https://github.com/mandiant/GoReSym) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [rev.ng](https://github.com/revng/revng) — binary; upstream: source-reviewed, 2026-10-17; local: imported-not-independently-validated.
+- [rtl_433](https://github.com/merbanan/rtl_433) — protocol; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [decomp.me](https://decomp.me) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [splat](https://github.com/ethteck/splat) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [m2c](https://github.com/matt-kempster/m2c) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [decomp-toolkit](https://github.com/encounter/decomp-toolkit) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Rizin](https://github.com/rizinorg/rizin) — binary, game; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Decompiler Explorer](https://dogbolt.org) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [pwndbg](https://github.com/pwndbg/pwndbg) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [ido-static-recomp](https://github.com/decompals/ido-static-recomp) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [ipsw](https://github.com/blacktop/ipsw) — firmware, app, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [DynamoRIO](https://github.com/DynamoRIO/dynamorio) — binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [PS2Recomp](https://github.com/ran-j/PS2Recomp) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Blackbox Protobuf](https://github.com/nccgroup/blackboxprotobuf) — protocol, app; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Xenosaga I Decomp Compatibility Kit](https://github.com/LinuxJessi/decomp-compat-kit) — game, binary; upstream: source-reviewed, 2026-10-18; local: imported-not-independently-validated.
+- [Vineflower](https://github.com/Vineflower/vineflower) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Decompyle++ (pycdc)](https://github.com/zrax/pycdc) — binary, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Droid ASC](https://github.com/MG1937/ASC) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [APKEditor](https://github.com/REAndroid/APKEditor) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [avatar²](https://github.com/avatartwo/avatar2) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [cwe_checker](https://github.com/fkie-cad/cwe_checker) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [jnitrace](https://github.com/chame1eon/jnitrace) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [FLARE-VM](https://github.com/mandiant/flare-vm) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [B2R2](https://github.com/B2R2-org/B2R2) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [rz-ghidra](https://github.com/rizinorg/rz-ghidra) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [AsmResolver](https://github.com/Washi1337/AsmResolver) — app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [dewolf](https://github.com/fkie-cad/dewolf) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Dembrandt](https://github.com/dembrandt/dembrandt) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [GB Recompiled](https://github.com/arcanite24/gb-recompiled) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [CodemerxDecompile](https://github.com/codemerx/CodemerxDecompile) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [wxapkg](https://github.com/wux1an/wxapkg) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [React Native Decompiler](https://github.com/numandev1/react-native-decompiler) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [dtk-template](https://github.com/encounter/dtk-template) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [hermes-decomp](https://github.com/SymbioticSec/hermes-decomp) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [N64ModernRuntime](https://github.com/N64Recomp/N64ModernRuntime) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [REDscript](https://github.com/jac3km4/redscript) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Spice86](https://github.com/OpenRakis/Spice86) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PS2 Web Recomp](https://github.com/snuri00/ps2-web-recomp) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [shuji](https://github.com/paazmaya/shuji) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [xboxrecomp](https://github.com/sp00nznet/xboxrecomp) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PCSX-Redux](https://github.com/grumpycoders/pcsx-redux) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Obfuscator.io Deobfuscator](https://github.com/ben-sb/obfuscator-io-deobfuscator) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [decomp2dbg](https://github.com/mahaloz/decomp2dbg) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [javascript-deobfuscator](https://github.com/ben-sb/javascript-deobfuscator) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Il2CppInspector](https://github.com/djkaty/Il2CppInspector) — game, app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [E9Patch](https://github.com/GJDuck/e9patch) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [MelonLoader](https://github.com/LavaGang/MelonLoader) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Rellic](https://github.com/lifting-bits/rellic) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ghidra-delinker-extension](https://github.com/boricj/ghidra-delinker-extension) — binary, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [BepInEx](https://github.com/BepInEx/BepInEx) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [BinExport](https://github.com/google/binexport) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Karta](https://github.com/CheckPointSW/Karta) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [VTIL-Core](https://github.com/vtil-project/VTIL-Core) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [efiXplorer](https://github.com/REhints/efiXplorer) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Frida Workbench for VSCode](https://github.com/ChiChou/vscode-frida) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ghidriff](https://github.com/clearbluejar/ghidriff) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [vmlinux-to-elf](https://github.com/marin-m/vmlinux-to-elf) — firmware, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Ddisasm](https://github.com/GrammaTech/ddisasm) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PINCE](https://github.com/korcankaraokcu/PINCE) — binary, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [uncompyle6](https://github.com/rocky/python-uncompyle6) — binary, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ret-sync](https://github.com/bootleg/ret-sync) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PyInstaller Extractor (pyinstxtractor)](https://github.com/extremecoders-re/pyinstxtractor) — binary, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Binary Analysis Platform (BAP)](https://github.com/BinaryAnalysisPlatform/bap) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [furiousMAC Continuity](https://github.com/furiousMAC/continuity) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Reko](https://github.com/uxmal/reko) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Dyninst](https://github.com/dyninst/dyninst) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [goblin](https://github.com/m4b/goblin) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) — website, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [opendbc](https://github.com/commaai/opendbc) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [FLOSS (FLARE Obfuscated String Solver)](https://github.com/mandiant/flare-floss) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Zydis](https://github.com/zyantific/zydis) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Sony-PMCA-RE](https://github.com/ma1co/Sony-PMCA-RE) — firmware, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [QBDI](https://github.com/QBDI/QBDI) — binary, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [MEDUSA](https://github.com/Ch0pin/medusa) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [binsider](https://github.com/orhun/binsider) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [FISSURE](https://github.com/ainfosec/FISSURE) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Android Unpinner](https://github.com/mitmproxy/android-unpinner) — app, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [cpu_rec](https://github.com/airbus-seclab/cpu_rec) — firmware, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [iced](https://github.com/icedland/iced) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [apk-mitm](https://github.com/niklashigi/apk-mitm) — app, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [friTap](https://github.com/fkie-cad/friTap) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [hrtng](https://github.com/KasperskyLab/hrtng) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Frida Mobile Interception Scripts](https://github.com/httptoolkit/frida-interception-and-unpinning) — app, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [BinCAT](https://github.com/airbus-seclab/bincat) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [pbtk](https://github.com/marin-m/pbtk) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [reFlutter](https://github.com/Impact-I/reFlutter) — app, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ddc](https://github.com/ejfkdev/ddc) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ME Analyzer](https://github.com/platomav/MEAnalyzer) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Simplify](https://github.com/CalebFenton/simplify) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [GDA (GJoy Dex Analyzer)](https://github.com/charles2gan/GDA-android-reversing-Tool) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [GEF (GDB Enhanced Features)](https://github.com/hugsy/gef) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [APKLab](https://github.com/APKLab/APKLab) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Triton](https://github.com/JonathanSalwan/Triton) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PyLingual](https://github.com/syssec-utd/pylingual) — binary, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Miasm](https://github.com/cea-sec/miasm) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Fernflower](https://github.com/JetBrains/fernflower) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [HyperDbg](https://github.com/HyperDbg/HyperDbg) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [JPEXS Free Flash Decompiler (FFDec)](https://github.com/jindrapetrik/jpexs-decompiler) — website, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Kuna](https://github.com/Noelo-Lab/kuna) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Binary Ninja API](https://github.com/Vector35/binaryninja-api) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ReXGlue SDK](https://github.com/rexglue/rexglue-sdk) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [capa](https://github.com/mandiant/capa) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ps3recomp](https://github.com/sp00nznet/ps3recomp) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Nebula (NebulaFD)](https://github.com/AITYunivers/NebulaFD) — game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Logic-Lens](https://github.com/Abdoulrazack1/Logic-Lens) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Android Security Toolkit](https://github.com/abhirampatel/android-security-toolkit) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ilspy-cli: targeted .NET decompilation for agents](https://github.com/akiselev/ilspy-cli) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [swe1r-assets-unity: Racer model-block editor sample](https://github.com/akopetsch/swe1r-assets-unity) — game; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [React-Decode](https://github.com/alexandra-seredkina/React-Decode) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [WasmLens: exploratory WebAssembly inspection](https://github.com/alexandrmotologa/wasmlens) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [abc-decompiler](https://github.com/ohos-decompiler/abc-decompiler) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [LuaJIT Decompiler v2](https://github.com/marsinator358/luajit-decompiler-v2) — game, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [slicer](https://github.com/katana-project/slicer) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [SteamKit](https://github.com/SteamRE/SteamKit) — protocol, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [synchrony](https://github.com/relative/synchrony) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [RetDec](https://github.com/avast/retdec) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [REDasm](https://github.com/redasm-dev/redasm) — binary, game; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [protobuf-inspector](https://github.com/mildsunrise/protobuf-inspector) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Lighthouse](https://github.com/gaasedelen/lighthouse) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [CHIPSEC](https://github.com/chipsec/chipsec) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [APK Studio](https://github.com/vaibhavpandeyvpz/apkstudio) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [sourcemapper](https://github.com/denandz/sourcemapper) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) — protocol, app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ngrev](https://github.com/mgechev/ngrev) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [APKiD](https://github.com/rednaga/APKiD) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [jsluice](https://github.com/BishopFox/jsluice) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [VulHunt Community Edition](https://github.com/vulhunt-re/vulhunt) — binary, firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Sniffle](https://github.com/nccgroup/Sniffle) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [dex2jar](https://github.com/pxb1988/dex2jar) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [BinSync](https://github.com/binsync/binsync) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [class-dump](https://github.com/nygard/class-dump) — app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [binbloom](https://github.com/quarkslab/binbloom) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Packetry](https://github.com/greatscottgadgets/packetry) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Lucid](https://github.com/gaasedelen/lucid) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [apk.sh](https://github.com/ax/apk.sh) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [r2dec](https://github.com/wargio/r2dec-js) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [m1n1](https://github.com/AsahiLinux/m1n1) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [SVD-Loader for Ghidra](https://github.com/leveldown-security/SVD-Loader-Ghidra) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Caring Caribou](https://github.com/CaringCaribou/caringcaribou) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Runtime Mobile Security (RMS)](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) — app; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Pharos](https://github.com/cmu-sei/pharos) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [UEFI Firmware Parser](https://github.com/theopolis/uefi-firmware-parser) — firmware; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [PE-bear](https://github.com/hasherezade/pe-bear) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [protodump](https://github.com/arkadiyt/protodump) — protocol, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [REstringer](https://github.com/HumanSecurity/restringer) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Chrome extension source viewer (CRX Viewer)](https://github.com/Rob--W/crxviewer) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [har-to-openapi](https://github.com/jonluca/har-to-openapi) — website; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [ESP32 Bit Pirate](https://github.com/geo-tp/ESP32-Bit-Pirate) — firmware, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [decode-js](https://github.com/echo094/decode-js) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FIRERPA (lamda)](https://github.com/firerpa/lamda) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [PE-sieve](https://github.com/hasherezade/pe-sieve) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [oletools](https://github.com/decalage2/oletools) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Binder Trace](https://github.com/foundryzero/binder-trace) — app, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [MonkeyDev](https://github.com/AloneMonkey/MonkeyDev) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Firmware Analysis Toolkit (FAT)](https://github.com/attify/firmware-analysis-toolkit) — firmware, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Quark-Engine](https://github.com/ev-flow/quark-engine) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Hollows Hunter](https://github.com/hasherezade/hollows_hunter) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [restore-symbol](https://github.com/tobefuturer/restore-symbol) — app, binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Dexcalibur (Reversense)](https://github.com/reversenseorg/dexcalibur) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FakeNet-NG](https://github.com/mandiant/flare-fakenet-ng) — binary, protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Joern](https://github.com/joernio/joern) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Speakeasy](https://github.com/mandiant/speakeasy) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [LazyIDA](https://github.com/L4ys/LazyIDA) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Tiny Tracer](https://github.com/hasherezade/tiny_tracer) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [vdexExtractor](https://github.com/anestisb/vdexExtractor) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Ponce](https://github.com/illera88/Ponce) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [CAN Commander](https://github.com/MatthewKuKanich/CAN_Commander) — protocol; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [Garlic](https://github.com/neocanable/garlic) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [DRAKVUF Sandbox](https://github.com/CERT-Polska/drakvuf-sandbox) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [HexRaysPyTools](https://github.com/igogo-x86/HexRaysPyTools) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Automated CAN Payload Reverse Engineering](https://github.com/brent-stone/CAN_Reverse_Engineering) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [CAPE Sandbox (CAPEv2)](https://github.com/kevoreilly/CAPEv2) — binary; upstream: source-reviewed, 2026-10-19; local: imported-not-independently-validated.
+- [LuaDec](https://github.com/viruscamp/luadec) — game, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [xpcspy](https://github.com/ab-rizk/xpcspy) — app, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [de4py](https://github.com/Fadi002/de4py) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FujiHack](https://github.com/fujihack/fujihack) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [efiSeek](https://github.com/DSecurity/efiSeek) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Dwarf](https://github.com/iGio90/Dwarf) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FwAnalyzer](https://github.com/cruise-automation/fwanalyzer) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Android-Disassembler](https://github.com/yhs0602/Android-Disassembler) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [bddisasm](https://github.com/bitdefender/bddisasm) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [decompyle3](https://github.com/rocky/python-decompile3) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FwHunt Community Scanner (fwhunt-scan)](https://github.com/binarly-io/fwhunt-scan) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [DRAKVUF](https://github.com/tklengyel/drakvuf) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ViperMonkey](https://github.com/decalage2/ViperMonkey) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [XAPKDetector](https://github.com/horsicq/XAPKDetector) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [BREAD](https://github.com/Theldus/bread) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Mergen](https://github.com/NaC-L/Mergen) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [readpe (formerly pev)](https://github.com/mentebinaria/readpe) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [sniffROM](https://github.com/alainiamburg/sniffROM) — firmware, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Pawn](https://github.com/google/pawn) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [EMBArk](https://github.com/e-m-b-a/embark) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [malware-jail](https://github.com/HynekPetrak/malware-jail) — website, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [IDAPython Embedded Toolkit](https://github.com/maddiestone/IDAPythonEmbeddedToolkit) — firmware, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [gxpc](https://github.com/ReverseApple/gxpc) — app, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Jsxer](https://github.com/AngeloD2022/jsxer) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [jni_helper](https://github.com/evilpan/jni_helper) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Manticore](https://github.com/trailofbits/manticore) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [fiano](https://github.com/linuxboot/fiano) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Deluder](https://github.com/Warxim/deluder) — app, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Pyrrha](https://github.com/quarkslab/pyrrha) — firmware, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Ghidra Ninja ghidra_scripts](https://github.com/ghidraninja/ghidra_scripts) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FindCrypt - Ghidra Edition](https://github.com/d3v1l401/FindCrypt-Ghidra) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ReArk](https://github.com/lkimuk/ReArk) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Binary Refinery](https://github.com/binref/refinery) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ARSCLib](https://github.com/REAndroid/ARSCLib) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Pithus (bazaar)](https://github.com/Pithus/bazaar) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [AngryGhidra](https://github.com/Nalen98/AngryGhidra) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [fpicker](https://github.com/ttdennis/fpicker) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [RetroWrite](https://github.com/HexHive/retrowrite) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [House](https://github.com/nccgroup/house) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ABCDE](https://github.com/Yricky/abcde) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Interruptor](https://github.com/FrenchYeti/interruptor) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [de4js](https://github.com/lelinhtinh/de4js) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [dyld_cache_extract](https://github.com/macmade/dyld_cache_extract) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FLARE IDA Pro utilities](https://github.com/mandiant/flare-ida) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Binlex](https://github.com/c3rb3ru5d3d53c/binlex) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Driver Buddy Reloaded](https://github.com/VoidSec/DriverBuddyReloaded) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [FA (Firmware Analysis)](https://github.com/doronz88/fa) — binary, firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [DexKit](https://github.com/LuckyPray/DexKit) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [pyinstxtractor-ng (PyInstaller Extractor Next Generation)](https://github.com/pyinstxtractor/pyinstxtractor-ng) — binary, app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [RETracker](https://github.com/patois/RETracker) — firmware; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [CoBRA (Coefficient-Based Reconstruction of Arithmetic)](https://github.com/trailofbits/CoBRA) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [PiCCANTE](https://github.com/Alia5/PiCCANTE) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ollvm-unflattener](https://github.com/cdong1012/ollvm-unflattener) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [javascript-deobfuscator (LostMyCode)](https://github.com/LostMyCode/javascript-deobfuscator) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [bun-demincer](https://github.com/vicnaum/bun-demincer) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [GolangAnalyzerExtension](https://github.com/mooncat-greenpy/Ghidra_GolangAnalyzerExtension) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [IDA iOS Helper](https://github.com/yoavst/ida-ios-helper) — app, binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [MAMBO](https://github.com/beehive-lab/mambo) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [VanBus](https://github.com/0xCAFEDECAF/VanBus) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Class Informer](https://github.com/kweatherman/IDA_ClassInformer_PlugIn) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [dex-oracle](https://github.com/CalebFenton/dex-oracle) — app; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [minusone](https://github.com/airbus-cert/minusone) — website; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Kam1n0](https://github.com/McGill-DMaS/Kam1n0-Community) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Titan M tools (Quarkslab)](https://github.com/quarkslab/titanm) — firmware, protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [iblessing](https://github.com/Soulghost/iblessing) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [NTRGhidra](https://github.com/pedro-javierf/NTRGhidra) — game; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [mgbdis](https://github.com/mattcurrie/mgbdis) — game, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [SiMBA](https://github.com/DenuvoSoftwareSolutions/SiMBA) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [ghidra-allegrex](https://github.com/kotcrab/ghidra-allegrex) — game, binary, firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [GM8Decompiler](https://github.com/OpenGMK/GM8Decompiler) — game; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [UELib (Unreal-Library)](https://github.com/EliotVU/Unreal-Library) — game; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Apple Continuity Reverse Engineering Toolkit](https://github.com/seemoo-lab/apple-continuity-tools) — protocol; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [uefi_retool](https://github.com/yeggor/uefi_retool) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [GTIRB](https://github.com/GrammaTech/gtirb) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [Quokka](https://github.com/quarkslab/quokka) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [knife](https://github.com/bl4ckr0ss3/knife) — binary; upstream: source-reviewed, 2026-10-20; local: imported-not-independently-validated.
+- [BARF](https://github.com/programa-stic/barf-project) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Shannon Modem Loader for IDA Pro](https://github.com/alexander-pick/shannon_modem_loader) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [rabbitizer](https://github.com/Decompollaborate/rabbitizer) — game, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ghidrecomp](https://github.com/clearbluejar/ghidrecomp) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [arkdecompiler](https://github.com/jd-opensource/arkdecompiler) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Vivisect](https://github.com/vivisect/vivisect) — binary, firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [JNIAnalyzer](https://github.com/Ayrx/JNIAnalyzer) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [IMSProg](https://github.com/bigbigmdm/IMSProg) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [rbasefind](https://github.com/sgayou/rbasefind) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Cabana (standalone openpilot-cabana)](https://github.com/deanlee/openpilot-cabana) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [r2pipe](https://github.com/radareorg/radare2-r2pipe) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Aptio V UEFI Editor](https://github.com/BoringBoredom/UEFI-Editor) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [DiztinGUIsh](https://github.com/DizTools/DiztinGUIsh) — game; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [FirmLoader](https://github.com/Accenture/FirmLoader) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [JS-Deobfuscator (0x1Avram)](https://github.com/0x1Avram/js-deobfuscator) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Android Reverse](https://github.com/UltraSina/androidReverse) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [eCapture](https://github.com/gojue/ecapture) — protocol, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [jsc-decompile-mozjs-34](https://github.com/irelance/jsc-decompile-mozjs-34) — game, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Andromeda](https://github.com/secrary/Andromeda) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Dex-Editor-Android](https://github.com/developer-krushna/Dex-Editor-Android) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [GREASE](https://github.com/GaloisInc/grease) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [IFDA (IoT Firmware Deep Analysis)](https://github.com/cn0xroot/IFDA) — firmware, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [smali/baksmali](https://github.com/JesusFreke/smali) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [HTTP Toolkit](https://github.com/httptoolkit/httptoolkit) — website, app, protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [PLASMA](https://github.com/plasma-disassembler/plasma) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [mobdevim](https://github.com/DerekSelander/mobdevim) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [dalvikus](https://github.com/loerting/dalvikus) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [XPEViewer](https://github.com/horsicq/XPEViewer) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Fermion](https://github.com/FuzzySecurity/Fermion) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [USBPcap](https://github.com/desowin/usbpcap) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [cantools](https://github.com/cantools/cantools) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [inspectrum](https://github.com/miek/inspectrum) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [PULSAR](https://github.com/hgascon/pulsar) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [basefind2](https://github.com/soyersoyer/basefind2) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [paranoid-deobfuscator](https://github.com/giacomoferretti/paranoid-deobfuscator) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Ghidrathon](https://github.com/mandiant/Ghidrathon) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Katalina](https://github.com/huuck/Katalina) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [diStorm3](https://github.com/gdabah/distorm) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [JTAGulator](https://github.com/grandideastudio/jtagulator) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [CanLab](https://github.com/Sherin-SEF-AI/CanLab) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Facedancer](https://github.com/greatscottgadgets/facedancer) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Doldrums](https://github.com/rscloura/Doldrums) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [BIOSUtilities](https://github.com/platomav/BIOSUtilities) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [allyourbase](https://github.com/8051Enthusiast/allyourbase) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ghidra_kernelcache](https://github.com/0x36/ghidra_kernelcache) — firmware, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ProbeDroid](https://github.com/ZSShen/ProbeDroid) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Fridump](https://github.com/Nightbringer21/fridump) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Frida UI](https://github.com/adityatelange/frida-ui) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [darter](https://github.com/mildsunrise/darter) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [esp32_image_parser](https://github.com/tenable/esp32_image_parser) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Mirage](https://github.com/RCayre/mirage) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Redress](https://github.com/goretk/redress) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ghidra-nanomips](https://github.com/nccgroup/ghidra-nanomips) — firmware, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [SMDA](https://github.com/danielplohmann/smda) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Javascript Deobfuscator](https://github.com/willnode/deobfuscator) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [frida-trace (NowSecure library)](https://github.com/nowsecure/frida-trace) — binary, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Appshark](https://github.com/bytedance/appshark) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Wallbreaker](https://github.com/hluwa/Wallbreaker) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Protobuf Decoder](https://github.com/pawitp/protobuf-decoder) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [BTD (Bin To DNN)](https://github.com/monkbai/DNN-decompiler) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [go-fAST](https://github.com/T14Raptor/go-fAST) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Tigard](https://github.com/tigard-tools/tigard) — firmware, protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [axmlprinter](https://github.com/rednaga/axmlprinter) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Hetty](https://github.com/dstotijn/hetty) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Boomerang Decompiler](https://github.com/BoomerangDecompiler/boomerang) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [UBI Reader](https://github.com/onekey-sec/ubi_reader) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [ktool](https://github.com/0cyn/ktool) — app, binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [payload-dumper-go](https://github.com/ssut/payload-dumper-go) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Brida](https://github.com/federicodotta/Brida) — app, protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [debundle](https://github.com/1egoman/debundle) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe) — binary, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [gr-lora](https://github.com/rpp0/gr-lora) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [termshark](https://github.com/gcla/termshark) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [mithril](https://github.com/nmatt0/mithril) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [SigDigger](https://github.com/BatchDrake/SigDigger) — protocol; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [AppMon](https://github.com/dpnishant/appmon) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [img4tool](https://github.com/tihmstar/img4tool) — firmware; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [grpc-tools](https://github.com/bradleyjkemp/grpc-tools) — protocol, app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [JStillery](https://github.com/mindedsecurity/JStillery) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Enjarify](https://github.com/google/enjarify) — app; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [Yagi](https://github.com/airbus-cert/Yagi) — binary; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [box.js](https://github.com/CapacitorSet/box-js) — website; upstream: source-reviewed, 2026-10-27; local: imported-not-independently-validated.
+- [MagiskFrida](https://github.com/ViRb3/magisk-frida) — app; upstream: source-reviewed, 2026-11-02; local: imported-not-independently-validated.
+- [frida-scripts (0xdea)](https://github.com/0xdea/frida-scripts) — app, binary; upstream: source-reviewed, 2026-11-02; local: imported-not-independently-validated.
+- [Zygisk-Il2CppDumper](https://github.com/Perfare/Zygisk-Il2CppDumper) — game, app; upstream: source-reviewed, 2026-11-02; local: imported-not-independently-validated.
+- [System Informer](https://github.com/winsiderss/systeminformer) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [CyberChef](https://github.com/gchq/CyberChef) — binary, protocol; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [YARA](https://github.com/VirusTotal/yara) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Cheat Engine](https://github.com/cheat-engine/cheat-engine) — game, binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Noriben](https://github.com/Rurik/Noriben) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [QEMU](https://www.qemu.org/) — binary, firmware; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Hex Fiend](https://github.com/HexFiend/HexFiend) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [ScyllaHide](https://github.com/x64dbg/ScyllaHide) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [YARA-X](https://github.com/VirusTotal/yara-x) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [de4dot](https://github.com/de4dot/de4dot) — app; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [ReClass.NET](https://github.com/ReClassNET/ReClass.NET) — binary, game; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [ClassyShark](https://github.com/google/android-classyshark) — app; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Keypatch](https://github.com/keystone-engine/keypatch) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [edb-debugger](https://github.com/eteran/edb-debugger) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [BinNavi](https://github.com/google/binnavi) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [flare-emu](https://github.com/mandiant/flare-emu) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [IDA Pro](https://hex-rays.com/ida-pro) — binary, app, firmware, game; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Binary Ninja](https://binary.ninja/) — binary, firmware; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Hopper Disassembler](https://www.hopperapp.com/) — binary, app; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [JEB Decompiler](https://www.pnfsoftware.com/jeb/) — app, binary, firmware; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [010 Editor](https://www.sweetscape.com/010editor/) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [pestudio](https://www.winitor.com/) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [OllyDbg](https://www.ollydbg.de/) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [UABEA](https://github.com/nesrak1/UABEA) — game; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Tenet](https://github.com/gaasedelen/tenet) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [findcrypt-yara](https://github.com/polymorf/findcrypt-yara) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [deREferencing](https://github.com/danigargu/deREferencing) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [HexRays Toolbox](https://github.com/patois/HexraysToolbox) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Virtuailor](https://github.com/0xgalz/Virtuailor) — binary, firmware; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [xAnalyzer](https://github.com/ThunderCls/xAnalyzer) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [AssetStudio](https://github.com/Perfare/AssetStudio) — game; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Voltron](https://github.com/snare/voltron) — binary; upstream: source-reviewed, 2026-11-05; local: imported-not-independently-validated.
+- [Remill](https://github.com/lifting-bits/remill) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [iaito](https://github.com/radareorg/iaito) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [HexRaysCodeXplorer](https://github.com/REhints/HexRaysCodeXplorer) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [vgmstream](https://github.com/vgmstream/vgmstream) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [payload dumper](https://github.com/vm03/payload_dumper) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Luyten](https://github.com/deathmarine/Luyten) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [GDB dashboard](https://github.com/cyrus-and/gdb-dashboard) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [REHex](https://github.com/solemnwarning/rehex) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Dobby](https://github.com/jmpews/Dobby) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [XLMMacroDeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PE Tree](https://github.com/blackberry/pe_tree) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RpcView](https://github.com/silverf0x/RpcView) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [jd-cli](https://github.com/intoolswetrust/jd-cli) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [amoco](https://github.com/bdcht/amoco) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Chisel](https://github.com/meta/chisel) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [gdbgui](https://github.com/cs01/gdbgui) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Android Unpacker](https://github.com/strazzere/android-unpacker) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Porosity](https://github.com/msuiche/porosity) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ReverseAPK](https://github.com/1N3/ReverseAPK) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Xori](https://github.com/endgameinc/xori) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [binglide](https://github.com/wapiflapi/binglide) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ERESI](https://github.com/thorkill/eresi) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [pixd](https://github.com/FireyFly/pixd) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Universal Extractor 2](https://github.com/Bioruebe/UniExtract2) — binary, game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ElleKit](https://github.com/tealbathingsuit/ellekit) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [xHook](https://github.com/iqiyi/xHook) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Epic](https://github.com/tiann/epic) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ProcDump for Linux and macOS](https://github.com/microsoft/ProcDump-Linux) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [fishhook](https://github.com/meta/fishhook) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [pcode2code](https://github.com/Big5-sec/pcode2code) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [pkg-to-anyps5](https://github.com/awake-devel/pkg-to-anyps5) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PMCA-RE RELOADED](https://github.com/masterflai/pmca-re-reloaded) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [rust-deobf](https://github.com/VAHPEM/rust-deobf) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ThisFirmwareDoesNotExist](https://github.com/ThisFreakDoesntExist/ThisFirmwareDoesNotExist) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [intel_ma](https://github.com/seuros/intel_ma) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [breakinggood](https://github.com/eklavya2201/breakinggood) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [qemu-rtd2841](https://github.com/rubenthampy890-del/qemu-rtd2841) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [CFG Visualizer](https://github.com/zhameersheraz/cfg-visualizer) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [apkscope](https://github.com/suffixing/apkscope) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [dfsdk](https://github.com/3r4y/dfsdk) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [KBot](https://github.com/coreprime/kbot) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cpp2CS](https://github.com/MetaMikuAI/Cpp2CS) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ghidra-c6000](https://github.com/geepot/ghidra-c6000) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MS4X](https://github.com/therudywolf/MS4X) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [cocos2d-dumper](https://github.com/d1xus/cocos2d-dumper) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Binary Ninja Security Analysis Plugin](https://github.com/meerkatone/rust_binary_analysis) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [NWBinAnalyzer](https://github.com/Netizen-alt/NWBinAnalyzer) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Human-Readable Decompilation](https://github.com/aaronwb/human-readable-decompilation) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BinStruct Inspector](https://github.com/1051093860/BinStruct-Inspector) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [SimpleParserPE](https://github.com/wmitq/SimpleParserPE) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BNDExtract](https://github.com/fferradamerino/bnd_extract) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [tenet_tracer](https://github.com/mahmoudimus/tenet_tracer) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BinScan](https://github.com/Mraxzist/BinScan) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Patch-0xC0000022](https://github.com/Harryson3001/Patch-0xC0000022) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RE4METoolbox](https://github.com/Dhamp1r/RE4ME-Toolbox) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [AC46 Firmware Tool](https://github.com/0x0-nyan/AC46-Firmware-Tool) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [iMonitor](https://github.com/Trivexion/iMonitor-System-Activity-Monitor) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [m68kdasm](https://github.com/jenska/m68kdasm) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [IR Lifting Benchmark](https://github.com/Prajwal-kp-18/ir-analysis) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Bin-Hunter](https://github.com/Emirzonee/Bin-Hunter) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Aspyr Archive Tool](https://github.com/Dhamp1r/AspyrArchiveTool) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BinaryInsight](https://github.com/ismailtsdln/BinaryInsight) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ScriptSource-Dumper](https://github.com/uhhKnife/ScriptSource-Dumper) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [derkt](https://github.com/rrandom/derkt) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [.AUP-File-Type-Decryptor-and-Viewer](https://github.com/PredatorIWD/.AUP-File-Type-Decryptor-and-Viewer) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ODIS file unpacker](https://github.com/kartoffelpflanze/ODIS-file-unpacker) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [rust-sig-gen](https://github.com/st0de/rust-sig-gen) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [1C 7.7 Configuration Parser (MD Parser)](https://github.com/bigsprut/1CMDParser) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [x64dbg-tenet](https://github.com/gr0grig/x64dbg-tenet) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Holley EFI Parser](https://github.com/HackingLZ/holley-efi-parser) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [CAN Bus Parser](https://github.com/Knight1/vanmoof-canbus) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Universal GBA Pokedex](https://github.com/TheJazz123/Universal-GBA-Pokedex) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [NullSec BinGaze](https://github.com/bad-antics/nullsec-bingaze) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Facebook BitMap Codec](https://github.com/NiceDayZc/FacebookCodec) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [pdbinspector](https://github.com/nikaiw/pdbinspector) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [VG Reverse Engineering](https://github.com/TurnaboutHero/vainglory-replay-decoder) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [8086 Register Command Debugger](https://github.com/Usman-Azfar/8086-assembly-debugger) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [DevLens Ultra](https://github.com/Arsh-pixel-cmd/DevLens) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [advantage](https://github.com/rtfmkiesel/advantage) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Chip-8 Emulator and c8-disassembler](https://github.com/lem2clide/Chip8-Emulator) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [netdumper](https://github.com/coconutbird/netdumper) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BGI Converter TGA](https://github.com/yutaro023/BGI-Ethornell_ConverterTGA_Sekai_VN) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Valkyrie](https://github.com/rifatardarslan/Valkyrie) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PE Disassembler](https://github.com/ddeeduck/Pe-disassembler) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [SIC/XE Disassembler and Linking Loader](https://github.com/MN294/SICXE-Disassembler) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Xenus DT1 Decompiler](https://github.com/CodeNoob53/xenus-dt1-decompiler) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Sandwitcher](https://github.com/IR0NBYTE/Sandwitcher) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Bin X-ray](https://github.com/russlank/BinXray) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Malware Deobfuscator](https://github.com/X-Abhishek-X/malware-deobfuscator) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PIC microcontrollers disassembler](https://github.com/c-not-around/pic-disasm) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [flashkit](https://github.com/bitalizer/pyflashkit) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [AppThreat wasm-tools](https://github.com/AppThreat/wasm-tools) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [premium5](https://github.com/mnaberez/premium5) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Kaiju](https://github.com/nightwarelabz/kaiju) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Zygisk - Frida Gadget](https://github.com/leolovenet/Zygisk-FridaGadget) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [web-crawler ReverseAgent](https://github.com/xiaomaozjj666/web-crawler) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [psp-media-slopkit](https://github.com/TotalKommando/psp-media-toolkit) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [sqlce](https://github.com/boykopovar/sqlce) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [DualRip](https://github.com/TetraSsky/DualRip) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Mirrorframe](https://github.com/byte271/mirrorframe) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [inkterop](https://github.com/cable729/inkterop) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [SPRD Flash Tool](https://github.com/ajsb85/sprdflash-rs) — firmware, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Hermes](https://github.com/at0m-b0mb/Hermes-FlipperZero) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [wMatcher](https://github.com/earthsworth/wMatcher) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [YGO-PoC Toolset](https://github.com/bitemydusto/YGO-PoC-Toolset) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [FH6 Model Tools](https://github.com/noidex0/fh6-model-tools) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Ed1th's PvZ Toolkit](https://github.com/LambdaEd1th/ed1ths-pvz-toolkit) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PCM Explorer](https://github.com/dspl1236/PCM-Explorer) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [tasm-rs](https://github.com/nktkt/tasm-rs) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Sogen Dart bindings](https://github.com/Wdestroier/sogen_dart) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [RoflLens](https://github.com/ss26367098/rofllens) — game, protocol, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [kenshi-modkit](https://github.com/LucasSKrewer/kenshi-modkit) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [cupertino-files](https://github.com/den-frie-vilje/cupertino-files) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PackerScope](https://github.com/salmanmallah/packerscope) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [imprint](https://github.com/hamodywe/imprint) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [ffxii-tza-tools](https://github.com/StyuDEV/ffxii-tza-tools) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [sims-package2glb](https://github.com/infinition/sims-package2glb) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [vc64_240p](https://github.com/kreycai/vc64_240p) — game, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [kdemulator](https://github.com/000nico/kdemulator) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [angr-management](https://github.com/angr/angr-management) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [QIRA](https://github.com/geohot/qira) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Dependencies](https://github.com/lucasg/Dependencies) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [dnlib](https://github.com/0xd4d/dnlib) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Hachoir](https://github.com/vstinner/hachoir) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Pigaios](https://github.com/joxeankoret/pigaios) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [MachOExplorer](https://github.com/everettjf/machoexplorer) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [me_cleaner](https://github.com/corna/me_cleaner) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [FLEX](https://github.com/FLEXTool/FLEX) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [classdump-dyld](https://github.com/limneos/classdump-dyld) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [View8](https://github.com/suleram/View8) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [unwebpack-sourcemap](https://github.com/rarecoil/unwebpack-sourcemap) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Wirebrowser](https://github.com/fcavallarin/wirebrowser) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Process Dump](https://github.com/glmcdona/Process-Dump) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [mal_unpack](https://github.com/hasherezade/mal_unpack) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Unrpyc](https://github.com/CensoredUsername/unrpyc) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BSPSource](https://github.com/ata4/bspsrc) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Black Magic Debug](https://codeberg.org/blackmagic-debug/blackmagic) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [OpenOCD](https://github.com/openocd-org/openocd) — firmware; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [LogicAnalyzer](https://github.com/gusmanb/logicanalyzer) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [BtleJuice](https://github.com/DigitalSecurity/btlejuice) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [NearDrop](https://github.com/grishka/NearDrop) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Bloaty](https://github.com/google/bloaty) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Soot](https://github.com/soot-oss/soot) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [bingrep](https://github.com/m4b/bingrep) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [libPeConv](https://github.com/hasherezade/libpeconv) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Viper](https://github.com/viper-framework/viper) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [DroidLysis](https://github.com/cryptax/droidlysis) — app, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [PKHeX](https://github.com/kwsch/PKHeX) — game; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Thug](https://github.com/buffer/thug) — website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cuckoo3](https://github.com/cert-ee/cuckoo3) — binary, website; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Cuckoo Sandbox](https://github.com/cuckoosandbox/cuckoo) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [fq](https://github.com/wader/fq) — binary, protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [innoextract](https://github.com/dscharrer/innoextract) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Metasm](https://github.com/jjyg/metasm) — binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [nxnative](https://github.com/seedds/nxnative) — game, binary; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Impacket](https://github.com/fortra/impacket) — protocol; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [VirtualXposed](https://github.com/android-hacker/VirtualXposed) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [EdXposed Framework](https://github.com/ElderDrivers/EdXposed) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [Vector Framework](https://github.com/JingMatrix/Vector) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [JustTrustMe](https://github.com/Fuzion24/JustTrustMe) — app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+- [spy-debugger](https://github.com/wuchangming/spy-debugger) — website, app; upstream: source-reviewed, 2026-11-06; local: imported-not-independently-validated.
+
+## REA-Prompts / prompt-pack (26)
+
+- [reap-00-install-and-verify](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-00-install-and-verify/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-01-getting-started](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-01-getting-started/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-02-feature-tracing-any-program](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-02-feature-tracing-any-program/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-03-native-binary-exploration](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-03-native-binary-exploration/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-04-software-and-feature-cloning](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-04-software-and-feature-cloning/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-05-games](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-05-games/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-06-game-portability-to-wasm](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-06-game-portability-to-wasm/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-07-firmware-and-embedded](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-07-firmware-and-embedded/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-08-android](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-08-android/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-09-kernel-analysis](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-09-kernel-analysis/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-10-vulnerability-research](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-10-vulnerability-research/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-11-electron-and-javascript](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-11-electron-and-javascript/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-12-anti-cheat-and-protection-research](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-12-anti-cheat-and-protection-research/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-13-dma-and-hardware-assisted-cheat-research-defensive](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-13-dma-and-hardware-assisted-cheat-research-defensive/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-14-software-cracking-research](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-14-software-cracking-research/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-15-version-comparison-and-crash-work](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-15-version-comparison-and-crash-work/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-16-long-running-investigations](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-16-long-running-investigations/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-17-malware-analysis](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-17-malware-analysis/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-18-advanced-binary-exploration-and-deobfuscation](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-18-advanced-binary-exploration-and-deobfuscation/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-19-kernel-and-driver-exploitation-research](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-19-kernel-and-driver-exploitation-research/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-20-advanced-software-cloning-and-feature-reconstruction](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-20-advanced-software-cloning-and-feature-reconstruction/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-21-protector-and-obfuscator-research](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-21-protector-and-obfuscator-research/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-22-go-and-rust-binary-source-recovery](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-22-go-and-rust-binary-source-recovery/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-prompt-writing-tips](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-prompt-writing-tips/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-prompts](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-prompts/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+- [reap-wildcard](https://github.com/JoasASantos/REA-Prompts/blob/9756618f25af1920c8965f8969820eed22247936/Skills/reap-wildcard/SKILL.md) — general; upstream: navigation-only, date not specified; local: indexed-not-runtime-tested.
+
+## core-navigation / core-repository (5)
+
+- [morluto/rea](https://github.com/morluto/rea) — general; upstream: navigation-only, date not specified; local: selected-documentation-reviewed-not-runtime-tested.
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) — general; upstream: navigation-only, date not specified; local: selected-documentation-reviewed-not-runtime-tested.
+- [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) — general; upstream: navigation-only, date not specified; local: selected-documentation-reviewed-not-runtime-tested.
+- [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) — general; upstream: navigation-only, date not specified; local: selected-documentation-reviewed-not-runtime-tested.
+- [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) — general; upstream: navigation-only, date not specified; local: selected-documentation-reviewed-not-runtime-tested.

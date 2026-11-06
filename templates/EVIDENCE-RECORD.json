@@ -1,0 +1,48 @@
+{
+  "template": true,
+  "evidence_id": "E-REPLACE",
+  "requirement_ids": [],
+  "question_id": "Q-REPLACE",
+  "captured_at_utc": null,
+  "target": {
+    "name": null,
+    "version_build": null,
+    "artifact_path": null,
+    "sha256": null,
+    "hash_scope": "unknown",
+    "platform_architecture": null
+  },
+  "context": {
+    "environment": null,
+    "role": null,
+    "tenant_test_alias": null,
+    "state": null,
+    "locale_timezone": null,
+    "viewport_device": null
+  },
+  "collection": {
+    "tool_version": null,
+    "provider_version": null,
+    "command_or_tool": null,
+    "parameters_redacted": {},
+    "session_id": null,
+    "provider_evidence_id": null,
+    "raw_output_path": null,
+    "coverage": null,
+    "truncation_or_pagination": null
+  },
+  "claim": {
+    "statement": null,
+    "status": "unknown",
+    "supporting_locations": [],
+    "contradictions": [],
+    "limitations": [],
+    "next_discriminating_test": null
+  },
+  "handling": {
+    "data_class": null,
+    "redaction_applied": null,
+    "external_model_allowed": null,
+    "retention_owner": null
+  }
+}

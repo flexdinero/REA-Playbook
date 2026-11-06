@@ -1,0 +1,1 @@
+hypothesis_id,question_id,requirement_ids,explanation,predicted_observation,falsifying_observation,assumptions,confounders,experiment_ids,evidence_ids,status,remaining_alternatives,implementation_decision,owner
