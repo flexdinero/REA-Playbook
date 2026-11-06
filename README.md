@@ -8,6 +8,8 @@ This combines the roles of [REA](https://github.com/morluto/rea), [Ghidra](https
 
 **Start:** [Agent entry point](AGENT-START-HERE.md) · [Master prompt](MASTER-PROMPT.md) · [Operating playbook](PLAYBOOK.md) · [Reference index](REFERENCE-INDEX.md)
 
+**Executable suite:** [Agentic Recreator Suite](RECREATOR-SUITE.md) adds explicit target checks, hashed evidence, frozen acceptance inputs, recoverable repair transactions, and project-scoped learning. It runs with Python 3.10+ and the standard library. Any capable agent can supply candidate edits; no vendor is required.
+
 For best-supported recreation of behavior you cannot directly inspect, use [Hypothesis-driven reconstruction](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md): research, first principles, competing explanations, discriminating experiments, counterexamples and independent validation. Apply the [76-item limitation register](templates/LIMITATION-REGISTER.csv) through [the closure process](LIMITATIONS-AND-CLOSURE.md). For a large SaaS example, read [the GoHighLevel assessment](GHL-RECONSTRUCTION.md). These are actionable methods; unexecuted checks do not count as solved target limitations.
 
 The [final research audit](FINAL-RESEARCH-AUDIT.md) adds test-oracle design, metamorphic testing, reset/replay discipline, distributed histories, test sensitivity and scoped formal verification. The [offline comparison harness](OBSERVATION-HARNESS.md) makes deterministic recorded-case comparison executable; it is not a target collector or universal equivalence verifier.
