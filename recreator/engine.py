@@ -21,6 +21,8 @@ class Suite:
         check(not workspace.root.is_relative_to(repo) and not repo.is_relative_to(workspace.root), 'runtime and target must be separate directories')
         check(type(manifest.get('repair_budget')) is int and 0 <= manifest['repair_budget'] <= 20, 'repair budget must be 0..20')
         check(isinstance(manifest.get('profiles'), dict) and {'acceptance', 'holdout'} <= manifest['profiles'].keys(), 'acceptance and holdout profiles are required')
+        required = manifest.get('required_profiles', ['acceptance', 'holdout'])
+        check(isinstance(required, list) and all(isinstance(p, str) for p in required) and len(required) == len(set(required)) and {'acceptance','holdout'} <= set(required) <= manifest['profiles'].keys(), 'invalid required profile inventory')
         check(manifest.get('protected') and manifest.get('editable'), 'explicit protected and editable file lists required')
         check(len(set(manifest['editable'])) == len(manifest['editable']), 'duplicate editable paths')
         protected = {}
@@ -38,7 +40,7 @@ class Suite:
             if profile.get('kind') == 'holdout':
                 cases = profile.get('case_ids')
                 check(isinstance(cases, list) and cases and all(isinstance(c, str) and c for c in cases) and len(set(cases)) == len(cases), 'holdout profile requires unique case_ids')
-        frozen = dict(manifest, repo=str(repo))
+        frozen = dict(manifest, repo=str(repo), required_profiles=required)
         workspace.create(frozen, workspace.put(corpus), protected)
         return cls(workspace)
 
@@ -66,20 +68,23 @@ class Suite:
         return {'id': str(uuid4()), 'at': now(), 'corpus_sha256': state['corpus_sha256'],
                 'protected': state['protected'], 'source': source, 'results': results, 'passed': all(r['passed'] for r in results)}
 
-    def run(self, profiles, **options):
+    def run(self, profiles=None, **options):
         state = self.workspace.read()
+        profiles = profiles if profiles is not None else state['manifest'].get('required_profiles', ['acceptance','holdout'])
         check(not state.get('pending_repair'), 'recover pending repair before running checks')
         receipt = self._execute(state, profiles, **options)
         self.workspace.update('checks_executed', {'run_id': receipt['id'], 'passed': receipt['passed']},
                               lambda s: s['runs'].update({receipt['id']: receipt}), state['revision'])
         return receipt
 
-    def repair(self, relative, expected_sha, candidate, profiles, **options):
+    def repair(self, relative, expected_sha, candidate, profiles=None, **options):
         state = self.workspace.read()
+        required = state['manifest'].get('required_profiles', ['acceptance','holdout'])
+        profiles = profiles if profiles is not None else required
         check(not state.get('pending_repair'), 'recover pending repair first')
         repo = self._frozen(state)
         check(relative in state['manifest']['editable'], 'file is outside the explicit editable scope')
-        check({'acceptance', 'holdout'} <= set(profiles), 'both acceptance and holdout are mandatory')
+        check(set(required) <= set(profiles), 'all frozen required profiles are mandatory for repair')
         check(state['budget_spent']['repairs'] < state['manifest']['repair_budget'], 'repair budget exhausted')
         path = inside(repo, relative)
         before = path.read_bytes()

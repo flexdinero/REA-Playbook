@@ -156,6 +156,14 @@ class SuiteTests(unittest.TestCase):
             self.suite.recover()
         self.assertEqual((self.repo / 'app.txt').read_bytes(), b'user work')
 
+    def test_target_required_profiles_cannot_be_omitted_from_repair(self):
+        manifest = dict(self.manifest, required_profiles=['acceptance','holdout','security'])
+        manifest['profiles'] = dict(self.manifest['profiles'], security={'cwd':'.','argv':[sys.executable,'-c','raise SystemExit(1)'],'timeout_seconds':5})
+        suite = Suite.initialize(Workspace(self.root / 'security-private'), manifest, b'fixture')
+        with self.assertRaises(SuiteError):
+            suite.repair('app.txt',sha(b'broken'),b'fixed',['acceptance','holdout'],trusted_local=True)
+        self.assertEqual((self.repo / 'app.txt').read_bytes(),b'broken')
+
     @unittest.skipUnless(os.name == 'posix', 'POSIX permission semantics')
     def test_repairs_and_rollback_preserve_executable_mode(self):
         target = self.repo / 'app.txt'

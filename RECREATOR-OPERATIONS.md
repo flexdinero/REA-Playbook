@@ -16,6 +16,7 @@ Example manifest; replace paths and commands with the target's actual executable
   "project_id": "my-owned-target",
   "repo": "C:/projects/my-owned-target",
   "repair_budget": 2,
+  "required_profiles": ["acceptance", "holdout"],
   "editable": ["src/service.py"],
   "protected": ["tests/acceptance.py", "tests/holdout.py", "tests/holdout-b.py", "corpus.json"],
   "profiles": {
@@ -48,6 +49,8 @@ python -m recreator --workspace C:/private/runtime/my-target status
 ```
 
 The suite executes a baseline first. It requires at least one baseline failure and both `acceptance` and `holdout` profiles. It reserves a durable pending transaction and spends one repair attempt before changing the file. The candidate is retained as an artifact; all mandatory checks must pass with protected files unchanged. A rejected candidate restores the original editable file. It does not restore unrelated files modified by a trusted command. Inspect the full repository diff. Multi-file changes require a normal isolated branch/worktree and reviewed checks; this release's automatic repair transaction handles exactly one file.
+
+Add target-specific security, migration, desktop or other gates to `required_profiles` before initialization. Default run/repair uses that frozen inventory; a repair cannot omit one by selecting a cheaper subset. Explicit named `run` profiles remain useful for diagnosis and lesson evaluation. A passing diagnostic subset is not a complete acceptance result.
 
 Atomic replacement preserves existing permission bits. Custom Windows ACLs, ownership, extended attributes and security labels are not preserved by this portable implementation. Use ordinary development files in an isolated checkout; targets requiring those metadata need a platform-specific transactional adapter before automatic repair. Directory fsync and power-loss recovery are also deployment-specific; retain backups.
 

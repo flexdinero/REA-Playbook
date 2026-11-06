@@ -1,6 +1,6 @@
 # Acceptance and remaining boundaries
 
-The public kernel has 32 discovered unittest cases: 16 recorded-observation comparator cases and 16 control-plane/model-policy cases. On Windows, 31 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed Windows/Linux on Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
+The public kernel has 33 discovered unittest cases: 16 recorded-observation comparator cases and 17 control-plane/model-policy cases. On Windows, 32 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed the then-current 32-case suite on Windows/Linux with Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
 
 | Capability | Executed evidence | Boundary |
 |---|---|---|
