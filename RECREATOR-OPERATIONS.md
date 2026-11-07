@@ -70,6 +70,10 @@ Exit codes: `0` successful operation, `1` failed checks or reverted repair, `2` 
 
 ## Research and competing explanations
 
+Use [executable experiment packets](RECREATOR-EXPERIMENTS.md) to connect actual
+preparation/observation adapters with frozen reference evidence and comparisons.
+An experimental match is distinct from full mandatory acceptance.
+
 Use the existing [hypothesis process](HYPOTHESIS-DRIVEN-RECONSTRUCTION.md) and retain primary sources. Register an artifact with `evidence --file PATH --kind observed --source DESCRIPTION --claim DESCRIPTION`. Classification is a reviewer assertion, not proof of truth. Preserve acquisition date, account/role, product version, scenario setup, action, result and capture mechanism inside the artifact.
 
 Register `hypothesis --document PATH` with an object containing `question`, at least two distinct `explanations`, a discriminating `experiment`, and an `evidence` array of registered IDs. Resolve with `resolve-hypothesis --id ID --explanation ZERO_BASED_INDEX --evidence EVIDENCE_ID --status supported|contradicted|inconclusive`. Resolution needs at least one registered observation. `supported` applies to the recorded evidence and scope; it never means hidden source recovered. Reopen with a new hypothesis when contradictory evidence appears; retain the older event history.

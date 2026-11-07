@@ -4,6 +4,10 @@ The objective is the strongest defensible recreation of a target's observable ca
 
 ## 1. Establish first principles
 
+First apply [missing-link discovery](RECREATOR-DISCOVERY.md): trace evidence
+chains, collect clues and inspect unexplored boundaries before assuming the
+current feature list is complete.
+
 Before guessing frameworks, identify the target's inputs, outputs, persistent state, time semantics, authorization boundaries, resource constraints and external dependencies. Derive necessary invariants: records must remain tenant-scoped; a completed payment needs reconciled accounting; a retried action must have defined duplicate behavior; observable changes must have a state transition or external event behind them.
 
 Keep separate ledgers for observed facts, hypotheses, derived requirements and independent design choices. Use precise source locations and version dates. Do not turn a plausible architecture into a recovered fact.

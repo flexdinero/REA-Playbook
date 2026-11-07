@@ -6,6 +6,7 @@ from pathlib import Path
 import sys
 
 from .engine import Suite
+from .experiments import execute_experiment
 from .models import select_model
 from .storage import Workspace, parse
 
@@ -19,12 +20,16 @@ def main(argv=None):
     init.add_argument('--corpus', required=True)
     run = commands.add_parser('run')
     run.add_argument('--profiles', nargs='+')
+    experiment = commands.add_parser('experiment')
+    experiment.add_argument('--packet', required=True)
+    experiment.add_argument('--reference', required=True)
+    experiment.add_argument('--evidence-root', required=True)
     repair = commands.add_parser('repair')
     repair.add_argument('--path', required=True)
     repair.add_argument('--expected-sha256', required=True)
     repair.add_argument('--candidate', required=True)
     repair.add_argument('--profiles', nargs='+')
-    for command in (run, repair):
+    for command in (run, repair, experiment):
         mode = command.add_mutually_exclusive_group(required=True)
         mode.add_argument('--trusted-local', action='store_true')
         mode.add_argument('--sandbox-image')
@@ -65,6 +70,10 @@ def main(argv=None):
             result = suite.handoff()
         elif args.command == 'run':
             result = suite.run(args.profiles, trusted_local=args.trusted_local, sandbox_image=args.sandbox_image)
+        elif args.command == 'experiment':
+            result = execute_experiment(suite, parse(Path(args.packet).read_bytes()),
+                                        parse(Path(args.reference).read_bytes()), Path(args.evidence_root),
+                                        trusted_local=args.trusted_local, sandbox_image=args.sandbox_image)
         elif args.command == 'repair':
             result = suite.repair(args.path, args.expected_sha256, Path(args.candidate).read_bytes(), args.profiles,
                                   trusted_local=args.trusted_local, sandbox_image=args.sandbox_image)
@@ -74,7 +83,8 @@ def main(argv=None):
             state = workspace.read()
             result = {'revision': state['revision'], 'project_id': state['manifest']['project_id'],
                       'runs': len(state['runs']), 'repairs': state['repairs'], 'pending_repair': state.get('pending_repair'),
-                      'budget_spent': state['budget_spent'], 'lessons': state['lessons']}
+                      'budget_spent': state['budget_spent'], 'lessons': state['lessons'],
+                      'experiments': state.get('experiments', {})}
         elif args.command == 'handoff':
             result = suite.handoff()
         elif args.command == 'propose-lesson':

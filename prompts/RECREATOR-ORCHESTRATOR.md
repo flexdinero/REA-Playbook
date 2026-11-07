@@ -14,3 +14,9 @@ Use with [the master prompt](../MASTER-PROMPT.md). The user's task and target re
 10. Close a gap only with the required dimension-specific proof. Report observed, inferred, implemented, tested, blocked and unknown separately. Preserve current work and handoff the next exact experiment. Continue through the user's authorized scope; do not label the entire product complete because a selected suite passes.
 
 Minimum handoff: task and target commit; actual tools/access; relevant instructions; case IDs and frozen hashes; baseline receipts; hypotheses and experiment; candidate scope; remaining budget; side-effect policy; required capabilities; assumptions; promoted project lessons and contrary evidence. Load the smallest useful packet. Explicit delegation authorization is required before creating agents; a list of roles is not authorization.
+
+Before selecting only known gaps, run [missing-link discovery](../RECREATOR-DISCOVERY.md).
+Trace outcomes through UI, API, permissions, data, jobs/providers and downstream
+effects. Record clues, contradictions, unmapped relationships and unexplored
+role/plan/state combinations. Turn them into falsifiable hypotheses and
+experiments. Discovery saturation is scoped evidence, not universal completeness.

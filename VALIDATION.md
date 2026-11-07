@@ -2,7 +2,7 @@
 
 Validated 2026-11-06 using `python scripts/verify_package.py`.
 
-- PASS: 185 local Markdown file references resolve.
+- PASS: 195 local Markdown file references resolve.
 - PASS: retained JSON files parse and CSV template headers are unique.
 - PASS: 1,519 unique compound index IDs (records may share destination URLs).
 - PASS: all 1,488 imported curated resource/paper records exactly match retained upstream JSON, in order and without dropping fields.

@@ -52,10 +52,11 @@ class Suite:
             check(path.is_file() and sha(path.read_bytes()) == identity, 'protected acceptance input changed: ' + relative)
         return repo
 
-    def _execute(self, state, profiles, **options):
+    def _execute(self, state, profiles, *, on_result=None, run_context=None, **options):
         repo = self._frozen(state)
         check(isinstance(profiles, list) and profiles and len(set(profiles)) == len(profiles), 'profiles must be a nonempty unique list')
         results = []
+        run_id = str(uuid4())
         source = {name: sha(inside(repo, name).read_bytes()) for name in state['manifest']['editable']}
         for name in profiles:
             check(name in state['manifest']['profiles'], 'unknown profile: ' + name)
@@ -63,18 +64,26 @@ class Suite:
             identity = self.workspace.put(canonical(output).encode())
             results.append({'profile': name, 'passed': output['passed'], 'artifact': identity,
                             'duration_ms': output['duration_ms']})
+            if on_result is not None:
+                on_result(results[-1], source, run_id)
             self._frozen(state)
             check(all(inside(repo, name).is_file() and sha(inside(repo, name).read_bytes()) == identity for name, identity in source.items()), 'check command changed tracked source; inspect target diff')
-        return {'id': str(uuid4()), 'at': now(), 'corpus_sha256': state['corpus_sha256'],
-                'protected': state['protected'], 'source': source, 'results': results, 'passed': all(r['passed'] for r in results)}
+        receipt = {'id': run_id, 'at': now(), 'corpus_sha256': state['corpus_sha256'],
+                   'protected': state['protected'], 'source': source, 'results': results, 'passed': all(r['passed'] for r in results)}
+        if run_context is not None:
+            receipt['context'] = run_context
+        return receipt
 
-    def run(self, profiles=None, **options):
+    def run(self, profiles=None, *, on_result=None, run_context=None, **options):
         state = self.workspace.read()
         profiles = profiles if profiles is not None else state['manifest'].get('required_profiles', ['acceptance','holdout'])
         check(not state.get('pending_repair'), 'recover pending repair before running checks')
-        receipt = self._execute(state, profiles, **options)
+        receipt = self._execute(state, profiles, on_result=on_result, run_context=run_context, **options)
+        # The experiment observer records captured output before integrity checks;
+        # its own events advance the same single-controller workspace revision.
+        revision = self.workspace.read()['revision'] if on_result is not None else state['revision']
         self.workspace.update('checks_executed', {'run_id': receipt['id'], 'passed': receipt['passed']},
-                              lambda s: s['runs'].update({receipt['id']: receipt}), state['revision'])
+                              lambda s: s['runs'].update({receipt['id']: receipt}), revision)
         return receipt
 
     def repair(self, relative, expected_sha, candidate, profiles=None, **options):
