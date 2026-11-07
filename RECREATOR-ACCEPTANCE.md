@@ -1,6 +1,6 @@
 # Acceptance and remaining boundaries
 
-The public kernel has 33 discovered unittest cases: 16 recorded-observation comparator cases and 17 control-plane/model-policy cases. On Windows, 32 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed the then-current 32-case suite on Windows/Linux with Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
+The public kernel has 35 discovered unittest cases: 16 recorded-observation comparator cases and 19 control-plane/model-policy cases. On Windows, 34 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed the then-current 32-case suite on Windows/Linux with Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
 
 | Capability | Executed evidence | Boundary |
 |---|---|---|
@@ -11,6 +11,7 @@ The public kernel has 33 discovered unittest cases: 16 recorded-observation comp
 | Repair acceptance | Failing baseline, candidate, mandatory acceptance and holdout pass | Single existing file; one controller per target |
 | Repair rejection | Failed candidate retained, original bytes restored, attempt ceiling enforced | External side effects cannot be undone by file rollback |
 | Interruption | Pending recovery and unrelated-user-edit refusal | No distributed leases or process-tree guarantee |
+| Intervening edits | Changes after baseline or during checks remain intact; CLI requires reconciliation | Boundary hash checks, not atomic filesystem CAS; concurrent target editing remains unsupported |
 | File metadata | Permission-bit preservation; POSIX mode regression in Linux matrix | Custom ACLs, ownership, xattrs and security labels need an adapter |
 | Hypothesis ledger | Competing explanations and artifact requirements | Classification and experiment validity require review |
 | Learning | Reflections alone rejected; disjoint case IDs required; promotion/revocation tested | Independence and causal improvement require external review |
@@ -19,7 +20,7 @@ The public kernel has 33 discovered unittest cases: 16 recorded-observation comp
 
 Docker daemon/image execution was unavailable on the development host; that backend is implemented but has not been validated there. No hosted scheduler, database, object store, secrets broker, model gateway, production rollout, live provider messaging/payment, mobile device farm or load/failover experiment was provisioned. These are explicit integrations in [the research architecture](RECREATOR-RESEARCH.md), not hidden CLI capabilities.
 
-The owned Linux VM also passed all 33 controller tests. Its target tests ran with
+The original owned Linux VM integration also passed its then-current 33 controller tests. Its target tests ran with
 the trusted-local backend inside a temporary network namespace with loopback;
 this is distinct from Docker validation. Windows separately passed an actual
 Electron 45 hidden-window/renderer-to-main bridge smoke and an unsigned unpacked

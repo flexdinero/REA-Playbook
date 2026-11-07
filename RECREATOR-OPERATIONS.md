@@ -56,6 +56,16 @@ Atomic replacement preserves existing permission bits. Custom Windows ACLs, owne
 
 If interrupted, inspect status and run `recover`. Recovery restores the recorded original only when the current file matches the original or candidate hash. An unrelated edit requires manual reconciliation. If a stale writer lock remains after a crash, first verify that its recorded process is gone, retain the lock as incident evidence, and remove only that confirmed stale lock. Never run concurrent controllers against the same target. Resume does not imply exactly-once external side effects.
 
+The same preservation rule applies during a repair. A changed file after baseline
+validation is not replaced by the candidate. If the file changes during checks,
+rollback restores only a known original/candidate version. Unknown content is
+preserved as `reconciliation_required`, retained as an artifact when possible,
+and leaves the transaction pending; the CLI exits `2`. Preserve that edit, reconcile
+it explicitly, and recover the recorded transaction before another repair. File
+hashes detect changes at these boundaries; they are not an atomic filesystem
+compare-and-swap or permission system. Use one controller and avoid concurrent
+editing of its target files.
+
 Exit codes: `0` successful operation, `1` failed checks or reverted repair, `2` invalid input, missing access or integrity/policy error. Read the JSON result and retained receipts. Check subprocess timeout and truncation flags. Local timeout stops the immediate process; it is not a process-tree containment guarantee. Raw output uses temporary disk before truncation; run hostile workloads only with an independently constrained environment.
 
 ## Research and competing explanations

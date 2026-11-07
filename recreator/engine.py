@@ -101,6 +101,8 @@ class Suite:
         state = self.workspace.update('repair_started', transaction, reserve, state['revision'])
         result = dict(transaction, status='reverted')
         try:
+            check(path.resolve().is_relative_to(repo) and sha(path.read_bytes()) == transaction['before'],
+                  'source changed after baseline; manual reconciliation required')
             atomic_write(path, candidate)
             after = self._execute(state, profiles, **options)
             result['candidate_run'] = after['id']
@@ -111,6 +113,14 @@ class Suite:
             after = None
             result['error'] = type(error).__name__ + ': ' + str(error)
         if result['status'] != 'accepted':
+            current = path.read_bytes() if path.resolve().is_relative_to(repo) and path.is_file() else None
+            if current is None or sha(current) not in {transaction['before'], transaction['candidate']}:
+                result['status'] = 'reconciliation_required'
+                if current is not None:
+                    result['observed'] = self.workspace.put(current)
+                self.workspace.update('repair_reconciliation_required', result,
+                                      lambda s: s['repairs'].update({result['id']: result}), state['revision'])
+                return result
             atomic_write(path, before)
         def finish(s):
             if after:

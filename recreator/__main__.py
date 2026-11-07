@@ -94,6 +94,8 @@ def main(argv=None):
         else:
             result = select_model(parse(Path(args.candidates).read_bytes()), args.capabilities, args.budget)
         print(json.dumps(result, indent=2, allow_nan=False))
+        if result.get('status') == 'reconciliation_required':
+            return 2
         return 1 if result.get('passed') is False or result.get('status') == 'reverted' else 0
     except (ValueError, OSError, KeyError, TypeError) as error:
         print(json.dumps({'error': str(error), 'type': type(error).__name__}), file=sys.stderr)

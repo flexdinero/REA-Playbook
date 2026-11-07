@@ -6,6 +6,7 @@ import sys
 import subprocess
 import tempfile
 import unittest
+from unittest import mock
 
 from recreator.storage import Workspace, SuiteError, sha
 from recreator.engine import Suite
@@ -163,6 +164,35 @@ class SuiteTests(unittest.TestCase):
         with self.assertRaises(SuiteError):
             suite.repair('app.txt',sha(b'broken'),b'fixed',['acceptance','holdout'],trusted_local=True)
         self.assertEqual((self.repo / 'app.txt').read_bytes(),b'broken')
+
+    def test_failed_check_preserves_intervening_edit_and_cli_requires_reconciliation(self):
+        manifest = dict(self.manifest)
+        manifest['profiles'] = dict(self.manifest['profiles'], acceptance={
+            'cwd': '.', 'argv': [sys.executable, '-c', "from pathlib import Path; p=Path('app.txt'); v=p.read_bytes(); p.write_bytes(b'user work') if v==b'fixed' else None; raise SystemExit(1)"], 'timeout_seconds': 5})
+        workspace = Workspace(self.root / 'intervening-private')
+        Suite.initialize(workspace, manifest, b'fixture')
+        candidate = self.root / 'candidate.txt'
+        candidate.write_bytes(b'fixed')
+        result = subprocess.run([sys.executable, '-m', 'recreator', '--workspace', str(workspace.root),
+                                 'repair', '--path', 'app.txt', '--expected-sha256', sha(b'broken'),
+                                 '--candidate', str(candidate), '--trusted-local'], capture_output=True, text=True)
+        self.assertEqual(result.returncode, 2, result.stderr)
+        response = json.loads(result.stdout)
+        self.assertEqual(response['status'], 'reconciliation_required')
+        self.assertEqual((self.repo / 'app.txt').read_bytes(), b'user work')
+        self.assertEqual(workspace.get(response['observed']), b'user work')
+        self.assertTrue(workspace.read()['pending_repair'])
+
+    def test_edit_after_baseline_is_not_replaced_by_candidate(self):
+        execute = self.suite._execute
+        def edit_after_baseline(*args, **kwargs):
+            result = execute(*args, **kwargs)
+            (self.repo / 'app.txt').write_bytes(b'user work')
+            return result
+        with mock.patch.object(self.suite, '_execute', side_effect=edit_after_baseline):
+            result = self.suite.repair('app.txt', sha(b'broken'), b'fixed', ['acceptance','holdout'], trusted_local=True)
+        self.assertEqual(result['status'], 'reconciliation_required')
+        self.assertEqual((self.repo / 'app.txt').read_bytes(), b'user work')
 
     @unittest.skipUnless(os.name == 'posix', 'POSIX permission semantics')
     def test_repairs_and_rollback_preserve_executable_mode(self):
