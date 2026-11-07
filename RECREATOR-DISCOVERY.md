@@ -7,6 +7,11 @@ that explanation. A plausible dependency is a question, not recovered source.
 
 ## Build an evidence graph
 
+Use the [executable graph audit](RECREATOR-GRAPH.md) and
+[starting graph](templates/DISCOVERY-GRAPH.json) to check supplied evidence,
+missing declared links and unsupported closure claims. The auditor does not
+populate the product inventory automatically.
+
 Maintain nodes for user outcomes, capabilities, UI states/actions, API operations,
 entities, permissions, events/jobs, external providers, entitlements/metering,
 deployment components and evidence. Connect them with typed edges: invokes,

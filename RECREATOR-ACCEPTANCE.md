@@ -1,6 +1,6 @@
 # Acceptance and remaining boundaries
 
-The public kernel has 47 discovered unittest cases: 16 recorded-observation comparator cases, 19 control-plane/model-policy cases and 12 executable-experiment cases. On Windows, 46 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed the then-current 32-case suite on Windows/Linux with Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
+The public kernel has 67 discovered unittest cases: 16 recorded-observation comparator cases, 19 control-plane/model-policy cases, 12 executable-experiment cases and 20 discovery-graph cases. On Windows, 66 pass and the POSIX permission case is skipped. The [first full hosted run](https://github.com/flexdinero/REA-Playbook/actions/runs/42293200666) passed the then-current 32-case suite on Windows/Linux with Python 3.10/3.13, including the Linux permission regression. Consult the current run before relying on a later revision.
 
 | Capability | Executed evidence | Boundary |
 |---|---|---|
@@ -14,6 +14,7 @@ The public kernel has 47 discovered unittest cases: 16 recorded-observation comp
 | Intervening edits | Changes after baseline or during checks remain intact; CLI requires reconciliation | Boundary hash checks, not atomic filesystem CAS; concurrent target editing remains unsupported |
 | File metadata | Permission-bit preservation; POSIX mode regression in Linux matrix | Custom ACLs, ownership, xattrs and security labels need an adapter |
 | Executable experiments | Real subprocess preparation/observation, malformed/truncated output rejection, failed reset blocking, source-mutation rejection and CLI execution | Supplied adapters/oracles need independent review; interrupted experiments require inspection |
+| Discovery graph | Missing links, evidence kinds, raw receipt coherence, frontiers, malformed input and read-only CLI checks | Supplied graph scope; source inspection cannot close runtime-observation requirements |
 | Hypothesis ledger | Competing explanations and artifact requirements | Classification and experiment validity require review |
 | Learning | Reflections alone rejected; disjoint case IDs required; promotion/revocation tested | Independence and causal improvement require external review |
 | Cost selection | Cheapest qualified candidate; over-budget capability refused | Caller supplies current qualifications and total task cost |

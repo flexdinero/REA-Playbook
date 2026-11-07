@@ -15,6 +15,8 @@ packets to real preparation/observation commands and independent recorded oracle
 
 [Missing-link discovery](RECREATOR-DISCOVERY.md) explains how clues, contradictions,
 dependency tracing and controlled experiments uncover omitted requirements.
+The [graph auditor](RECREATOR-GRAPH.md) checks declared missing relationships,
+frontiers and evidence-backed verification claims without executing target code.
 
 For complete use, follow [setup and commands](RECREATOR-OPERATIONS.md), [research/tool decisions](RECREATOR-RESEARCH.md), [quality and cost policy](RECREATOR-MODEL-POLICY.md), [agent operating packet](prompts/RECREATOR-ORCHESTRATOR.md), and [executed acceptance and boundaries](RECREATOR-ACCEPTANCE.md). Self-healing means bounded, tested repair with rollback; learning means reviewed, scoped procedures with holdout checks and revocation. Neither means autonomous permission changes or guaranteed equivalence.
 

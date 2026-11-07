@@ -7,6 +7,7 @@ import sys
 
 from .engine import Suite
 from .experiments import execute_experiment
+from .discovery import audit_graph
 from .models import select_model
 from .storage import Workspace, parse
 
@@ -24,6 +25,9 @@ def main(argv=None):
     experiment.add_argument('--packet', required=True)
     experiment.add_argument('--reference', required=True)
     experiment.add_argument('--evidence-root', required=True)
+    graph = commands.add_parser('audit-graph')
+    graph.add_argument('--document', required=True)
+    graph.add_argument('--evidence-root', required=True)
     repair = commands.add_parser('repair')
     repair.add_argument('--path', required=True)
     repair.add_argument('--expected-sha256', required=True)
@@ -63,6 +67,14 @@ def main(argv=None):
     resolve.add_argument('--status', choices=['supported', 'contradicted', 'inconclusive'], required=True)
     args = parser.parse_args(argv)
     try:
+        if args.command == 'audit-graph':
+            with Path(args.document).open('rb') as handle:
+                raw = handle.read(8 * 1024 * 1024 + 1)
+            if len(raw) > 8 * 1024 * 1024:
+                raise ValueError('graph document exceeds 8 MiB')
+            result = audit_graph(parse(raw), args.evidence_root)
+            print(json.dumps(result, indent=2, allow_nan=False))
+            return 0 if result['declared_scope_satisfied'] else 1
         workspace = Workspace(args.workspace)
         suite = Suite(workspace)
         if args.command == 'init':

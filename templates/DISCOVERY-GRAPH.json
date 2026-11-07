@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scope": "Replace with the declared target outcomes, versions, roles, plans and unexplored boundaries",
+  "nodes": [
+    {
+      "id": "replace-with-outcome-id",
+      "type": "outcome",
+      "title": "Replace with the actual user outcome",
+      "basis": "proposed",
+      "mandatory": true,
+      "discovery": "unexplored",
+      "implementation": "not_started",
+      "verification": "unverified",
+      "evidence_ids": [],
+      "required_links": [
+        {
+          "relation": "depends-on",
+          "direction": "out",
+          "target_type": "capability",
+          "minimum_basis": "observed",
+          "observation_kind": "runtime"
+        }
+      ],
+      "verification_checks": [],
+      "questions": [
+        {
+          "id": "replace-with-question-id",
+          "question": "Which observable capabilities are necessary for this outcome?",
+          "status": "open"
+        }
+      ]
+    }
+  ],
+  "edges": [],
+  "evidence": []
+}

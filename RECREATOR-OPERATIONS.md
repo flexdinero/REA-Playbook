@@ -70,6 +70,10 @@ Exit codes: `0` successful operation, `1` failed checks or reverted repair, `2` 
 
 ## Research and competing explanations
 
+Run [the graph auditor](RECREATOR-GRAPH.md) on the target's declared discovery
+graph before selecting the next experiment. Its findings identify supplied
+frontiers; they do not establish an exhaustive feature inventory.
+
 Use [executable experiment packets](RECREATOR-EXPERIMENTS.md) to connect actual
 preparation/observation adapters with frozen reference evidence and comparisons.
 An experimental match is distinct from full mandatory acceptance.
