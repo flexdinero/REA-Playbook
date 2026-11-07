@@ -15,9 +15,17 @@ The public kernel has 33 discovered unittest cases: 16 recorded-observation comp
 | Hypothesis ledger | Competing explanations and artifact requirements | Classification and experiment validity require review |
 | Learning | Reflections alone rejected; disjoint case IDs required; promotion/revocation tested | Independence and causal improvement require external review |
 | Cost selection | Cheapest qualified candidate; over-budget capability refused | Caller supplies current qualifications and total task cost |
-| Real target | Private GHL executed 22 module suites and 11 resilience tests through controller | Local contract/resilience proof; not complete live fidelity |
+| Real target | Private GHL: 22 module suites, 11 resilience tests, 6 required-auth groups and desktop contracts pass on Windows Node 22 and an owned Linux VM with Node 24 | Declared input hashes match across hosts, with checkout-root metadata normalized; not complete live fidelity |
 
 Docker daemon/image execution was unavailable on the development host; that backend is implemented but has not been validated there. No hosted scheduler, database, object store, secrets broker, model gateway, production rollout, live provider messaging/payment, mobile device farm or load/failover experiment was provisioned. These are explicit integrations in [the research architecture](RECREATOR-RESEARCH.md), not hidden CLI capabilities.
+
+The owned Linux VM also passed all 33 controller tests. Its target tests ran with
+the trusted-local backend inside a temporary network namespace with loopback;
+this is distinct from Docker validation. Windows separately passed an actual
+Electron 45 hidden-window/renderer-to-main bridge smoke and an unsigned unpacked
+build. The renewed desktop lockfile's npm audit reports zero vulnerabilities.
+These are scoped test/build/advisory results, not signed-release or whole-product
+security certification. Private evidence remains in the target repository.
 
 The private GHL review found gaps in authentication/administrative authorization, production persistence, visual fidelity, external providers and newer AI surfaces. Restart handling and failure-reporting repairs improve resilience without closing those domains. Consult the private project's renewed acceptance record. No account identifiers, sessions, raw private captures or source are included here.
 
